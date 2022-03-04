@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('content')
 
-    <x-nav class="bg-transparent text-devarana-gray" name="DevaranaLogo.png" hidden="hidden">    
-        <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
+    <x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png" hidden="hidden">    
+        {{-- <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav> --}}
+        <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
     </x-nav>
 
     <div class="relative md:h-[100vh] h-[400px] overflow-hidden" id="header">
@@ -19,185 +20,100 @@
         
     </div>
 
-    <div id="quienes" class="md:py-20">
-        <div class="relative mx-auto lg:w-2/5 md:my-16 my-4">
-            <div class="bg-devarana-pink py-16 px-10 z-10">
-                <h1 class="text-5xl text-devarana-pearl font-playfair">¿Quiénes <br> <span class="pl-28">  somos?</span></h1>
-                <p class="py-3 text-devarana-pearl text-base text-justify">Somos una empresa México-Holandesa con más de 10 años de experiencia en el ramo inmobiliario en Querétaro. Somos creadores, diseñadores y arquitectos de lo extraordinaro, con excelencia en la construcción.
-                </p>
+    <div id="quienes" class="lg:py-20 md:py-10 px-10">
+        <div class="grid grid-cols-3">
+            <div class="relative md:col-span-1 flex col-span-3">
+                <h1 class="text-devarana-pink font-playfair text-5xl flex items-center justify-center w-full lg:py-0 py-10">Quiénes somos</h1>
+                <div class="w-full inline-flex absolute text-4xl md:text-5xl lg:text-8xl uppercase top-5 right-0 bottom-0 lg:-top-5 lg:left-0 lg:right-20 lg:bottom-0 -z-10 text-left text-devarana-pearl stroke-black font-mulish opacity-40"
+                style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: #D0D0D0;"> quiénes somos </div>
             </div>
-            <div class="absolute -top-28 -left-40 -z-10 hidden lg:block">
-                <picture>
-                    <source srcset="{{ asset('img/home/Ximevista-H.webp') }}" type="image/webp">
-                    <source srcset="{{ asset('img/home/Ximevista-H.png') }}" type="image/png">
-                    <img src="{{ asset('img/home/Ximevista-H.png') }}" alt="Devarana Departamentos" class="w-[200px] shadow-xl somosPic translate-y-6 transition ease-in-out duration-1000">
-                </picture>
+            <div class="md:col-span-2 col-span-3">
+                <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <div class="flex md:w-5/6 py-2 md:py-4">
+                    <x-link href="/" class="ml-auto"> Saber más </x-link>
+                </div>
             </div>
-            <div class="absolute -top-28 -right-32 z-10 hidden lg:block">
-                <img src="https://picsum.photos/200/150" alt="Devarana " class="w-[200px] shadow-xl somosPic translate-y-6 transition ease-in-out duration-1000">
-            </div>
-
-            <div class="absolute -bottom-20 -left-16 z-10 hidden lg:block">
-                <picture>
-                    <source srcset="{{ asset('img/home/SAM2117.webp') }}" type="image/webp">
-                    <source srcset="{{ asset('img/home/SAM2117.png') }}" type="image/png">
-                    <img src="{{ asset('img/home/SAM2117.png') }}" alt="Devarana Construcción" class="w-[200px] shadow-xl somosPic translate-y-6 transition ease-in-out duration-1000">
-                </picture>
-            </div>
-        </div>
-        <div class="w-2/5 mx-auto flex">
-            <button class="md:m-0 md:ml-auto m-auto rounded-full bg-transparent border-2 py-1 px-2 border-devarana-button text-devarana-button shadow transition duration-500 ease-in-out hover:bg-devarana-blue hover:text-devarana-pearl text-base">Conoce más ></button>
         </div>
     </div>
 
-    <div id="nuestro" class="py-10">
-        <div class="w-full px-10 flex flex-row flex-wrap">
-            <div class="md:w-4/6 w-full">
-                <div class="swiper mySwiper text-devarana-graph cursor-grab focus:cursor-grabbing">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide bg-white">
-                            <picture>
-                                <source srcset="{{ asset('img/home/desarrollos/RoyalView.webp') }}" type="image/webp">
-                                <source srcset="{{ asset('img/home/desarrollos/RoyalView.png') }}" type="image/png">
-                                <img class='w-full' src="{{ asset('img/home/desarrollos/RoyalView.png') }}" alt="RoyalView by Devarana">
-                            </picture>
-                            <div class="m-auto grid grid-cols-2 w-96 py-5  bg-white">
-                                <div>
-                                    <h3 class="uppercase font-playfair"> ROYAL VIEW</h3>
-                                    <p>2020</p>
-                                </div>
-                                <div>
-                                    <p>Zibatá, Querétaro</p>
-                                </div>
-                            </div>
+    <div id="nuestro" class="px-10 py-5">
+       <div class="flex justify-between relative">
+        <picture>
+            {{-- <source srcset="{{ asset('img/home/Devarana_Fachada.webp') }}" type="image/webp"> --}}
+            <source srcset="{{ asset('img/home/HIGH-GARDENS-DEVARANA.jpg') }}" type="image/jpeg">
+                <img src="{{ asset("img/home/HIGH-GARDENS-DEVARANA.jpg") }}" alt="Devarana Oficinas" class="mt-4 px-2 md:px-4 md:mt-16 w-full">
+        </picture>
+        <picture>
+            {{-- <source srcset="{{ asset('img/home/Devarana_Fachada.webp') }}" type="image/webp"> --}}
+            <source srcset="{{ asset('img/home/GRAND-MAYRAN-DEVARANA.jpg') }}" type="image/jpeg">
+                <img src="{{ asset("img/home/GRAND-MAYRAN-DEVARANA.jpg") }}" alt="Devarana Oficinas" class="px-2 md:px-4 w-full">
+        </picture>
+        <picture>
+            {{-- <source srcset="{{ asset('img/home/Devarana_Fachada.webp') }}" type="image/webp"> --}}
+            <source srcset="{{ asset('img/home/GrandMayran-Devarana-CASA.jpg') }}" type="image/png">
+                <img src="{{ asset("img/home/GrandMayran-Devarana-CASA.jpg") }}" alt="Devarana Oficinas" class="mt-6 px-2 md:px-4 md:mt-28 w-full">
+        </picture>
+        <div class="absolute text-4xl md:text-5xl lg:text-6xl uppercase  z-10 text-devarana-pearl stroke-black font-mulish opacity-50 top-[70%] text-center left-[50%] -translate-x-[50%] -translate-y-[50%] drop-shadow-lg"
+                style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: white; -webkit-text-fill-color: #ffffff00;"> trayectoria  </div>
+       </div>
+    </div>
+
+    <h2 class="text-base text-devarana-graph text-center py-4 px-4 max-w-[800px] w-full m-auto">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. “</h2>
+
+    <div class="flex  md:py-4">
+        <x-link href="{{ route('nuestra-trayectoria')}}" class="m-auto"> Nuestra trayectoria </x-link>
+    </div>
+
+    <div id="somos" class="px-10 md:py-16 py-6">
+        <div class="grid grid-cols-2 gap-4 md:gap-10">
+            <div class="col-span-2 md:col-span-1">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-1 md:bg-devarana-blue relative">
+                        <div class="absolute top-[45%] lg:-left-[175px] md:-left-[100px] -rotate-90 hidden md:block">
+                            <p class=" uppercase font-mulish text-transparent lg:text-5xl md:text-3xl text-2xl"
+                                style="-webkit-text-stroke-width: .5px;-webkit-text-stroke-color:#C4C4C4; -webkit-text-fill-color: #ffffff00;">
+                                Orgullosamente
+                            </p>
                         </div>
-                        <div class="swiper-slide bg-white">
+                    </div>
+                    
+                    <div class="col-span-10 bg-devarana-blue lg:min-h-[480px] md:min-h-[300px] flex">
+                        <div class="flex py-10 relative m-auto">
                             <picture>
-                                <source srcset="{{ asset('img/home/desarrollos/HighGARDENS.webp') }}" type="image/webp">
-                                <source srcset="{{ asset('img/home/desarrollos/HighGARDENS.png') }}" type="image/png">
-                                <img class='w-full' src="{{ asset('img/home/desarrollos/HighGARDENS.png') }}" alt="Highgardens by Devarana">
+                                {{-- <source srcset="{{ asset('img/home/Devarana_Fachada.webp') }}" type="image/webp"> --}}
+                                <source srcset="{{ asset('img/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg">
+                                <img src="{{ asset("img/home/SOMOS-DEVARANA.jpg") }}" alt="Devarana Oficinas" class="-ml-6 md:ml-8 lg:ml-16 w-full">
                             </picture>
-                            <div class="m-auto grid grid-cols-2 w-96 py-5  bg-white">
-                                <div>
-                                    <h3 class="uppercase font-playfair"> HIGH GARDENS </h3>
-                                    <p>2020</p>
-                                </div>
-                                <div>
-                                    <p>Zibatá, Querétaro</p>
-                                </div>
-                            </div>
+                            
                         </div>
-                        <div class="swiper-slide bg-white">
-                            <picture>
-                                <source srcset="{{ asset('img/home/desarrollos/GrandMayran.webp') }}" type="image/webp">
-                                <source srcset="{{ asset('img/home/desarrollos/GrandMayran.png') }}" type="image/png">
-                                <img class='w-full' src="{{ asset('img/home/desarrollos/GrandMayran.png') }}" alt="GrandMayran by Devarana">
-                            </picture>
-                            <div class="m-auto grid grid-cols-2 w-96 py-5  bg-white">
-                                <div>
-                                    <h3 class="uppercase font-playfair"> GRAND MAYRAN </h3>
-                                    <p>2020</p>
-                                </div>
-                                <div>
-                                    <p>Cañadas del Lago, Querétaro</p>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-span-1 relative">
+                        <div class="absolute top-[45%] -right-[100px] -rotate-90 md:hidden block">
+                            <p class=" uppercase font-mulish text-transparent lg:text-5xl md:text-3xl text-2xl"
+                                style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color:#C4C4C4; -webkit-text-fill-color: #ffffff00;">
+                                Orgullosamente
+                            </p>
                         </div>
-                        <div class="swiper-slide bg-white">
-                            <picture>
-                                <source srcset="{{ asset('img/home/desarrollos/CondesaJuriquilla.webp') }}" type="image/webp">
-                                <source srcset="{{ asset('img/home/desarrollos/CondesaJuriquilla.png') }}" type="image/png">
-                                <img class='w-full' src="{{ asset('img/home/desarrollos/CondesaJuriquilla.png') }}" alt="CondesaJuriquilla by Devarana">
-                            </picture>
-                            <div class="m-auto grid grid-cols-2 w-96 py-5 bg-white">
-                                <div>
-                                    <h3 class="uppercase font-playfair"> UPPER CONDESA </h3>
-                                    <p>2020</p>
-                                </div>
-                                <div>
-                                    <p>Juriquilla Querétaro</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination -mb-[15px]"></div>
                     </div>
                 </div>
                 
             </div>
-
-            <div class="flex flex-col my-auto md:w-2/6 w-full">
-                <h2 class="md:pl-10 py-2 text-5xl font-playfair text-devarana-graph">Nuestro <span class="text-devarana-pink">trabajo</span></h2>
-                <hr class="w-3/6 border-devarana-graph">
-                <p class="md:pl-10 py-2  text-devarana-midnight text-base text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                <div class="md:p-10 py-10">
-                    <button class="rounded-full bg-transparent border-2 py-1 px-2 border-devarana-button text-devarana-button shadow transition duration-500 ease-in-out hover:bg-devarana-blue hover:text-devarana-pearl text-base">Conoce más ></button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="somos">
-        <div class="swiper secondSwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="bg-devarana-pink md:h-[600px] h-[400px]">
-                        <div class="max-w-2xl flex flex-row relative m-auto w-full h-full flex-wrap">
-                            <div class="absolute top-0 left-0 right-0 bottom-0 flex z-0">
-                                <div class="bg-white opacity-10 w-[400px] h-[400px] m-auto"> </div>
+            <div class="col-span-2 md:col-span-1 md:px-4 ">
+                <div class="flex h-full">
+                    <div class="mt-auto ">
+                        <h3 class="text-devarana-graph py-6 text-2xl md:w-4/6 font-playfair">Somos creadores, arquitectos y diseñadores de lo extraordinario</h3>
+                        <div class="grid grid-cols-4 md:grid-cols-3 lg:grid-cols-4 text-left bg-home-banner bg-cover bg-top md:bg-center bg-no-repeat lg:min-h-[100px]">
+                            <div class="sliderShow bg-devarana-blue transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
+                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md text-xs md:text-[16px]">Great Place to Work</p>
                             </div>
-                            <div class="md:w-8/12 grid content-center z-10">
-                                <h3 class="text-devarana-pearl text-4xl py-4 font-playfair font-normal text-center md:text-left">Somos <span class="italic">orgullosamente</span></h3>
-                                <p class="text-devarana-pearl md:pr-10 text-center md:text-left text-base">Impulsamos políticas y prácticas que mejoran la calidad de vida dentro de nuestra organización certificándonos como GPTW desde 2019.</p>
+                            <div class="sliderShow transition-all duration-1000 ease-in-out md:text-white text-devarana-blue relative">
+                                <div class="absolute md:hidden w-full border-x-2 h-11 top-[50%] translate-y-[-50%]"></div>
+                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md text-xs md:text-[16px]">Empresa Socialmente Responsable</p>
                             </div>
-                            <div class="md:w-2/12 content-center m-auto z-10 w-[100px]">
-                                <picture class="w-full">
-                                    <source srcset="{{ asset('img/certificaciones/CertificacionGPTW-01.webp')}}" type="image/webp" class="w-full">
-                                    <source srcset="{{ asset('img/certificaciones/CertificacionGPTW-01.png')}}" type="image/jpeg" class="w-full"> 
-                                    <img src="{{ asset('img/certificaciones/CertificacionGPTW-01.png')}}" alt="Great Place To Work Devarana" class="w-full">
-                                </picture>
+                            <div class="sliderShow transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
+                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md  text-xs md:text-[16px]">Servicio Legendario ISO 9001</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-devarana-blue md:h-[600px] h-[400px]">
-                        <div class="max-w-2xl flex flex-row relative m-auto w-full h-full flex-wrap">
-                            <div class="absolute top-0 left-0 right-0 bottom-0 flex z-0">
-                                <div class="bg-white opacity-10 w-[400px] h-[400px] m-auto"> </div>
-                            </div>
-                            <div class="md:w-8/12 grid content-center z-10">
-                                <h3 class="text-devarana-pearl text-4xl py-4 font-playfair font-normal text-center md:text-left">Somos <span class="italic">orgullosamente</span></h3>
-                                <p class="text-devarana-pearl pr-10 text-center md:text-left text-base">Demostramos nuestro compromiso de
-                                    responsabilidad social con el reconocimiento anual otorgado por Cemefi y aliaRSE; ante colaboradores, inversionistas, clientes, autoridades y la sociedad.</p>
-                            </div>
-                            <div class="md:w-4/12 content-center m-auto z-10 w-[200px]">
-                                <picture class="w-full">
-                                    <source srcset="{{ asset('img/certificaciones/ESRactual-01.webp')}}" type="image/webp" class="w-full">
-                                    <source srcset="{{ asset('img/certificaciones/ESRactual-01.png')}}" type="image/jpeg"> 
-                                    <img src="{{ asset('img/certificaciones/ESRactual-01.png')}}" alt="ESR_Devarana">
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="bg-devarana-babyblue md:h-[600px] h-[400px]">
-                        <div class="max-w-2xl flex flex-row relative m-auto w-full h-full flex-wrap">
-                            <div class="absolute top-0 left-0 right-0 bottom-0 flex z-0">
-                                <div class="bg-white opacity-10 w-[400px] h-[400px] m-auto"> </div>
-                            </div>
-                            <div class="md:w-8/12 grid content-center z-10">
-                                <h3 class="text-devarana-pearl text-4xl py-4 font-playfair font-normal text-center md:text-left">Somos <span class="italic">orgullosamente</span></h3>
-                                <p class="text-devarana-pearl pr-10 text-center md:text-left text-base">“Servicio Legendario”
-                                    (Comercialización profesional de desarrollos inmobiliarios premium)
-                                    Certificado: 10017372 QM15.</p>
-                            </div>
-                            <div class="md:w-4/12 content-center m-auto z-10 w-[200px]">
-                                <picture class="w-full">
-                                    <source srcset="{{ asset('img/certificaciones/ISO9001-01.webp')}}" type="image/webp" class="w-full">
-                                    <source srcset="{{ asset('img/certificaciones/ISO9001-01.png')}}" type="image/jpeg" class="w-full"> 
-                                    <img src="{{ asset('img/certificaciones/ISO9001-01.png')}}" alt="ISO9001_Devarana" class="w-full">
-                                </picture>
+                            <div>
                             </div>
                         </div>
                     </div>
@@ -205,6 +121,11 @@
             </div>
         </div>
     </div>
+
+    <script>
+        
+        
+    </script>
 
     <div id="equipo">
         <div class="grid md:grid-cols-5 grid-cols-2 relative">
@@ -262,12 +183,12 @@
                     <img src="{{ asset("img/home/NuestroEquipo.svg") }}" alt="nuestro_equipo" class="w-full m-auto">
                 </div>
         </div>
+        <div class="flex -my-16 mb-0">
+            <x-link href="/" class="m-auto"> Conoce más </x-link>
+        </div>
     </div>
     
-    <div class="flex justify-center align-middle py-8 flex-wrap items-center"> 
-        <p class="text-devarana-blue text-center font-playfair italic text-3xl md:py-0 py-5"> Somos creadores, arquitectos y diseñadores de lo extraordinario. </p> 
-        <button class="mx-3 rounded-full bg-transparent border-2 py-2 px-2 border-devarana-button text-devarana-button shadow transition duration-500 ease-in-out hover:bg-devarana-blue hover:text-devarana-pearl text-base">Conoce más ></button>
-    </div>
+   
 @endsection
 
 

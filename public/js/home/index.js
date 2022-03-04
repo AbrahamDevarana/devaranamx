@@ -2,32 +2,37 @@ window.addEventListener('scroll', function(e){
     menuColors()
 })
 
+window.onload = function() {
+    menuColors()
+  };
 
 const menuColors = () => {
     const navigation = document.getElementById("navigation")
     const devaranaLogoBg = document.getElementById("devaranaLogoBg")
+    const headerSize = document.getElementById("header")
 
     let yPos = window.scrollY
 
-    if(yPos > 100){
-        navigation.classList.add("bg-devarana-gray")
+    if(yPos > headerSize.offsetHeight - 30){
+        navigation.classList.add("bg-devarana-pearl")
         navigation.classList.remove("bg-transparent")
-        navigation.classList.add("text-devarana-pearl")
-        navigation.classList.remove("text-devarana-gray")
+        navigation.classList.add("text-devarana-gray")
+        navigation.classList.remove("text-devarana-pearl")
 
-        devaranaLogoBg.style.width = "50px"
-        devaranaLogoBg.style.height = "50px"
-        devaranaLogoBg.style.backgroundImage  = "url(img/logos/Isotipo_blanco.png)"
+        
+        devaranaLogoBg.style.width = "100px"
+        devaranaLogoBg.style.height = "80px"
+        devaranaLogoBg.style.backgroundImage  = "url(img/logos/DevaranaLogo.png)"
       
     }else{
-        navigation.classList.remove("bg-devarana-gray")
+        navigation.classList.remove("bg-devarana-pearl")
         navigation.classList.add("bg-transparent")
-        navigation.classList.remove("text-devarana-pearl")
-        navigation.classList.add("text-devarana-gray")
+        navigation.classList.remove("text-devarana-gray")
+        navigation.classList.add("text-devarana-pearl")
 
-        devaranaLogoBg.style.backgroundImage  = "url(img/logos/DevaranaLogo.png)"
-        devaranaLogoBg.style.width = "150px"
-        devaranaLogoBg.style.height = "100px"
+        devaranaLogoBg.style.backgroundImage  = "url(img/logos/Isotipo_blanco.png)"
+        devaranaLogoBg.style.width = "50px"
+        devaranaLogoBg.style.height = "50px"
     }
 }
 
@@ -54,26 +59,38 @@ window.addEventListener('scroll', function(e){
 
 })
 
-const swiper = new Swiper('.mySwiper', {
-    loop: true,
-    // lazy: true,
-    effect: "fade",
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-      },
-});
+    const slider = document.querySelectorAll(".sliderShow")
+    const count = slider.length
+    let slide = 0
+    const winSize = window.length
 
-const secondSwiper = new Swiper('.secondSwiper', {
-    loop: true,
-    // lazy: true,
-    effect: "coverflow",
-    autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-    },
-});
+    if(winSize <= 769){
+        
+        slider[0].classList.remove("text-devarana-blue")
+        slider[0].classList.add("text-devarana-pearl")
+        
+    }
+    setInterval(() => {
 
+        if(winSize <= 769){
+            slider.forEach(element => {
+                element.classList.remove("text-devarana-pearl")
+                element.classList.add("text-devarana-blue")
+            });
+            slider[slide].classList.add("text-devarana-pearl")
+            slider[slide].classList.remove("text-devarana-blue")
+        }
+
+        slider.forEach(element => {
+            element.classList.remove("bg-devarana-blue")
+        });
+        slider[slide].classList.add("bg-devarana-blue")
+        slider[slide].classList.remove("bg-transparent")
+        
+        slide++
+        if(slide >= 3){
+            slide = 0
+        }
+    }, 1500);
+
+    

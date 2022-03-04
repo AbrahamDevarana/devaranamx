@@ -3,7 +3,7 @@
     <nav {{ $attributes->merge(['class' => 'fixed w-full hidden md:block transition-all duration-500  z-40']) }}  id="navigation">
         <div class="relative">
             <div class="md:w-8/12 m-auto py-3 flex">
-                <ul class="list-none grid grid-cols-6 grid-flow-col text-center font-mulish m-auto w-full relative">
+                <ul class="list-none grid grid-cols-6 grid-flow-col text-center font-playfair m-auto w-full relative">
                     <li class="hidden md:flex m-auto drop-shadow-lmd  relative">
                         <a href="/" title="Home" {{ $attributes['hidden'] }}>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 absolute -left-24 fill-devarana-pearl" viewBox="0 0 24 24" id="homeIcon">
