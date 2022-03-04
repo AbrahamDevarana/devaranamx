@@ -23,9 +23,9 @@
     <div id="quienes" class="lg:py-20 md:py-10 px-10 bg-devarana-pearl">
         <div class="grid grid-cols-3">
             <div class="relative md:col-span-1 flex col-span-3">
-                <h1 class="text-devarana-pink font-playfair text-5xl flex items-center justify-center w-full lg:py-0 py-10">Quiénes somos</h1>
-                <div class="w-full inline-flex absolute text-4xl md:text-5xl lg:text-8xl uppercase top-5 right-0 bottom-0 lg:-top-5 lg:left-0 lg:right-20 lg:bottom-0 -z-10 text-left text-devarana-pearl stroke-black font-mulish opacity-40"
-                style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color:#ffffff00; -webkit-text-fill-color:#C4C4C4;"> quiénes somos </div>
+                <h1 class="text-devarana-pink font-playfair text-5xl flex items-center justify-center w-full lg:py-0 py-10 z-10">Quiénes somos</h1>
+                <div class="w-full inline-flex absolute text-4xl md:text-5xl lg:text-8xl uppercase top-5 right-0 bottom-0 lg:-top-5 lg:left-0 lg:right-20 lg:bottom-0 z-0 text-left font-mulish opacity-40"
+                style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color:#C4C4C4; -webkit-text-fill-color: #ffffff00;"> quiénes somos </div>
             </div>
             <div class="md:col-span-2 col-span-3">
                 <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
@@ -71,7 +71,7 @@
                     <div class="col-span-1 md:bg-devarana-blue relative">
                         <div class="absolute top-[45%] lg:-left-[175px] md:-left-[100px] -rotate-90 hidden md:block">
                             <p class=" uppercase font-mulish text-transparent lg:text-5xl md:text-3xl text-2xl"
-                                style="-webkit-text-stroke-width: .5px; -webkit-text-stroke-color:#ffffff00; -webkit-text-fill-color:#C4C4C4;">
+                                style="-webkit-text-stroke-width: .5px;-webkit-text-stroke-color:#C4C4C4; -webkit-text-fill-color: #ffffff00;">
                                 Orgullosamente
                             </p>
                         </div>
