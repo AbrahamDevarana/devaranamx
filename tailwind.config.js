@@ -26,7 +26,6 @@ module.exports = {
               'devarana-graph' : '#656a76',
               'devarana-pollito' : '#ffdea4',
               'devarana-salmon' : '#fabcab',
-              'devarana-button' : '#5187B7',
               'light-blue' : '#E0E3EC'
           },
           transitionProperty: {

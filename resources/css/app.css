@@ -6,3 +6,8 @@
 body{
     background-color: #f9f9f7;
 }
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'Playfair Display';
+}

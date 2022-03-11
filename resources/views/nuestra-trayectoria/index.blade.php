@@ -1,176 +1,246 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-devarana-gray text-devarana-pearl">
-    <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
+<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">    
+    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
 </x-nav>
 
 
 
-<div class="w-full bg-trayectoria bg-no-repeat bg-cover bg-fixed bg-center md:h-[100vh] h-[600px] hidden md:block"></div>
-<picture>
-    <source srcset="{{ asset('img/trayectoria/royalview.png')}}" type="image/png"> 
-    <source srcset="{{ asset('img/trayectoria/royalview.webp')}}" type="image/webp">
-    <img src="{{ asset('img/trayectoria/royalview.png')}}" alt="Inauguración Devarana" class="w-full md:hidden">
-</picture>
-
-<h1 class="text-5xl font-playfair text-devarana-midnight text-center py-6">Nuestra trayectoria</h1>
-
-    <div class="grid grid-cols-12 w-10/12 m-auto gap-y-10 py-6">
-        <div class="col-span-12 md:col-span-6 m-auto md:px-14 relative">
-            <div class="md:-rotate-90 uppercase font-mulish text-devarana-midnight font-bold text-base md:absolute md:-left-11 md:top-[45%]">
-                Desarrollo 1
-            </div>
-            <h2 class="text-5xl font-playfair text-devarana-midnight">Grand Mayran</h2>
-            <div class="flex py-4">
-                <p class="text-base font-mulish">Ubicación <span class="font-bold inline-block w-full">Querétaro, Querétaro</span></p>
-                <p class="text-base font-mulish">Año <span class="font-bold inline-block w-full">2012 - 2013</span></p>
-            </div>
-            <p class="md:w-5/6 text-devarana-midnight"> Un proyecto ubicado en el Fraccionamiento cañadas del lago sur de la Ciudad de Querétaro. Conformado por 35 residencias diseñadas y contruidas con el talento de nuestro propio equipo. El éxito comercial nos impulsó a continuar con nuestro siguiente desarrollo. </p>
-        </div>
-        <div class="col-span-12 md:col-span-6">
+<div id="header" class="mySwiper pb-10">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
             <picture>
-                <source srcset="{{ asset('img/trayectoria/Grand-Mayran-NT.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/Grand-Mayran-NT.jpg')}}" type="image/jpeg"> 
-                <img src="{{ asset('img/trayectoria/Grand-Mayran-NT.jpg') }}" alt="Grand Mayran" class="w-full">
+                {{-- <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.webp')}}" type="image/webp"> --}}
+                <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" type="image/jpg"> 
+                <img src="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" alt="HEADER-royal-view" class="w-full h-screen">
             </picture>
-            
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> Royal View </p>
+        </div>
+        <div class="swiper-slide">
+            <picture>
+                {{-- <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.webp')}}" type="image/webp"> --}}
+                <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" type="image/jpg"> 
+                <img src="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" alt="HEADER-HIGH-GARDENS" class="w-full h-screen">
+            </picture>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> High Gardens </p>
+        </div>
+        <div class="swiper-slide">
+            <picture>
+                {{-- <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.webp')}}" type="image/webp"> --}}
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" type="image/jpg"> 
+                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full h-screen">
+            </picture>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> Upper Condesa </p>
+        </div>
+        <div class="swiper-slide">
+            <picture>
+                {{-- <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.webp')}}" type="image/webp"> --}}
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" type="image/jpg"> 
+                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full h-screen">
+            </picture>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> Grand Mayran </p>
         </div>
     </div>
-
-    <div class="grid grid-cols-12 w-10/12 m-auto md:gap-x-10 gap-y-4 py-6">
-        <div class="col-span-12 md:col-span-9">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/Grand-Mayran2-NT.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/Grand-Mayran2-NT.jpg')}}" type="image/jpeg"> 
-                <img src="{{ asset('img/trayectoria/Grand-Mayran2-NT.jpg') }}" alt="Grand Mayran" class="w-full">
-            </picture>
-        </div>
-        <div class="col-span-12 md:col-span-3 md:mt-auto md:w-5/6">
-            <p class=" text-devarana-midnight">Un proyecto ubicado en el Fraccionamiento cañadas del lago sur de la Ciudad de Querétaro. </p>
-        </div>
-    </div>
-
-    <div class="md:w-10/12 md:ml-auto py-6">
-        <picture>
-            <source srcset="{{ asset('img/trayectoria/Obra-Nt.webp')}}" type="image/webp">
-            <source srcset="{{ asset('img/trayectoria/Obra-Nt.jpg')}}" type="image/jpeg"> 
-            <img src="{{ asset('img/trayectoria/Obra-Nt.jpg') }}" alt="Obra de trabajo" class="w-full">
-        </picture>
-    </div>
+        <div class="swiper-pagination bg-devarana-blue py-2 border-l-white border-l"></div>
+        <div class="swiper-button-next after:w-6 bg-devarana-blue text-center"></div>
+        <div class="swiper-button-prev after:w-6 bg-devarana-blue text-center"></div>
+</div>
 
 
-    <div class="grid grid-cols-12 w-10/12 m-auto gap-y-10 py-6">
-        <div class="col-span-12 md:col-span-6">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/UpperCondesa-NT.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/UpperCondesa-NT.jpg')}}" type="image/jpeg"> 
-                <img src="{{ asset('img/trayectoria/UpperCondesa-NT.jpg') }}" alt="UpperCondesa" class="w-full">
-            </picture>
-            
-        </div>
-        <div class="col-span-12 md:col-span-6 m-auto md:pl-20 relative">
-            <div class="md:-rotate-90 uppercase font-mulish text-devarana-midnight font-bold text-base md:absolute md:-left-4 md:top-[45%]">
-                Desarrollo 2
+<div class="md:px-20 px-10 py-10">
+    <div class="grid md:grid-cols-2 gap-10">
+        <div class="col-span-2 md:col-span-1 flex">
+            <div class="relative m-auto md:px-16 py-8">
+                <h1 class="text-5xl text-devarana-blue text-center ">Trayectoria</h1>
+                <img src="{{ asset("img/trayectoria/svg/NUESTRA.svg") }}" alt="somos" class="m-auto max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1/3 -translate-x-1/4 opacity-40">
             </div>
-
-            <h2 class="text-5xl font-playfair text-devarana-midnight">Upper Condesa</h2>
-            <div class="flex py-4">
-                <p class="text-base font-mulish text-devarana-midnight">Ubicación <span class="font-bold inline-block w-full">Juriquilla. Querétaro</span></p>
-                <p class="text-base font-mulish text-devarana-midnight">Año <span class="font-bold inline-block w-full">2014-2016</span></p>
-            </div>
-            <p class="md:w-5/6 text-devarana-midnight text-base"> Un proyecto de 46 residencias en la exitosa zona de Juriquilla, dentro de “La Condesa Juriquilla”, fraccionamiento desarrollado por la prestigiosa empresa DRT. Con los excelentes resultados decidimos incrementar nuestra inversión en el ramo inmobiliario y adquirimos los terrenos para los siguientes desarrollos </p>
-        </div>
-    </div>
-
-    <div class="grid grid-cols-12 w-10/12 m-auto md:gap-y-10 gap-y-4 py-6 relative">
-        <div class="md:-rotate-90 uppercase font-mulish text-devarana-midnight font-bold text-base md:absolute md:-left-11 md:top-[50%] col-span-12">
-            Desarrollo 3
-        </div>
-        <div class="col-span-12 md:col-span-6 m-auto md:px-14">
-            <h2 class="text-5xl font-playfair text-devarana-midnight">High Gardens</h2>
-            <div class="flex py-4 relative">
-                <p class="text-base font-mulish text-devarana-midnight">Ubicación <span class="font-bold inline-block w-full">Zibatá. Querétaro.</span></p>
-                <p class="text-base font-mulish text-devarana-midnight">Año <span class="font-bold inline-block w-full">2017-2018</span></p>
-            </div>
-            <p class="md:w-5/6 text-devarana-midnight text-base"> Un proyecto ubicado en el Fraccionamiento cañadas del lago sur de la Ciudad de Querétaro. Conformado por 35 residencias diseñadas y contruidas con el talento de nuestro propio equipo. El éxito comercial nos impulsó a continuar con nuestro siguiente desarrollo. </p>
-        </div>
-        <div class="col-span-12 md:col-span-6">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/HighGardens-NT.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/HighGardens-NT.png')}}" type="image/png"> 
-                <img src="{{ asset('img/trayectoria/HighGardens-NT.png') }}" alt="Grand Mayran" class="w-full">
-            </picture>
-            
-        </div>
-    </div>
-
-    <div class="grid grid-cols-2 w-10/12 m-auto gap-y-10 py-6">
-        <div class="col-span-2 md:col-span-1">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/HighGardens.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/HighGardens.png')}}" type="image/png"> 
-                <img src="{{ asset('img/trayectoria/HighGardens.png') }}" alt="Grand Mayran" class="lg:-mt-[10%] md:absolute md:left-0 md:w-[45%]">
-            </picture>
         </div>
         <div class="col-span-2 md:col-span-1">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/HighGardens-Nt3.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/HighGardens-Nt3.png')}}" type="image/png"> 
-                <img src="{{ asset('img/trayectoria/HighGardens-Nt3.png') }}" alt="Grand Mayran" class="w-full">
-            </picture>
+            <p class="text-devarana-graph text-justify md:px-10">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            </p>
         </div>
     </div>
+</div>
 
-    <div class="grid grid-cols-12 w-10/12 m-auto gap-y-10 lg:py-44 py-6">
-        <div class="col-span-12 lg:col-span-6">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/RoyalView-Blue.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/RoyalView-Blue.jpg')}}" type="image/jpeg"> 
-                <img src="{{ asset('img/trayectoria/RoyalView-Blue.jpg') }}" alt="Grand Mayran" class="lg:-mt-[10%] lg:absolute lg:left-0 lg:w-[47%]">
-            </picture>
+<div class="px-10 md:px-20 py-10 md:py-20" id="royal-view">
+    <div class="grid grid-cols-12 gap-16">
+        <div class="col-span-12 md:col-span-5 my-auto min-h-[240px]">
+            <h2 class="text-devarana-blue text-2xl py-2">Royal View</h2>
+            <p class="text-devarana-blue py-2 font-mulish font-extralight">2019 - Actualidad</p>
+            <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="flex">
+                <x-link href="royalview.mx" class=""> Preventa diponible </x-link>
+            </div>
         </div>
-        <div class="col-span-12 lg:col-span-6 m-auto md:pl-20 relative">
-            <div class="md:-rotate-90 uppercase font-mulish text-devarana-midnight font-bold text-base md:absolute md:-left-4 md:top-[40%]">
-                Desarrollo 4
-            </div>
-            <h2 class="text-5xl font-playfair text-devarana-midnight">Royal View</h2>
-            <div class="flex py-4 relative">
-                <p class="text-base font-mulish text-devarana-midnight">Ubicación <span class="font-bold inline-block w-full">Zibatá. Querétaro.</span></p>
-                <p class="text-base font-mulish text-devarana-midnight">Año <span class="font-bold inline-block w-full">2019-2024</span></p>
-            </div>
-            <p class="md:w-5/6 text-devarana-midnight text-base">En el terreno contiguo a High Gardens se desarrolla Royal View. Por su ubicación y vistas escénicas; un ícono para la ciudad de Querétaro. DEVARANA ha incrementado de manera importante su inversión para crear un proyecto único de 240 departamentos, más de 30 amenidades y más de 9 mil m2 de área verdes y parques privados </p>
-            <div class="md:w-5/6 flex py-8">
-                <button class="rounded-3xl bg-devarana-pink text-devarana-pearl border-0 ml-auto py-0.5 px-10 cursor-pointer hover:bg-devarana-pearl hover:text-devarana-pink transition duration-500 ease-in-out">Preventa</button>
+        <div class="col-span-12 md:col-span-7">
+            <div class="swiper mySwiper2 w-full">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide py-10 bg-devarana-pearl">
+                        <picture>
+                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW1.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW1.jpg')}}" type="image/jpg"> 
+                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW1.jpg')}}" alt="ROYAL-VIEW1" class="w-full">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide py-10 bg-devarana-pearl">
+                        <picture>
+                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW2.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW2.jpg')}}" type="image/jpg"> 
+                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW2.jpg')}}" alt="ROYAL-VIEW2" class="w-full">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide py-10 bg-devarana-pearl">
+                        <picture>
+                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW3.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW3.jpg')}}" type="image/jpg"> 
+                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW3.jpg')}}" alt="ROYAL-VIEW3" class="w-full">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide py-10 bg-devarana-pearl">
+                        <picture>
+                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW4.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW4.jpg')}}" type="image/jpg"> 
+                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW4.jpg')}}" alt="ROYAL-VIEW4" class="w-full">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide py-10 bg-devarana-pearl">
+                        <picture>
+                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW5.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW5.jpg')}}" type="image/jpg"> 
+                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW5.jpg')}}" alt="ROYAL-VIEW5" class="w-full">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide py-10 bg-devarana-pearl">
+                        <picture>
+                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW6.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW6.jpg')}}" type="image/jpg"> 
+                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW6.jpg')}}" alt="ROYAL-VIEW6" class="w-full">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide py-10 bg-devarana-pearl">
+                        <picture>
+                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW7.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW7.jpg')}}" type="image/jpg"> 
+                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW7.jpg')}}" alt="ROYAL-VIEW7" class="w-full">
+                        </picture>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar" style=""></div>  
             </div>
         </div>
     </div>
+</div>
 
-
-    <div class="grid grid-cols-12 w-10/12 m-auto gap-y-10 py-14 md:gap-x-10 lg:pb-36">
-        <div class="col-span-12 md:col-span-5">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/RoyalView-NT2.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/RoyalView-NT2.png')}}" type="image/png"> 
-                <img src="{{ asset('img/trayectoria/RoyalView-NT2.png') }}" alt="Grand Mayran" class="">
-            </picture>
+<div class="translate-x-4 -translate-y-4 hidden scale-y-90 scale-x-105"></div>
+<div class="-translate-x-4 translate-y-4 hidden" ></div>
+<div class="px-10 md:px-20 py-10 md:py-20" id="desarrollos">
+    <div class="grid grid-cols-3 gap-20">
+        <div class="md:col-span-1 col-span-3">
+            <div class="bg-devarana-blue w-full">
+                <picture class="w-full block group-hover:hidden">
+                    {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
+                    <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full"> 
+                    <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full transition-all ease-in-out duration-700 parall">
+                </picture>
+            </div>
+            <div class="px-4 py-6">
+                <h2 class="text-2xl text-devarana-blue bg-fixed">High Gardens</h2>
+                <p class="font-mulish font-extralight text-devarana-graph py-2">2017 - 2018 </p>
+                <p class="font-mulish font-extralight text-devarana-graph inline-flex items-center"> <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
+            </div>
         </div>
-        <div class="col-span-12 md:col-span-7 lg:mt-16">
-            <picture>
-                <source srcset="{{ asset('img/trayectoria/RoyalView-NT4.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/RoyalView-NT4.png')}}" type="image/png"> 
-                <img src="{{ asset('img/trayectoria/RoyalView-NT4.png') }}" alt="Grand Mayran" class="lg:absolute lg:right-0 lg:w-[50%]">
-            </picture>
+        <div class="md:col-span-1 col-span-3 mt-20">
+            <div class="bg-devarana-blue w-full">
+                <picture class="w-full block group-hover:hidden">
+                    {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
+                    <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg" class="w-full"> 
+                    <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA" class="w-full transition-all ease-in-out duration-700 parall">
+                </picture>
+            </div>
+            <div class="px-4 py-6">
+                <h2 class="text-2xl text-devarana-blue bg-fixed">Upper Condesa</h2>
+                <p class="font-mulish font-extralight text-devarana-graph py-2">2014 - 2016 </p>
+                <p class="font-mulish font-extralight text-devarana-graph inline-flex items-center"> <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
+            </div>
+        </div>
+        <div class="md:col-span-1 col-span-3 mt-40">
+            <div class="bg-devarana-blue w-full">
+                <picture class="w-full block group-hover:hidden">
+                    {{-- <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.webp')}}" type="image/webp"> --}}
+                    <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" type="image/jpg" class="w-full"> 
+                    <img src="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" alt="GRANMAYRAN" class="w-full transition-all ease-in-out duration-700 parall">
+                </picture>
+            </div>
+            <div class="px-4 py-6">
+                <h2 class="text-2xl text-devarana-blue bg-fixed">Gran Mayran</h2>
+                <p class="font-mulish font-extralight text-devarana-graph py-2">2012 - 2013 </p>
+                <p class="font-mulish font-extralight text-devarana-graph inline-flex items-center"> <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
+            </div>
         </div>
     </div>
+</div>
 
+<div class="bg-devarana-hazelnut md:py-20 py-10 relative overflow-hidden -z-20">
+    
+    <div class="absolute w-full h-full flex justify-end right-0 bottom-0 -z-10">
+        <img src="{{"img/trayectoria/svg/DEVARANA_iso.svg"}}" alt="" class="-mr-20 -mb-20 opacity-70 w-[35%]">
+    </div>
+    
+    <div class="px-20 z-50 block">
+        <div class="relative">
+            <h1 class="text-5xl text-devarana-blue ">Política de calidad</h1>
+            <img src="{{ asset("img/trayectoria/svg/ISO90012015.svg") }}" alt="somos" class="md:mx-20 max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-2/4 -translate-x-1/4">
+        </div>
 
+        <div class="py-6 text-devarana-graph">
+            <p class="">En DEVARANA hemos asumido el compromiso de implementar un modelo de Gestión de la Calidad, basado en la norma ISO 9001-2015, que nos proporcione un marco de referencia integral para el establecimiento de objetivos específicos de calidad y con la finalidad de, a través de la mejora continua, conseguir la satisfacción total de nuestros colaboradores, clientes y socios de negocio, convirtiéndonos en un referente en el sector de desarrollo inmobiliario, por los estándares de calidad que empleamos en el servicio que ofrecemos y los productos que desarrollamos.</p>
+                      
+            <p class="py-4">En un mercado en continua expansión, DEVARANA se mantiene como líder del sector
+                inmobiliario, al tener siempre presente que nuestro éxito es consecuencia de honrar los
+                siguientes principios de calidad:</p>
+
+            <ul class="list-disc py-4">
+                <li class="list-inside">Lograr la plena satisfacción de nuestros clientes internos y externos. </li>
+                <li class="list-inside">Conseguir la excelencia empresarial a través de potenciar a nuestro capital humano. </li>
+                <li class="list-inside">Integrar en todo momento a nuestros socios de negocio en el compromiso con la calidad. </li>
+                <li class="list-inside">Mantener un alto nivel de innovación en el desarrollo de nuestros productos. </li>
+                <li class="list-inside">Cumplir la normatividad legal y los requisitos aplicables. </li>
+                <li class="list-inside">Identificar y evaluar todos los riesgos y oportunidades en cada uno de los procesos que contempla nuestro sistema de calidad. </li>
+                <li class="list-inside">Asegurar la integridad y seguridad de nuestro Sistema de Gestión de Calidad. </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="md:py-20 py-10">
+    <div class="max-w-[800px] m-auto">
+        <div class="relative flex py-4 ">
+            <h1 class="text-5xl text-devarana-pink text-right ml-auto">Clientes</h1>
+            <img src="{{ asset("img/trayectoria/svg/TESTIMONIOS.svg") }}" alt="somos" class="ml-auto max-w-[450px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1/4 -translate-x-1/4 opacity-40">
+        </div>
+        <div class="grid grid-cols-2">
+            <div class="md:col-span-1 col-span-2 bg-devarana-pink md:px-10 md:py-20 py-10 text-devarana-pearl">
+                <p>Magnífico, espectacular, fabuloso, inigualable, único, fantástico, brillante</p>
+                <p class="py-6">Fulanita de Tal</p>
+            </div>
+            <div class="md:col-span-1 col-span-2 bg-devarana-graph md:px-10 md:py-20 py-10">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+   
 @endsection
 
 @section('styles')
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    @endsection
+    <link rel="stylesheet" href="{{ asset("css/nuestra-trayectoria.css")}}" />
+@endsection
     
     @section("scripts")
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="{{ asset('js/nuestra-trayectoria/index.js') }}"></script>
 @endsection

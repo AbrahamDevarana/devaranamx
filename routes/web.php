@@ -36,7 +36,7 @@ Route::prefix('cms')->group( function () {
 
 Route::get('quienes-somos', [SeoController::class, 'quienesSEO'])->name('quienes-somos');
 
-Route::post('contacto', [MailerController::class, 'contactoForm'])->name('contacto');
+Route::post('contacto', [MailerController::class, 'contactoForm'])->name('contacto.send');
 Route::post('integracion', [MailerController::class, 'integracionForm'])->name('integracion');
 
 

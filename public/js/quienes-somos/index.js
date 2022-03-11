@@ -1,28 +1,3 @@
-const swiper = new Swiper('.mySwiper', {
-    loop: true,
-    lazy: true,
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: false,
-      },
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-    },
-    
-    centeredSlides: true,
-    breakpoints: {
-                
-        "@0.50": {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },
-        "@1.00": {
-            slidesPerView: 3,
-            spaceBetween: 40,
-        },
-      },
-});
 
 
 const tabsToggler = document.querySelectorAll(".tabs-button")
@@ -53,3 +28,5 @@ const tabsToggler = document.querySelectorAll(".tabs-button")
             
         }) 
     });
+
+    

@@ -1,42 +1,4 @@
 window.addEventListener('scroll', function(e){
-    menuColors()
-})
-
-window.onload = function() {
-    menuColors()
-  };
-
-const menuColors = () => {
-    const navigation = document.getElementById("navigation")
-    const devaranaLogoBg = document.getElementById("devaranaLogoBg")
-    const headerSize = document.getElementById("header")
-
-    let yPos = window.scrollY
-
-    if(yPos > headerSize.offsetHeight - 30){
-        navigation.classList.add("bg-devarana-pearl")
-        navigation.classList.remove("bg-transparent")
-        navigation.classList.add("text-devarana-gray")
-        navigation.classList.remove("text-devarana-pearl")
-
-        
-        devaranaLogoBg.style.width = "100px"
-        devaranaLogoBg.style.height = "80px"
-        devaranaLogoBg.style.backgroundImage  = "url(img/logos/DevaranaLogo.png)"
-      
-    }else{
-        navigation.classList.remove("bg-devarana-pearl")
-        navigation.classList.add("bg-transparent")
-        navigation.classList.remove("text-devarana-gray")
-        navigation.classList.add("text-devarana-pearl")
-
-        devaranaLogoBg.style.backgroundImage  = "url(img/logos/Isotipo_blanco.png)"
-        devaranaLogoBg.style.width = "50px"
-        devaranaLogoBg.style.height = "50px"
-    }
-}
-
-window.addEventListener('scroll', function(e){
     let yPos = window.scrollY
     const bgHead = document.querySelector("#bgHead")
     const bgBuilding = document.querySelector("#bgBuilding")

@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+    .swiper-scrollbar{
+        width:57%!important;
+        right:0!important;
+        left:unset!important
+    }
+}
