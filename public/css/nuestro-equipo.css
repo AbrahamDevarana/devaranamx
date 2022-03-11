@@ -5,3 +5,6 @@
         left:unset!important
     }
 }
+.swiper-scrollbar-drag{
+    background-color: #d64767;
+}

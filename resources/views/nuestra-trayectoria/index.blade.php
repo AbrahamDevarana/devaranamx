@@ -13,38 +13,38 @@
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.webp')}}" type="image/webp"> --}}
                 <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" alt="HEADER-royal-view" class="w-full h-screen">
+                <img src="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" alt="HEADER-royal-view" class="w-full md:h-screen">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> Royal View </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> Royal View </p>
         </div>
         <div class="swiper-slide">
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.webp')}}" type="image/webp"> --}}
                 <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" alt="HEADER-HIGH-GARDENS" class="w-full h-screen">
+                <img src="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" alt="HEADER-HIGH-GARDENS" class="w-full md:h-screen">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> High Gardens </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> High Gardens </p>
         </div>
         <div class="swiper-slide">
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.webp')}}" type="image/webp"> --}}
                 <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full h-screen">
+                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> Upper Condesa </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> Upper Condesa </p>
         </div>
         <div class="swiper-slide">
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.webp')}}" type="image/webp"> --}}
                 <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full h-screen">
+                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish"> Grand Mayran </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> Grand Mayran </p>
         </div>
     </div>
-        <div class="swiper-pagination bg-devarana-blue py-2 border-l-white border-l"></div>
-        <div class="swiper-button-next after:w-6 bg-devarana-blue text-center"></div>
-        <div class="swiper-button-prev after:w-6 bg-devarana-blue text-center"></div>
+        <div class="md:block hidden  md:visible invisible swiper-pagination bg-devarana-blue py-2 border-l-white border-l"></div>
+        <div class="md:block hidden  md:visible invisible swiper-button-next after:w-6 bg-devarana-blue text-center"></div>
+        <div class="md:block hidden  md:visible invisible swiper-button-prev after:w-6 bg-devarana-blue text-center"></div>
 </div>
 
 
@@ -65,13 +65,15 @@
 </div>
 
 <div class="px-10 md:px-20 py-10 md:py-20" id="royal-view">
-    <div class="grid grid-cols-12 gap-16">
-        <div class="col-span-12 md:col-span-5 my-auto min-h-[240px]">
+    <div class="grid grid-cols-12 gap-md:16">
+        <div class="col-span-10 md:col-span-5 my-auto">
             <h2 class="text-devarana-blue text-2xl py-2">Royal View</h2>
             <p class="text-devarana-blue py-2 font-mulish font-extralight">2019 - Actualidad</p>
             <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="flex">
-                <x-link href="royalview.mx" class=""> Preventa diponible </x-link>
+                <button href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500">
+                    <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="hidden group-hover:block w-8 mr-2">
+                    <img src="{{asset("img/logos/Isotipo_blanco.png")}}" alt="Isotipo Devarana" class="block group-hover:hidden w-8 mr-2"> Preventa diponible </button>
             </div>
         </div>
         <div class="col-span-12 md:col-span-7">
@@ -135,7 +137,7 @@
 
 <div class="translate-x-4 -translate-y-4 hidden scale-y-90 scale-x-105"></div>
 <div class="-translate-x-4 translate-y-4 hidden" ></div>
-<div class="px-10 md:px-20 py-10 md:py-20" id="desarrollos">
+<div class="md:px-20 py-10 md:py-20 px-10" id="desarrollos">
     <div class="grid grid-cols-3 gap-20">
         <div class="md:col-span-1 col-span-3">
             <div class="bg-devarana-blue w-full">
@@ -151,7 +153,7 @@
                 <p class="font-mulish font-extralight text-devarana-graph inline-flex items-center"> <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
             </div>
         </div>
-        <div class="md:col-span-1 col-span-3 mt-20">
+        <div class="md:col-span-1 col-span-3 md:mt-20">
             <div class="bg-devarana-blue w-full">
                 <picture class="w-full block group-hover:hidden">
                     {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
@@ -165,7 +167,7 @@
                 <p class="font-mulish font-extralight text-devarana-graph inline-flex items-center"> <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
             </div>
         </div>
-        <div class="md:col-span-1 col-span-3 mt-40">
+        <div class="md:col-span-1 col-span-3 md:mt-40">
             <div class="bg-devarana-blue w-full">
                 <picture class="w-full block group-hover:hidden">
                     {{-- <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.webp')}}" type="image/webp"> --}}
@@ -182,16 +184,16 @@
     </div>
 </div>
 
-<div class="bg-devarana-hazelnut md:py-20 py-10 relative overflow-hidden -z-20">
+<div class="bg-devarana-hazelnut md:py-20 py-10 relative overflow-hidden md:-z-20">
     
-    <div class="absolute w-full h-full flex justify-end right-0 bottom-0 -z-10">
+    <div class="hidden absolute w-full h-full md:flex justify-end right-0 bottom-0 -z-10">
         <img src="{{"img/trayectoria/svg/DEVARANA_iso.svg"}}" alt="" class="-mr-20 -mb-20 opacity-70 w-[35%]">
     </div>
     
-    <div class="px-20 z-50 block">
+    <div class="px-10 md:px-20 z-50 block">
         <div class="relative">
             <h1 class="text-5xl text-devarana-blue ">Política de calidad</h1>
-            <img src="{{ asset("img/trayectoria/svg/ISO90012015.svg") }}" alt="somos" class="md:mx-20 max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-2/4 -translate-x-1/4">
+            <img src="{{ asset("img/trayectoria/svg/ISO90012015.svg") }}" alt="somos" class="md:mx-20 max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-2/4 md:-translate-x-1/4 -translate-x-5">
         </div>
 
         <div class="py-6 text-devarana-graph">
@@ -214,18 +216,18 @@
     </div>
 </div>
 
-<div class="md:py-20 py-10">
+<div class="md:py-20 py-10 px-10">
     <div class="max-w-[800px] m-auto">
-        <div class="relative flex py-4 ">
+        <div class="relative flex py-4">
             <h1 class="text-5xl text-devarana-pink text-right ml-auto">Clientes</h1>
-            <img src="{{ asset("img/trayectoria/svg/TESTIMONIOS.svg") }}" alt="somos" class="ml-auto max-w-[450px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1/4 -translate-x-1/4 opacity-40">
+            <img src="{{ asset("img/trayectoria/svg/TESTIMONIOS.svg") }}" alt="somos" class="ml-auto max-w-[250px] md:max-w-[450px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1 md:-translate-y-1/4 -translate-x-1/4 opacity-80">
         </div>
         <div class="grid grid-cols-2">
-            <div class="md:col-span-1 col-span-2 bg-devarana-pink md:px-10 md:py-20 py-10 text-devarana-pearl">
+            <div class="md:col-span-1 bg-devarana-pink px-4 md:px-10 md:py-20 py-10 text-devarana-pearl">
                 <p>Magnífico, espectacular, fabuloso, inigualable, único, fantástico, brillante</p>
                 <p class="py-6">Fulanita de Tal</p>
             </div>
-            <div class="md:col-span-1 col-span-2 bg-devarana-graph md:px-10 md:py-20 py-10">
+            <div class="md:col-span-1 bg-devarana-graph md:px-10 md:py-20 py-10 px-4">
 
             </div>
         </div>

@@ -39,11 +39,19 @@ module.exports = {
               'contacto' : "url('/img/contacto/DEV-Textura-opacidad.png')",
               'nuestro-equipo' : "url('/img/nuestro-equipo/Nuestro_equipo.png')",
               'trayectoria' : "url('/img/trayectoria/royalview.png')",
-              'home-banner' : "url('/img/home/Somos-orgullosamente.jpg')"
+              'home-banner' : "url('/img/home/Somos-orgullosamente.jpg')",
+              'oficinas-devarana-1' : "url('/img/quienes-somos/OFICINAS-DEVARANA-1.jpg')",
+              'oficinas-devarana-2' : "url('/img/quienes-somos/OFICINAS-DEVARANA-2.jpg')",
+              'oficinas-devarana-3' : "url('/img/quienes-somos/OFICINAS-DEVARANA-3.jpg')",
+              'oficinas-devarana-4' : "url('/img/quienes-somos/OFICINAS-DEVARANA-4.jpg')",
+              'oficinas-devarana-5' : "url('/img/quienes-somos/OFICINAS-DEVARANA-5.jpg')",
+              'oficinas-devarana-6' : "url('/img/quienes-somos/OFICINAS-DEVARANA-6.jpg')",
+              'oficinas-devarana-7' : "url('/img/quienes-somos/OFICINAS-DEVARANA-7.jpg')",
+
           },
           rotate: {
               '270': '270deg',
-          }
+          },
 
       },
   },

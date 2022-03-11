@@ -72,7 +72,7 @@
             <div class="col-span-2 md:col-span-1">
                 <div class="grid grid-cols-12">
                     <div class="col-span-12 md:col-span-10 bg-devarana-blue lg:min-h-[480px] md:min-h-[300px] flex">
-                        <div class="flex py-10 relative m-auto">
+                        <div class="flex md:py-10 py-4 relative m-auto">
                             <picture>
                                 {{-- <source srcset="{{ asset('img/home/SOMOS-DEVARANA.webp') }}" type="image/webp"> --}}
                                 <source srcset="{{ asset('img/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg">
@@ -86,20 +86,21 @@
             <div class="col-span-2 md:col-span-1 md:px-4 ">
                 <div class="flex h-full">
                     <div class="mt-auto relative">
-                        <div class="absolute bottom-52 md:bottom-52 left-0 md:-left-24 right-0 flex">
-                            <img src="{{ asset("img/home/svg/SOMOS.svg") }}" alt="nuestro_equipo" class="w-full m-auto max-w-[70%] opacity-30">
+                        <div class="grid grid-cols-12">
+                            <div class="sm:col-span-10 col-span-12">
+                                <img src="{{ asset("img/home/svg/SOMOS.svg") }}" alt="nuestro_equipo" class="w-full sm:translate-x-4 translate-y-10">
+                            </div>
+                            <h3 class="text-devarana-graph pb-20 text-xl md:text-2xl col-span-12 md:col-span-10 lg:col-span-8 text-center md:text-left  font-playfair">Creadores, arquitectos y diseñadores de lo extraordinario</h3>
                         </div>
-                        <h3 class="text-devarana-graph py-20 text-2xl md:w-4/6 font-playfair">Creadores, arquitectos y diseñadores de lo extraordinario</h3>
                         <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 text-left bg-home-banner bg-cover bg-top md:bg-center bg-no-repeat lg:min-h-[100px]">
-                            <div class="sliderShow bg-devarana-blue transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
-                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md text-xs md:text-[16px]">Great Place to Work</p>
+                            <div class="py-4 md:py-0 sliderShow bg-devarana-blue transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
+                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md">Great Place to Work</p>
                             </div>
-                            <div class="sliderShow transition-all duration-1000 ease-in-out md:text-white text-devarana-blue relative">
-                                <div class="absolute md:hidden w-full border-x-2 h-11 top-[50%] translate-y-[-50%]"></div>
-                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md text-xs md:text-[16px]">Empresa Socialmente Responsable</p>
+                            <div class="py-4 md:py-0 sliderShow transition-all duration-1000 ease-in-out md:text-white text-devarana-blue relative">
+                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md">Empresa Socialmente Responsable</p>
                             </div>
-                            <div class="sliderShow transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
-                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md  text-xs md:text-[16px]">Servicio Legendario ISO 9001</p>
+                            <div class="py-4 md:py-0 sliderShow transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
+                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md ">Servicio Legendario ISO 9001</p>
                             </div>
                             <div>
                             </div>
@@ -116,56 +117,56 @@
     </script>
 
     <div id="equipo">
-        <div class="grid md:grid-cols-5 grid-cols-2 relative">
+        <div class="grid md:grid-cols-5 grid-cols-3 relative">
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" type="image/png">
-                <img class='w-full md:order-1 order-1' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" alt="Diana-Devarana">
+                <img class='w-full md:col-span-1' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" alt="Diana-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" type="image/png">
-                <img class='w-full md:order-2 order-3' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" alt="Abraham-Devarana">
+                <img class='w-full md:col-span-1' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" alt="Abraham-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" type="image/png">
-                <img class='w-full md:order-3 order-4' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" alt="Mariana-Devarana">
+                <img class='w-full md:col-span-1' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" alt="Mariana-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" type="image/png">
-                <img class='w-full md:order-4 order-2' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" alt="Gregorio-Devarana">
+                <img class='w-full md:col-span-1' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" alt="Gregorio-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" type="image/png">
-                <img class='w-full md:block hidden md:order-5' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" alt="Diego-Devarana">
+                <img class='w-full md:col-span-1' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" alt="Diego-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" type="image/png">
-                <img class='w-full md:block hidden md:order-6' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" alt="Gus-Devarana">
+                <img class='w-full md:col-span-1' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" alt="Gus-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" type="image/png">
-                <img class='w-full md:block hidden md:order-7' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" alt="Miguel-Devarana">
+                <img class='w-full md:col-span-1 md:block hidden' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" alt="Miguel-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" type="image/png">
-                <img class='w-full md:block hidden md:order-8' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" alt="Pam-Devarana">
+                <img class='w-full md:col-span-1 md:block hidden' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" alt="Pam-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" type="image/png">
-                <img class='w-full md:block hidden md:order-9' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" alt="Melissa-Devarana">
+                <img class='w-full md:col-span-1 md:block hidden' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" alt="Melissa-Devarana">
             </picture>
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" type="image/webp">
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" type="image/png">
-                <img class='w-full md:block hidden md:order-10' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" alt="Luis-Devarana">
+                <img class='w-full md:col-span-1 md:block hidden' src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" alt="Luis-Devarana">
             </picture>
                 <div class="absolute top-0 left-0 right-0 bottom-0 flex">
                     <img src="{{ asset("img/home/svg/NUESTRO_EQUIPO.svg") }}" alt="nuestro_equipo" class="w-full m-auto max-w-[85%] md:opacity-80">
