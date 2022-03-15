@@ -181,7 +181,7 @@
     <div class="py-20">
         <div class="swiper mySwiper w-full">
             <div class="swiper-wrapper">
-              <div class="swiper-slide py-10 bg-devarana-pearl">
+              <div class="swiper-slide py-10 bg-devarana-pearl md:min-h-0 min-h-[920px]">
                 <div class="grid grid-cols-12 gap-16">
                     <div class="col-span-12 md:col-span-5 my-auto">
                         <h3 class="text-devarana-blue text-2xl py-2">ESR</h3>
@@ -199,7 +199,7 @@
                 </div>  
     
               </div>
-              <div class="swiper-slide py-10 bg-devarana-pearl">
+              <div class="swiper-slide py-10 bg-devarana-pearl md:min-h-0 min-h-[920px]">
                 <div class="grid grid-cols-12 gap-16">
                     <div class="col-span-12 md:col-span-5 my-auto">
                         <h3 class="text-devarana-blue text-2xl py-2">GPTW</h3>
@@ -217,7 +217,7 @@
                 </div>  
     
               </div>
-              <div class="swiper-slide py-10 bg-devarana-pearl">
+              <div class="swiper-slide py-10 bg-devarana-pearl md:min-h-0 min-h-[920px]">
                 <div class="grid grid-cols-12 gap-16">
                     <div class="col-span-12 md:col-span-5 my-auto">
                         <h3 class="text-devarana-blue text-2xl py-2">Servicio Legendario</h3>

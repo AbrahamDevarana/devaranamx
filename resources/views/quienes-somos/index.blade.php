@@ -30,7 +30,7 @@
             <button class="text-devarana-midnight col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 " data-id="vision" id="vision-tab">Visión</button>
         </div>
     
-        <div class="px-3 py-10">
+        <div class="px-3 py-10 text-devarana-graph">
             <div class="tabs-div transition-all duration-1000 ease-in-out" id="origen-div">
                 <p class="font-mulish py-2">Somos una empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario, que nace con el deseo de construir desarrollos del más alto nivel.</p>
             </div>

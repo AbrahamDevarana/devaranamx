@@ -32,7 +32,7 @@ module.exports = {
               'height': 'height',
           },
           fontSize: {
-              base: ['18px', '24px'],
+              base: ['16px', '24px'],
           },
           backgroundImage:{
               'quienes-somos' : "url('/img/quienes-somos/Quienesomos.png')",
