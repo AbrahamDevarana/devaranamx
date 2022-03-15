@@ -19,7 +19,7 @@
 </div>
 
 
-<div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto gap-10 md:py-24 py-10">
+<div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto md:gap-10 md:py-24 py-10">
     <div class="col-span-12 md:col-span-5 flex">
         <h1 class="m-auto text-2xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, arquitectos y diseñadores de lo extraordinario.</h1>
     </div>
@@ -103,7 +103,7 @@
         <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl py-10">Valores</h2>
     </div>
     <div class="mySwiper">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper text-devarana-graph">
             <div class="swiper-slide bg-devarana-pearl px-10 py-6">
                 <x-icon-apasionados class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">Somos apasionados</h3>
