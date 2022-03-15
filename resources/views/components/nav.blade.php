@@ -6,7 +6,7 @@
                 <ul class="list-none grid grid-cols-6 grid-flow-col text-center font-playfair m-auto w-full relative">
                     <li class="hidden md:flex m-auto drop-shadow-lg  relative">
                         <a href="/" title="Home" {{ $attributes['hidden'] }}>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 absolute -left-24 fill-devarana-pearl" viewBox="0 0 24 24" id="homeIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 absolute -left-24  {{ $attributes['contacto']? 'fill-devarana-midnight' : 'fill-devarana-pearl' }}" viewBox="0 0 24 24" id="homeIcon">
                                 <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                             </svg>
                         </a>
@@ -28,7 +28,7 @@
     </nav>   
     
     {{-- Responsive Menu --}}
-    <nav class="md:hidden hidden mobile-menu fixed w-full bg-devarana-midnight z-40 transition-all duration-300 ease-in-out opacity-0 shadow-lg h-screen overflow-hidden">
+    <nav class="md:hidden hidden mobile-menu fixed w-full bg-devarana-midnight z-50 transition-all duration-300 ease-in-out opacity-0 shadow-lg h-screen overflow-hidden">
         <div class="flex py-2">
             <a class="m-auto" href="/"><img src="{{ asset("img/logos/Isotipo_blanco.png") }}" alt="Devarana Logotipo" class="w-[50px]" id="devaranaLogoBlanco"></a>
         </div>
@@ -43,7 +43,7 @@
         </div>
     </nav>
     <div class="relative">
-        <div class="md:hidden flex fixed top-2 right-1 z-50 ">
+        <div class="md:hidden flex fixed top-2 right-1 z-[10000] ">
             <button class="outline-none mobile-menu-button ml-auto p-5 shadow-lg" id="btnResponsiveMenu">
                 <img id="imgOpen" src="{{ asset('img/icons/burger.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400">
                 <img id="imgClose" src="{{ asset('img/icons/cross.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400 hidden">

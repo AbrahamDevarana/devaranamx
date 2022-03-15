@@ -31,7 +31,12 @@ color: white;
     height: 40px;
 }
 
-.swiper-scrollbar-drag{
+.swiper-scrollbar-drag, .swiper-pagination.responsive-swiper .swiper-pagination-bullet-active{
     background-color: #d64767;
 }
 
+.swiper-pagination.responsive-swiper{
+    right: 0!important;
+    left: unset!important;
+    top: 68%
+}

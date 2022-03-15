@@ -28,3 +28,12 @@
     font-style: normal;
     font-display: swap;
 }
+
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish/Mulish-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: medium;
+    font-display: swap;
+}

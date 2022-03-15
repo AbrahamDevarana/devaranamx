@@ -18,36 +18,35 @@
     </div> --}}
 
     
-    <div class="max-w-[80%] md:mt-auto md:-mb-[5%] -mb-[30%] flex md:col-span-8 md:-z-20 md:pt-40 col-span-12 mx-auto pt-40">
+    <div class="max-w-[80%] md:mt-auto md:-mb-[5%] -mb-[30%] flex md:col-span-8 md:-z-20 md:pt-40 col-span-12 mx-auto pt-28">
         <img src="{{ asset("img/nuestro-equipo/HEADER.jpg") }}" alt="" class="w-full md:pl-10">
     </div>
-    <h1 class="md:block hidden text-devarana-blue text-5xl font-playfair my-auto col-span-4">¿Por qué <span class="w-full inline-block z-30 tracking-widest">DEVARANA?</span></h1>
+    <h1 class="md:block hidden text-devarana-blue text-4xl lg:text-5xl font-playfair my-auto col-span-4">¿Por qué <span class="w-full inline-block z-30 tracking-widest">DEVARANA?</span></h1>
     <h1 class="md:hidden block drop-shadow-lg -mt-36 pl-10 text-4xl  font-playfair col-span-12 span-4 text-devarana-pearl tracking-wider -translate-x-5 translate-y-2">Nuestro equipo</h1>
     <img src="{{ asset("img/nuestro-equipo/svg/NUESTRO_EQUIPO.svg") }}" alt="nuestro equipo" class="absolute max-w-[50%] md:ml-auto top-0 bottom-0 left-0 right-0 my-auto px-10 -z-10 -translate-x-5 md:-translate-y-1/4 md:-translate-x-1/4 -translate-y-2/4">
-    
 </div>
 
 <div class="py-28">
-    <div class="grid grid-cols-12 gap-10">
+    <div class="grid grid-cols-12 md:gap-10">
         <p class="col-span-10 col-start-2 md:col-span-7 text-devarana-blue text-center lg:px-32 md:px-24  my-auto">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
         </p>
         <div class="grid md:grid-cols-4 grid-cols-2 md:col-span-5 col-span-12">
             <div class="col-span-1">
                 <x-icon-desarrollos class="py-4 w-16 h-24 m-auto fill-devarana-blue"/>
-                <p class="text-devarana-pink text-center font-playfair"> <span class="inline-block font-bold w-full">4</span> Desarrollos </p>
+                <p class="text-devarana-pink text-center font-playfair"> <span class="md:inline-block font-bold w-full">4</span> Desarrollos </p>
             </div>
             <div class="col-span-1">
                 <x-icon-colaboradores class="py-4 w-16 h-24 m-auto fill-devarana-blue"/>
-                <p class="text-devarana-pink text-center font-playfair"> <span class="inline-block font-bold w-full">40+</span> Colaboradores </p>
+                <p class="text-devarana-pink text-center font-playfair"> <span class="md:inline-block font-bold w-full">40+</span> Colaboradores </p>
             </div>
             <div class="col-span-1">
                 <x-icon-residentes class="py-4 w-14 h-24 m-auto fill-devarana-blue"/>
-                <p class="text-devarana-pink text-center font-playfair"> <span class="inline-block font-bold w-full">2.5k</span> Residentes satisfechos </p>
+                <p class="text-devarana-pink text-center font-playfair"> <span class="md:inline-block font-bold w-full">2.5k</span> Residentes satisfechos </p>
             </div>
             <div class="col-span-1">
                 <x-icon-hectareas class="py-4 w-14 h-24 m-auto fill-devarana-blue"/>
-                <p class="text-devarana-pink text-center font-playfair"> <span class="inline-block font-bold w-full">8+</span>  Hectáreas construidas </p>
+                <p class="text-devarana-pink text-center font-playfair"> <span class="md:inline-block font-bold w-full">8+</span>  Hectáreas construidas </p>
             </div>
         </div>
     </div>
@@ -55,14 +54,14 @@
 
 <div class="relative">
     <div class="grid grid-cols-12">
-        <div class="md:col-start-4 md:col-end-10 md:col-span-6 col-span-10 col-start-2">
+        <div class="md:col-start-4 md:col-end-10 md:col-span-6 col-span-1 col-start-2">
             <img src="{{ asset("img/nuestro-equipo/svg/TESTIMONIOS.svg") }}" alt="testimonios" class="w-full px-10 translate-y-4 md:translate-y-8 md:-translate-x-1/3 -translate-x-10">
             <h2 class="lg:text-6xl md:text-5xl text-4xl font-playfair text-center text-devarana-blue">Colaboradores</h2>
         </div>
     </div>
 </div>
 <div class="py-20">
-    <div class="bg-white blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
+    <div class="md:block hidden bg-white blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
         <div class="grid grid-cols-12">
             <div class="flex m-auto col-span-6">
                 <picture class="w-full hidden group-hover:block">
@@ -83,7 +82,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-devarana-pearl blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
+    <div class="md:block hidden bg-devarana-pearl blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
         <div class="grid grid-cols-12">
             <div class="md:max-w-[450px] ml-auto mr-10 my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base text-right col-span-8">
                 <p class="font-mulish py-4">“DEVARANA es un lugar que nos recuerda la importancia de hacer las cosas por convicción, amor y pasión”</p>
@@ -104,7 +103,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-white blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
+    <div class="md:block hidden bg-white blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
         <div class="grid grid-cols-12">
             <div class="flex m-auto col-span-6">
                 <picture class="w-full  hidden group-hover:block">
@@ -125,20 +124,20 @@
             </div>
         </div>
     </div>
-    <div class="bg-devarana-pearl blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
+    <div class="bg-devarana-pearl md:blur-sm md:hover:blur-none py-10 transition-all duration-200 ease-in-out group">
         <div class="grid grid-cols-12">
             <div class="md:max-w-[450px] ml-auto mr-10 my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base text-right col-span-8">
                 <p class="font-mulish py-4">“DEVARANA es un lugar que nos recuerda la importancia de hacer las cosas por convicción, amor y pasión”</p>
                 <h3 class="">Fátima Ortiz</p>
-                <p class="font-mulish group-hover:text-devarana-pink">Gerente de Calidad e Innovación.</p>
+                <p class="font-mulish text-devarana-pink md:text-devarana-blue md:group-hover:text-devarana-pink">Gerente de Calidad e Innovación.</p>
             </div>
             <div class="flex my-auto mr-auto col-span-4">
-                <picture class="w-full hidden group-hover:block">
+                <picture class="w-full block md:hidden md:group-hover:block">
                     {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.webp')}}" type="image/webp" class="w-full"> --}}
                     <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" type="image/png" class="w-full"> 
                     <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" alt="Fátima Ortiz" class="w-full">
                 </picture>
-                <picture class="w-full block group-hover:hidden">
+                <picture class="w-full hidden md:block md:group-hover:hidden">
                     {{-- <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.webp')}}" type="image/webp" class="w-full"> --}}
                     <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.png')}}" type="image/png" class="w-full"> 
                     <img src="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.png')}}" alt="Melisa Muñoz" class="w-full">
@@ -146,7 +145,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-white blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
+    <div class="md:block hidden bg-white blur-sm hover:blur-none py-10 transition-all duration-200 ease-in-out group">
         <div class="grid grid-cols-12">
             <div class="flex m-auto col-span-6">
                 <picture class="w-full  hidden group-hover:block">

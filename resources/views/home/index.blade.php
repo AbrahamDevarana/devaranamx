@@ -87,10 +87,10 @@
                 <div class="flex h-full">
                     <div class="mt-auto relative">
                         <div class="grid grid-cols-12">
-                            <div class="sm:col-span-10 col-span-12">
-                                <img src="{{ asset("img/home/svg/SOMOS.svg") }}" alt="nuestro_equipo" class="w-full sm:translate-x-4 translate-y-10">
+                            <div class="sm:col-span-10 col-span-6 xl:col-span-8">
+                                <img src="{{ asset("img/home/svg/SOMOS.svg") }}" alt="nuestro_equipo" class="w-full sm:translate-x-4 sm:translate-y-10 translate-y-4">
                             </div>
-                            <h3 class="text-devarana-graph pb-20 text-xl md:text-2xl col-span-12 md:col-span-10 lg:col-span-8 text-center md:text-left  font-playfair">Creadores, arquitectos y diseñadores de lo extraordinario</h3>
+                            <h3 class="text-devarana-graph  pb-8 md:pb-20 text-xl md:text-2xl col-span-12 md:col-span-10 lg:col-span-8 text-center md:text-left  font-playfair">Creadores, arquitectos y diseñadores de lo extraordinario</h3>
                         </div>
                         <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 text-left bg-home-banner bg-cover bg-top md:bg-center bg-no-repeat lg:min-h-[100px]">
                             <div class="py-4 md:py-0 sliderShow bg-devarana-blue transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">

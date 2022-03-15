@@ -65,7 +65,7 @@
 </div>
 
 <div class="px-10 md:px-20 py-10 md:py-20" id="royal-view">
-    <div class="grid grid-cols-12 gap-md:16">
+    <div class="grid grid-cols-12 md:gap-16">
         <div class="col-span-10 md:col-span-5 my-auto">
             <h2 class="text-devarana-blue text-2xl py-2">Royal View</h2>
             <p class="text-devarana-blue py-2 font-mulish font-extralight">2019 - Actualidad</p>
@@ -137,7 +137,8 @@
 
 <div class="translate-x-4 -translate-y-4 hidden scale-y-90 scale-x-105"></div>
 <div class="-translate-x-4 translate-y-4 hidden" ></div>
-<div class="md:px-20 py-10 md:py-20 px-10" id="desarrollos">
+
+<div class="md:px-20 py-10 md:py-20 px-10 md:block hidden" id="desarrollos">
     <div class="grid grid-cols-3 gap-20">
         <div class="md:col-span-1 col-span-3">
             <div class="bg-devarana-blue w-full">
@@ -183,6 +184,56 @@
         </div>
     </div>
 </div>
+
+<div class="p-10  md:hidden block">
+    <div class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg-devarana-pearl ">
+                <div class="bg-devarana-blue">
+                    <picture class="w-full block group-hover:hidden translate-x-4 -translate-y-4">
+                        {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
+                        <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full"> 
+                        <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full transition-all ease-in-out duration-700 parall">
+                    </picture>
+                </div>
+                <h3 class="py-6 text-devarana-graph">High Gardens</h3>
+                <p class="font-mulish font-extralight text-devarana-graph">2017 - 2018</p>
+                <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+            <div class="swiper-slide bg-devarana-pearl">
+                <div class="bg-devarana-blue">
+                    <picture class="w-full block group-hover:hidden scale-y-90 scale-x-105">
+                        {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
+                        <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg" class="w-full"> 
+                        <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA" class="w-full transition-all ease-in-out duration-700 parall">
+                    </picture>
+                </div>
+                <h3 class="py-6 text-devarana-graph">Upper Condesa</h3>
+                <p class="font-mulish font-extralight text-devarana-graph">2014 - 2016</p>
+                <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+            <div class="swiper-slide bg-devarana-pearl">
+                <div class="bg-devarana-blue w-full">
+                    <div class="bg-devarana-blue">
+                        <picture class="w-full block group-hover:hidden  -translate-x-4 translate-y-4">
+                            {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
+                            <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full"> 
+                            <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full transition-all ease-in-out duration-700 parall">
+                        </picture>
+                    </div>
+                </div>
+                <h3 class="py-6 text-devarana-graph">Gran Mayran</h3>
+                <p class="font-mulish font-extralight text-devarana-graph">2012 - 2013</p>
+                <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+        </div>
+        <div class="swiper-pagination responsive-swiper"></div>  
+    </div>
+</div>
+
+<style>
+    
+</style>
 
 <div class="bg-devarana-hazelnut md:py-20 py-10 relative overflow-hidden md:-z-20">
     

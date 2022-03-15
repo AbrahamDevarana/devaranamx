@@ -30,6 +30,17 @@ const Swipe2 = new Swiper('.mySwiper2', {
     },
 });
 
+const Swipe3 = new Swiper('.mySwiper3', {
+    pagination: {
+        el: ".swiper-pagination"
+    },
+    effect: "fade",
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+});
+
 
 const royal_view = document.getElementById("royal-view")
 const desarrollos = document.getElementById("desarrollos")

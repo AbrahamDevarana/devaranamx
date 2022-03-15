@@ -25,24 +25,23 @@ Route::get('/nuestra-trayectoria', function () {
 Route::get('/nuestro-equipo', function () {
     return view('nuestro-equipo.index');
 })->name('nuestro-equipo');
+Route::get('/quienes-somos', function () {
+    return view('quienes-somos.index');
+})->name('quienes-somos');
 Route::get('/contacto', function () {
     return view('contacto.index');
 })->name('contacto');
 
-Route::prefix('cms')->group( function () {
-    Route::resource('seo', SeoController::class);
-    Route::resource('page', PageController::class);
-});
+Route::get('/aviso-de-privacidad', function () {
+    return view('/aviso-de-privacidad');
+})->name('aviso-de-privacidad');
 
-Route::get('quienes-somos', [SeoController::class, 'quienesSEO'])->name('quienes-somos');
+// Route::prefix('cms')->group( function () {
+//     Route::resource('seo', SeoController::class);
+//     Route::resource('page', PageController::class);
+// });
 
 Route::post('contacto', [MailerController::class, 'contactoForm'])->name('contacto.send');
-Route::post('integracion', [MailerController::class, 'integracionForm'])->name('integracion');
-
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
 
 
 require __DIR__.'/auth.php';
