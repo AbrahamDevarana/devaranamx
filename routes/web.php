@@ -35,6 +35,9 @@ Route::get('/contacto', function () {
 Route::get('/aviso-de-privacidad', function () {
     return view('/aviso-de-privacidad');
 })->name('aviso-de-privacidad');
+Route::get('/gracias', function () {
+    return view('/gracias');
+})->name('gracias');
 
 // Route::prefix('cms')->group( function () {
 //     Route::resource('seo', SeoController::class);

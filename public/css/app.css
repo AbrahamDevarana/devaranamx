@@ -927,6 +927,9 @@ select {
 .-mt-40 {
   margin-top: -10rem;
 }
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
 .block {
   display: block;
 }
@@ -1079,6 +1082,18 @@ select {
 .w-\[85\%\] {
   width: 85%;
 }
+.w-screen {
+  width: 100vw;
+}
+.w-\[40px\] {
+  width: 40px;
+}
+.w-\[30px\] {
+  width: 30px;
+}
+.w-\[100px\] {
+  width: 100px;
+}
 .max-w-\[80\%\] {
   max-width: 80%;
 }
@@ -1132,6 +1147,12 @@ select {
 }
 .max-w-\[200px\] {
   max-width: 200px;
+}
+.max-w-\[450px\] {
+  max-width: 450px;
+}
+.max-w-\[240px\] {
+  max-width: 240px;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -1716,6 +1737,9 @@ select {
 }
 .pt-28 {
   padding-top: 7rem;
+}
+.pr-4 {
+  padding-right: 1rem;
 }
 .text-left {
   text-align: left;
