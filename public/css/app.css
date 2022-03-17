@@ -1375,6 +1375,9 @@ select {
 .p-10 {
   padding: 2.5rem;
 }
+.p-2 {
+  padding: 0.5rem;
+}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1657,6 +1660,9 @@ select {
 .opacity-50 {
   opacity: 0.5;
 }
+.opacity-20 {
+  opacity: 0.2;
+}
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -1795,6 +1801,9 @@ select {
 }
 .hover\:opacity-40:hover {
   opacity: 0.4;
+}
+.hover\:opacity-20:hover {
+  opacity: 0.2;
 }
 .hover\:blur-none:hover {
   --tw-blur: blur(0);

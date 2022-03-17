@@ -9,6 +9,7 @@ const tabsToggler = document.querySelectorAll(".tabs-button")
             sibilings = element.parentNode.children            
             for (let i = 0; i < sibilings.length; i++) {
                 sibilings[i].classList.remove("border-b-devarana-pink")
+                sibilings[i].classList.add("opacity-40")
             }
 
             // Ocultar Elementos
@@ -24,6 +25,7 @@ const tabsToggler = document.querySelectorAll(".tabs-button")
             setTimeout(() => {
                 selectedTab.classList.remove("opacity-0") 
                 this.classList.add("border-b-devarana-pink")
+                this.classList.remove("opacity-40")
             }, 100);
             
         }) 

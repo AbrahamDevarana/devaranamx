@@ -21,9 +21,9 @@
             </div>
             <div class="relative md:col-span-1 col-span-3 py-2">
                 <div class="grid grid-cols-12 content-end items-end mt-auto h-full">
-                    <a href="" class="hover:opacity-40 col-span-1 md:col-start-10 col-start-6 py-2"> <img src="{{ asset('img/icons/map.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
-                    <a href="" class="hover:opacity-40 col-span-1 py-2"> <img src="{{ asset('img/icons/facebook.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
-                    <a href="" class="hover:opacity-40 col-span-1 py-2"> <img src="{{ asset('img/icons/instagram.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
+                    <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" class="hover:opacity-40 col-span-1 md:col-start-10 col-start-6 py-2"> <img src="{{ asset('img/icons/map.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
+                    <a href="https://www.facebook.com/DevaranaResidences/" target="_blank" class="hover:opacity-40 col-span-1 py-2"> <img src="{{ asset('img/icons/facebook.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
+                    <a href="https://www.instagram.com/devarana.mx/?hl=es" target="_blank" class="hover:opacity-40 col-span-1 py-2"> <img src="{{ asset('img/icons/instagram.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
                     <div class="col-span-12 text-right">
                         <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" class="text-right hover:underline hover:decoration-2 underline-offset-1 align-bottom text-devarana-blue font-medium">Av. Valle de Acantha 88, Fracc. Zibatá, Sección Acantha, CP 76269, El Marqués, Querétaro.</a>
                     </div>
@@ -40,17 +40,23 @@
     <div class="relative">
         {{-- <div class="fixed right-4 bottom-4 z-30"> --}}
             <div class="z-30 fixed bottom-[6rem] -right-96 w-16 h-16 bg-devarana-midnight rounded-full my-2 content-center transition-all duration-200 socialGroup">
+                <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank">
+                    <img src="{{ asset("img/icons/map.svg") }}" alt="" class="w-full p-5">
+                </a>
             </div>
             <div class="z-30 fixed bottom-[11rem] -right-96 w-16 h-16 bg-devarana-midnight rounded-full my-2 content-center transition-all duration-300 socialGroup">
+                <a href="https://www.facebook.com/DevaranaResidences/" target="_blank">
+                    <img src="{{ asset("img/icons/facebook.svg") }}" alt="" class="w-full p-5">
+                </a>
             </div>
             <div class="z-30 fixed bottom-[16rem] -right-96 w-16 h-16 bg-devarana-midnight rounded-full my-2 content-center transition-all duration-500 socialGroup">
-            </div>
-            <div class="z-30 fixed bottom-[21rem] -right-96 w-16 h-16 bg-devarana-midnight rounded-full my-2 content-center transition-all duration-700 socialGroup">
-            </div>
-            <div class="z-30 fixed bottom-[26rem] -right-96 w-16 h-16 bg-devarana-midnight rounded-full my-2 content-center transition-all duration-1000 socialGroup">
+                <a href="https://www.instagram.com/devarana.mx/?hl=es" target="_blank">
+                    <img src="{{ asset("img/icons/instagram.svg") }}" alt="" class="w-full p-5">
+                </a>
             </div>
             <button class="fixed right-4 bottom-[1rem] z-30 w-16 h-16 bg-devarana-midnight rounded-full my-2 flex content-center m-auto" id="social">
-                <p class="m-auto text-devarana-pearl">Social</p>
+                {{-- <img src="{{ asset("img/logos/DevaranaIsotipo.png") }}" alt=""> --}}
+                <p class="m-auto text-devarana-pearl text-sm">Síguenos</p>
             </button>                                                       
         {{-- </div> --}}
     </div>

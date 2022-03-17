@@ -25,9 +25,9 @@
     </div>
     <div class="col-span-12 md:col-span-7">
         <div class="grid grid-cols-3">
-            <button class="text-devarana-midnight col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 border-b-devarana-pink" data-id="origen" id="origen-tab">Origen</button>
-            <button class="text-devarana-midnight col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 " data-id="mision" id="mision-tab">Misión</button>
-            <button class="text-devarana-midnight col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 " data-id="vision" id="vision-tab">Visión</button>
+            <button class="text-devarana-blue col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 border-b-devarana-pink" data-id="origen" id="origen-tab">Origen</button>
+            <button class="text-devarana-blue col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 opacity-40" data-id="mision" id="mision-tab">Misión</button>
+            <button class="text-devarana-blue col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 opacity-40" data-id="vision" id="vision-tab">Visión</button>
         </div>
     
         <div class="px-3 py-10 text-devarana-graph">
