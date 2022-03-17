@@ -55,7 +55,7 @@
                 </a>
             </div>
             <button class="fixed right-4 bottom-[6rem] md:bottom-[1rem] z-30 w-16 h-16 bg-devarana-midnight rounded-full my-2 flex content-center m-auto" id="social">
-                <img src="{{ asset("img/icons/siguenos-b.svg") }}" alt="" class="w-full">
+                <img src="{{ asset("img/icons/siguenos-b.svg") }}" alt="" class="w-full p-1">
                 {{-- <p class="m-auto text-devarana-pearl text-sm">Síguenos</p> --}}
             </button>                                                       
         {{-- </div> --}}
