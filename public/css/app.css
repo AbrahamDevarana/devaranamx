@@ -626,14 +626,11 @@ select {
 .left-\[50\%\] {
   left: 50%;
 }
-.bottom-\[6rem\] {
-  bottom: 6rem;
+.bottom-\[11rem\] {
+  bottom: 11rem;
 }
 .-right-96 {
   right: -24rem;
-}
-.bottom-\[11rem\] {
-  bottom: 11rem;
 }
 .bottom-\[16rem\] {
   bottom: 16rem;
@@ -641,14 +638,11 @@ select {
 .bottom-\[21rem\] {
   bottom: 21rem;
 }
-.bottom-\[26rem\] {
-  bottom: 26rem;
-}
 .right-4 {
   right: 1rem;
 }
-.bottom-\[1rem\] {
-  bottom: 1rem;
+.bottom-\[6rem\] {
+  bottom: 6rem;
 }
 .-left-24 {
   left: -6rem;
@@ -917,11 +911,11 @@ select {
 .h-20 {
   height: 5rem;
 }
-.min-h-screen {
-  min-height: 100vh;
-}
 .min-h-\[920px\] {
   min-height: 920px;
+}
+.min-h-screen {
+  min-height: 100vh;
 }
 .w-5 {
   width: 1.25rem;
@@ -965,9 +959,6 @@ select {
 .w-\[50\%\] {
   width: 50%;
 }
-.w-\[35\%\] {
-  width: 35%;
-}
 .w-\[80\%\] {
   width: 80%;
 }
@@ -979,6 +970,9 @@ select {
 }
 .w-\[40px\] {
   width: 40px;
+}
+.w-\[35\%\] {
+  width: 35%;
 }
 .w-11\/12 {
   width: 91.666667%;
@@ -1187,10 +1181,6 @@ select {
 .gap-20 {
   gap: 5rem;
 }
-.gap-x-10 {
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
-}
 .justify-self-end {
   justify-self: end;
 }
@@ -1303,27 +1293,6 @@ select {
 .bg-home-banner {
   background-image: url('/img/home/Somos-orgullosamente.jpg');
 }
-.bg-oficinas-devarana-2 {
-  background-image: url('/img/quienes-somos/OFICINAS-DEVARANA-2.jpg');
-}
-.bg-oficinas-devarana-3 {
-  background-image: url('/img/quienes-somos/OFICINAS-DEVARANA-3.jpg');
-}
-.bg-oficinas-devarana-4 {
-  background-image: url('/img/quienes-somos/OFICINAS-DEVARANA-4.jpg');
-}
-.bg-oficinas-devarana-5 {
-  background-image: url('/img/quienes-somos/OFICINAS-DEVARANA-5.jpg');
-}
-.bg-oficinas-devarana-6 {
-  background-image: url('/img/quienes-somos/OFICINAS-DEVARANA-6.jpg');
-}
-.bg-oficinas-devarana-7 {
-  background-image: url('/img/quienes-somos/OFICINAS-DEVARANA-7.jpg');
-}
-.bg-oficinas-devarana-1 {
-  background-image: url('/img/quienes-somos/OFICINAS-DEVARANA-1.jpg');
-}
 .bg-cover {
   background-size: cover;
 }
@@ -1366,17 +1335,14 @@ select {
 .p-6 {
   padding: 1.5rem;
 }
-.p-3 {
-  padding: 0.75rem;
-}
 .p-5 {
   padding: 1.25rem;
 }
+.p-3 {
+  padding: 0.75rem;
+}
 .p-10 {
   padding: 2.5rem;
-}
-.p-2 {
-  padding: 0.5rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -1468,9 +1434,6 @@ select {
 }
 .pt-8 {
   padding-top: 2rem;
-}
-.pb-28 {
-  padding-bottom: 7rem;
 }
 .pt-20 {
   padding-top: 5rem;
@@ -1615,10 +1578,6 @@ select {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
-.text-devarana-midnight {
-  --tw-text-opacity: 1;
-  color: rgb(36 42 56 / var(--tw-text-opacity));
-}
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1659,9 +1618,6 @@ select {
 }
 .opacity-50 {
   opacity: 0.5;
-}
-.opacity-20 {
-  opacity: 0.2;
 }
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -1801,9 +1757,6 @@ select {
 }
 .hover\:opacity-40:hover {
   opacity: 0.4;
-}
-.hover\:opacity-20:hover {
-  opacity: 0.2;
 }
 .hover\:blur-none:hover {
   --tw-blur: blur(0);
@@ -1973,6 +1926,22 @@ select {
     visibility: visible;
   }
 
+  .md\:bottom-\[6rem\] {
+    bottom: 6rem;
+  }
+
+  .md\:bottom-\[11rem\] {
+    bottom: 11rem;
+  }
+
+  .md\:bottom-\[16rem\] {
+    bottom: 16rem;
+  }
+
+  .md\:bottom-\[1rem\] {
+    bottom: 1rem;
+  }
+
   .md\:top-0 {
     top: 0px;
   }
@@ -2111,8 +2080,16 @@ select {
     height: 100vh;
   }
 
+  .md\:h-auto {
+    height: auto;
+  }
+
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:min-h-0 {
+    min-height: 0px;
   }
 
   .md\:min-h-\[300px\] {
@@ -2123,20 +2100,12 @@ select {
     min-height: 200px;
   }
 
-  .md\:min-h-0 {
-    min-height: 0px;
-  }
-
   .md\:w-5\/6 {
     width: 83.333333%;
   }
 
   .md\:w-8\/12 {
     width: 66.666667%;
-  }
-
-  .md\:w-\[1000px\] {
-    width: 1000px;
   }
 
   .md\:w-full {
@@ -2212,6 +2181,11 @@ select {
 
   .md\:gap-16 {
     gap: 4rem;
+  }
+
+  .md\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
   }
 
   .md\:border-t-0 {
@@ -2315,6 +2289,10 @@ select {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-5xl {
