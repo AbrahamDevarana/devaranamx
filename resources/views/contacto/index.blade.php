@@ -6,7 +6,7 @@
     <x-logo-nav name="Isotipo.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
-<div class="grid grid-cols-12 gap-x-10 md:-mb-52">
+<div class="grid grid-cols-12 md:gap-x-10 md:-mb-52">
     <div class="col-span-7 lg:col-span-7 xl:col-span-7">
         <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="" class="w-full -translate-x-10 -translate-y-10 md:-translate-x-32 md:-translate-y-20">
     </div>
@@ -44,7 +44,7 @@
 
 <div class="max-w-[800px] m-auto  py-10 px-10">
     <h1 class="text-center text-3xl text-devarana-pink">Estamos Felices de atenderte</h1>
-    <div class="grid grid-cols-3 gap-10 md:py-20 py-10 text-center text-devarana-graph">
+    <div class="grid grid-cols-3 md:gap-10 md:py-20 py-10 text-center text-devarana-graph">
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Ventas</h2>
             <p>Invierte con éxito</p>

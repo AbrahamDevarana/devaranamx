@@ -10,10 +10,10 @@
     <p class="font-playfair absolute z-30 top-16 bottom-0 left-0 right-0 my-auto px-10 text-5xl text-devarana-pearl md:hidden block">Quiénes <br> somos</p>
     <div class="md:max-w-[80%] md:ml-auto mt-auto -mb-[5%] flex z-20 max-w-full md:pt-10 pt-20">
        <div>
-            <img src="{{ asset("img/quienes-somos/mural.jpg") }}" alt="" class="w-full md:w-[1000px] pl-10 z-10">
+            <img src="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" alt="Devarana Arte" class="w-full pl-10 z-10">
        </div>
-       <div class="w-[35%]">
-            <img src="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" alt="" class="w-full pl-10 z-10">
+       <div>
+            <img src="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" alt="Devarana Statua" class="w-full pl-10 z-10 md:h-auto h-full ">
        </div>
     </div>
 </div>
@@ -45,14 +45,7 @@
 </div>
 
 
-<div class="bg-oficinas-devarana-2 hidden"></div>
-<div class="bg-oficinas-devarana-3 hidden"></div>
-<div class="bg-oficinas-devarana-4 hidden"></div>
-<div class="bg-oficinas-devarana-5 hidden"></div>
-<div class="bg-oficinas-devarana-6 hidden"></div>
-<div class="bg-oficinas-devarana-7 hidden"></div>
-
-<div class="mb-10 hidden md:grid md:grid-cols-3 grid-cols-1 pb-10 transition-all ease-in-out duration-1000 bg-center bg-cover bg-no-repeat bg-oficinas-devarana-1" id="bgGeneral"> 
+<div class="mb-10 hidden md:grid md:grid-cols-3 grid-cols-1 pb-10 transition-all ease-in-out duration-1000 bg-center bg-cover bg-no-repeat" id="bgGeneral" style="background-image: url('img/quienes-somos/OFICINAS-DEVARANA-1.jpg');background-color: #eadfd4"> 
     <div class="row-span-2 col-span-2 md:col-span-1 relative">
         <img src="{{ asset('img/quienes-somos/svg/NUESTROS_VALORES.svg') }}" alt="nuestros valores" class="w-[80%] md:w-full top-10 md:top-12 absolute px-4">
         <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl py-20">Valores</h2>

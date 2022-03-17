@@ -30,6 +30,7 @@ module.exports = {
           },
           transitionProperty: {
               'height': 'height',
+              'backgroundImage':'backgroundImage'
           },
           fontSize: {
               base: ['16px', '24px'],
