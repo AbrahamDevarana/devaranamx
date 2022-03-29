@@ -1,3 +1,9 @@
+@php
+    $metaTitle = "Home";
+    $metaDescripcion = "";
+    $metaKeywords = "";
+@endphp
+
 @extends('layouts.app')
 @section('content')
 
@@ -17,18 +23,17 @@
             <source srcset="{{ asset('img/home/SomosDevarana.png') }}" type="image/png">
                 <img src="{{ asset("img/home/SomosDevarana.png") }}" alt="Devarana Oficinas" class="absolute transition duration-1000 top-[80px]" id="bgBuilding">
         </picture>
-        
     </div>
 
     <div id="quienes" class="lg:py-20 md:py-10 px-10 bg-devarana-pearl">
-        <div class="grid grid-cols-3">
-            <div class="relative md:col-span-1 flex col-span-3">
-                <h1 class="text-devarana-blue font-playfair text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-right md:px-10 flex items-center justify-center w-full lg:py-0 py-8 z-10">Quiénes somos</h1>
+        <div class="grid grid-cols-12">
+            <div class="relative md:col-span-5 flex col-span-12">
+                <h2 class="text-devarana-blue font-playfair text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-right md:px-10 flex items-center justify-center w-full lg:py-0 py-8 z-10">Quiénes somos</h2>
                 <p class="w-full inline-flex font-bold absolute text-devarana-pearl text-4xl md:text-5xl lg:text-7xl xl:text-8xl uppercase top-5 right-0 bottom-0 lg:-top-5 lg:left-0 lg:right-20 lg:bottom-0 z-0 text-left font-mulish"
                 style="text-shadow: 0px 0px 1px #787878;"> quiénes somos </p>
             </div>
-            <div class="md:col-span-2 col-span-3 items-center md:px-5">
-                <h1 class="text-devarana-blue text-4xl">DEVARANA empresa México - Holandesa</h1>
+            <div class="md:col-span-7 col-span-12 items-center md:px-5">
+                <h1 class="text-devarana-blue text-4xl py-3">DEVARANA empresa México - Holandesa</h1>
                 <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base py-2">Creamos proyectos inmobiliarios de primer nivel. Gracias a la dedicación, ética y visión a largo plazo. Logrando una calidad extraordinaria en diseño, construcción y acabados. </p>
                 <div class="flex md:w-5/6 py-2 md:py-4">
                     <x-link href="{{route('quienes-somos')}}" class="ml-auto"> Saber más </x-link>

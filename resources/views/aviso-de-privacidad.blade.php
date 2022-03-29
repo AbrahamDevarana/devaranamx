@@ -1,3 +1,9 @@
+@php
+    $metaTitle = "Aviso de Privacidad";
+    $metaDescripcion = "";
+    $metaKeywords = "";
+@endphp
+
 @extends('layouts.app')
 @section('content')
     <x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">    

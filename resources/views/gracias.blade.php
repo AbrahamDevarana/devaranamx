@@ -1,3 +1,9 @@
+@php
+    $metaTitle = "Gracias";
+    $metaDescripcion = "";
+    $metaKeywords = "";
+@endphp
+
 @extends('layouts.app')
 @section('content')
 

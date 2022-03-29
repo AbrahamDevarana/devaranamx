@@ -1,3 +1,9 @@
+@php
+    $metaTitle = "Nuestro Equipo";
+    $metaDescripcion = "";
+    $metaKeywords = "";
+@endphp
+
 @extends('layouts.app')
 @section('content')
 
@@ -6,23 +12,12 @@
 </x-nav>
 
 <div id="header" class="bg-devarana-hazelnut grid grid-cols-12 mb-36 relative -z-30">
-{{-- <div id="header" class="bg-devarana-hazelnut grid grid-cols-12 -z-30">
-    <div class="col-span-10 m-auto grid grid-cols-12 w-full col-start-2 pb-20 gap-10 z-20">
-        <img src="{{ asset("img/nuestro-equipo/HEADER.jpg") }}" alt="" class="w-full md:col-span-8 translate-y-40 -z-20">
-        <div class="md:col-span-4 z-30">
-            <h1 class="md:block hidden text-devarana-blue md:text-4xl lg:text-5xl font-playfair my-auto translate-y-[400%] ">¿Por qué <span class="w-full inline-block z-30 tracking-widest">DEVARANA?</span></h1>        
-        </div>
-        <div class="col-span-5 col-start-7">
-            <img src="{{ asset("img/nuestro-equipo/svg/NUESTRO_EQUIPO.svg") }}" alt="nuestro equipo" class="-z-10 -translate-y-[200%]"> 
-        </div>
-    </div> --}}
-
     
     <div class="max-w-[80%] md:mt-auto md:-mb-[5%] -mb-[30%] flex md:col-span-8 md:-z-20 md:pt-40 col-span-12 mx-auto pt-28">
         <img src="{{ asset("img/nuestro-equipo/HEADER.jpg") }}" alt="" class="w-full md:pl-10">
     </div>
     <h1 class="md:block hidden text-devarana-blue text-4xl lg:text-5xl font-playfair my-auto col-span-4">¿Por qué <span class="text-4xl lg:text-5xl w-full inline-block z-30 tracking-widest">DEVARANA?</span></h1>
-    <h1 class="md:hidden block drop-shadow-lg -mt-36 pl-10 text-4xl  font-playfair col-span-12 span-4 text-devarana-pearl tracking-wider -translate-x-5 translate-y-2">Nuestro equipo</h1>
+    <h2 class="md:hidden block drop-shadow-lg -mt-36 pl-10 text-4xl  font-playfair col-span-12 span-4 text-devarana-pearl tracking-wider -translate-x-5 translate-y-2">Nuestro equipo</h2>
     <img src="{{ asset("img/nuestro-equipo/svg/NUESTRO_EQUIPO.svg") }}" alt="nuestro equipo" class="absolute max-w-[50%] md:ml-auto top-0 bottom-0 left-0 right-0 my-auto px-10 -z-10 -translate-x-5 md:-translate-y-1/4 md:-translate-x-1/4 -translate-y-2/4">
 </div>
 

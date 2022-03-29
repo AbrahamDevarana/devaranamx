@@ -1,3 +1,9 @@
+@php
+    $metaTitle = "Nuestra Trayectoria";
+    $metaDescripcion = "";
+    $metaKeywords = "";
+@endphp
+
 @extends('layouts.app')
 @section('content')
 
@@ -52,7 +58,7 @@
     <div class="grid md:grid-cols-2">
         <div class="col-span-2 md:col-span-1 flex">
             <div class="relative m-auto md:px-16 py-8">
-                <h1 class="text-5xl text-devarana-blue text-center ">Trayectoria</h1>
+                <p class="text-5xl text-devarana-blue text-center font-playfair">Trayectoria</p>
                 <img src="{{ asset("img/trayectoria/svg/NUESTRA.svg") }}" alt="somos" class="m-auto max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1/3 -translate-x-1/4 opacity-40">
             </div>
         </div>
@@ -247,7 +253,7 @@
     
     <div class="px-10 md:px-20 z-50 block">
         <div class="relative">
-            <h1 class="text-5xl text-devarana-blue ">Política de calidad</h1>
+            <h2 class="text-5xl text-devarana-blue ">Política de calidad</h2>
             <img src="{{ asset("img/trayectoria/svg/ISO90012015.svg") }}" alt="somos" class="md:mx-20 max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-2/4 md:-translate-x-1/4 -translate-x-5">
         </div>
 
@@ -274,7 +280,7 @@
 <div class="md:py-20 py-10 px-10">
     <div class="max-w-[800px] m-auto">
         <div class="relative flex py-4">
-            <h1 class="text-5xl text-devarana-pink text-right ml-auto">Clientes</h1>
+            <h2 class="text-5xl text-devarana-pink text-right ml-auto">Clientes</h2>
             <img src="{{ asset("img/trayectoria/svg/TESTIMONIOS.svg") }}" alt="somos" class="ml-auto max-w-[250px] md:max-w-[450px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1 md:-translate-y-1/4 -translate-x-1/4 opacity-80">
         </div>
         <div class="grid grid-cols-2">

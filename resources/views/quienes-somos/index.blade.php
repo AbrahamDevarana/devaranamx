@@ -1,3 +1,9 @@
+@php
+    $metaTitle = "Quienes somos";
+    $metaDescripcion = "";
+    $metaKeywords = "";
+@endphp
+
 @extends('layouts.app')
 @section('content')
 
