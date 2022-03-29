@@ -49,7 +49,7 @@
 
 
 <div class="md:px-20 px-10 py-10">
-    <div class="grid md:grid-cols-2 gap-10">
+    <div class="grid md:grid-cols-2">
         <div class="col-span-2 md:col-span-1 flex">
             <div class="relative m-auto md:px-16 py-8">
                 <h1 class="text-5xl text-devarana-blue text-center ">Trayectoria</h1>
@@ -57,8 +57,12 @@
             </div>
         </div>
         <div class="col-span-2 md:col-span-1">
-            <p class="text-devarana-graph text-justify md:px-10">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            <h1 class="text-devarana-blue text-4xl md:px-5 py-2">Empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario.</h1>
+            <p class="text-devarana-graph text-justify md:px-5 py-2">
+                Contamos con los más altos estándares de calidad en obra y vanguardia en sistemas de construcción. Conformamos un equipo propio de arquitectura e ingeniería con gran experiencia.
+            </p>
+            <p class="text-devarana-graph text-justify md:px-5">
+                Implementamos procedimientos de aseguramiento de calidad en todas las etapas del diseño y la construcción. Con ello ofrecemos un producto de primer nivel con los mejores acabados y logramos siempre el máximo valor agregado para nuestros clientes.
             </p>
         </div>
     </div>
@@ -69,7 +73,7 @@
         <div class="col-span-10 md:col-span-5 my-auto">
             <h2 class="text-devarana-blue text-2xl py-2">Royal View</h2>
             <p class="text-devarana-blue py-2 font-mulish font-extralight">2019 - Actualidad</p>
-            <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="text-devarana-graph py-4">Proyectos con personalidad y acabados exclusivos, que nos permiten ofrecer una inigualable calidad de vida y gran plusvalía.</p>
             <div class="flex">
                 <button href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500">
                     <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="hidden group-hover:block w-8 mr-2">

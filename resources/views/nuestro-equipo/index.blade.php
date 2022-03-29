@@ -29,7 +29,7 @@
 <div class="py-28">
     <div class="grid grid-cols-12 md:gap-10">
         <p class="col-span-10 col-start-2 md:col-span-7 text-devarana-blue text-center lg:px-32 md:px-24  my-auto">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            Dedicación, ética y visión a largo plazo, así como un gran equipo de colaboradores apasionados que construyen día a día un servicio legendario.
         </p>
         <div class="grid md:grid-cols-4 grid-cols-2 md:col-span-5 col-span-12">
             <div class="col-span-1">

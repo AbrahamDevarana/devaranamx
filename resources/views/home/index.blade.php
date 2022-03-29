@@ -27,10 +27,11 @@
                 <p class="w-full inline-flex font-bold absolute text-devarana-pearl text-4xl md:text-5xl lg:text-7xl xl:text-8xl uppercase top-5 right-0 bottom-0 lg:-top-5 lg:left-0 lg:right-20 lg:bottom-0 z-0 text-left font-mulish"
                 style="text-shadow: 0px 0px 1px #787878;"> quiénes somos </p>
             </div>
-            <div class="md:col-span-2 col-span-3">
-                <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <div class="md:col-span-2 col-span-3 items-center md:px-5">
+                <h1 class="text-devarana-blue text-4xl">DEVARANA empresa México - Holandesa</h1>
+                <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base py-2">Creamos proyectos inmobiliarios de primer nivel. Gracias a la dedicación, ética y visión a largo plazo. Logrando una calidad extraordinaria en diseño, construcción y acabados. </p>
                 <div class="flex md:w-5/6 py-2 md:py-4">
-                    <x-link href="/" class="ml-auto"> Saber más </x-link>
+                    <x-link href="{{route('quienes-somos')}}" class="ml-auto"> Saber más </x-link>
                 </div>
             </div>
         </div>
@@ -61,7 +62,7 @@
        </div>
     </div>
 
-    <h2 class="text-base text-devarana-graph text-center py-4 px-4 max-w-[800px] w-full m-auto">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. “</h2>
+    <h2 class="text-base text-devarana-graph text-center py-4 px-4 max-w-[800px] w-full m-auto">Conoce más sobre nuestra historia de éxito, con más de 10 años de experiencia en el sector de inversión inmobiliaria, en la ciudad de Querétaro.</h2>
 
     <div class="flex  md:py-4">
         <x-link href="{{ route('nuestra-trayectoria')}}" class="m-auto"> Nuestra trayectoria </x-link>
@@ -177,7 +178,7 @@
         </div>
         <div class="py-10">
             <div class="flex -my-32">
-                <x-link href="/" class="m-auto"> Conoce más </x-link>
+                <x-link href="{{ route('nuestro-equipo') }}" class="m-auto"> Conoce más </x-link>
 
             </div>
         </div>

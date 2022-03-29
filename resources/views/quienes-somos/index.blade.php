@@ -86,7 +86,7 @@
         <p class="font-mulish">La atención en los detalles, nuestro servicio legendario y esfuerzo por la satisfacción total, son parte de nuestra esencia.</p>
     </div>
     <div class="col-span-3 py-10 flex">
-        <x-link href="/" class="m-auto block bg-transparent"> Conoce a nuestro equipo </x-link>
+        <x-link href="{{ route('nuestro-equipo') }}" class="m-auto block bg-transparent"> Conoce a nuestro equipo </x-link>
     </div>
 </div>
 

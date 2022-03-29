@@ -1,11 +1,10 @@
-// Grab HTML Elements
+
 const btn = document.querySelector("#btnResponsiveMenu");
 const menu = document.querySelector(".mobile-menu");
 
 const imgOpen = document.querySelector("#imgOpen");
 const imgClose = document.querySelector("#imgClose");
 
-// Add Event Listeners
 btn.addEventListener("click", () => {
     menu.classList.toggle("hidden");
     imgOpen.classList.toggle("hidden")
@@ -48,7 +47,7 @@ const menuColors = () => {
     let yPos = window.scrollY
 
     if(headerSize){
-        if(yPos > headerSize.offsetHeight - 30){
+        if(yPos > headerSize.offsetHeight - 120){
             navigation.classList.add("bg-devarana-pearl")
             navigation.classList.remove("bg-transparent")
             navigation.classList.add("text-devarana-graph")
