@@ -6,12 +6,12 @@
                 <a href="{{ route('/') }}">
                     <picture>
                         <source srcset="{{ asset('img/logos/LogoDevarana.webp')}}" type="image/webp">
-                        <source srcset="{{ asset('img/logos/LogoDevarana.png')}}" type="image/png"> 
-                        <img src="{{ asset('img/logos/LogoDevarana.png')}}" alt="Inauguración Devarana" class="w-[200px] max-w-full m-auto md:ml-0">
+                        <source srcset="{{ asset('img/logos/LogoDevarana.png')}}" type="image/png">
+                        <img src="{{ asset('img/logos/LogoDevarana.png')}}" alt="Inauguración Devarana" class="max-w-[250px]  w-full m-auto md:ml-0">
                     </picture>
                 </a>
-                <p class="text-center md:text-left font-extralight text-devarana-blue">Ventas: <a href="tel:4428244444" class="hover:underline hover:decoration-2 underline-offset-1 font-medium">  (442) 824 4444</a></p>
-               
+                <p class="text-center md:text-left font-extralight text-devarana-blue pt-5">Ventas: <a href="tel:4428244444" class="hover:underline hover:decoration-2 underline-offset-1 font-medium">  (442) 824 4444</a></p>
+
             </div>
             <div class="text-devarana-blue text-center md:col-span-1 col-span-3 md:pt-32 py-10">
                 <ul>
@@ -32,10 +32,10 @@
         </div>
     </div>
     <div class="px-2 bg-devarana-blue text-devarana-pearl w-full text-center inline-flex justify-center py-2 font-mulish font-medium tracking-wide">
-        <p>Derechos reservados DEVARANA 2022  </p> 
+        <p>Derechos reservados DEVARANA 2022  </p>
         <p class="px-2"> | </p>
         <a href="{{ route('aviso-de-privacidad') }}">  Aviso de Privacidad</a>
-    </div>  
+    </div>
 
     <div class="relative">
         {{-- <div class="fixed right-4 bottom-4 z-30"> --}}
@@ -57,7 +57,7 @@
             <button class="fixed right-4 bottom-[6rem] md:bottom-[1rem] z-30 w-16 h-16 bg-devarana-midnight rounded-full my-2 flex content-center m-auto" id="social">
                 <img src="{{ asset("img/icons/siguenos-b.svg") }}" alt="" class="w-full p-1">
                 {{-- <p class="m-auto text-devarana-pearl text-sm">Síguenos</p> --}}
-            </button>                                                       
+            </button>
         {{-- </div> --}}
     </div>
 </footer>

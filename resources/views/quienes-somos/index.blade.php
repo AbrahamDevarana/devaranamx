@@ -7,12 +7,12 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">    
+<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">
     <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
 </x-nav>
 
-<div id="header" class="bg-devarana-hazelnut sm:min-h-[800px] flex md:mb-36 mb-20 relative">
-    <img src="{{ asset("img/quienes-somos/svg/QUIENES_SOMOS.svg") }}" alt="quienes somos" class="absolute z-30 w-[50%] top-6 md:top-0 bottom-0 left-0 right-0 md:my-auto px-10">
+<div id="header" class="bg-devarana-hazelnut sm:min-h-[450px] md:min-h-[600px] xl:min-h-[800px] flex md:mb-36 mb-20 relative">
+    <img src="{{ asset("img/quienes-somos/svg/QUIENES_SOMOS.svg") }}" alt="quienes somos" class="absolute z-30 w-[50%] top-6 md:-top-32 bottom-0 left-0 right-0 md:my-auto px-10">
     <p class="font-playfair absolute z-30 top-16 bottom-0 left-0 right-0 my-auto px-10 text-5xl text-devarana-pearl md:hidden block">Quiénes <br> somos</p>
     <div class="md:max-w-[80%] md:ml-auto mt-auto -mb-[5%] flex z-20 max-w-full md:pt-10 pt-20">
        <div>
@@ -27,31 +27,31 @@
 
 <div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto md:gap-10 md:py-24 py-10">
     <div class="col-span-12 md:col-span-5 flex">
-        <h1 class="m-auto text-2xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, arquitectos y diseñadores de lo extraordinario.</h1>
+        <h1 class="m-auto text-2xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, <br>arquitectos y <br> diseñadores de lo extraordinario.</h1>
     </div>
     <div class="col-span-12 md:col-span-7">
-        <div class="grid grid-cols-3">
-            <button class="text-devarana-blue col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 border-b-devarana-pink" data-id="origen" id="origen-tab">Origen</button>
-            <button class="text-devarana-blue col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 opacity-40" data-id="mision" id="mision-tab">Misión</button>
-            <button class="text-devarana-blue col-span-1 md:py-0 py-10 font-playfair text-base tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 opacity-40" data-id="vision" id="vision-tab">Visión</button>
+        <div class="grid grid-cols-3 pt-8 md:py-0">
+            <button class="text-devarana-blue col-span-1 md:text-left md:py-3 py-2 font-playfair text-2xl tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 border-b-devarana-pink" data-id="origen" id="origen-tab">Origen</button>
+            <button class="text-devarana-blue col-span-1 md:text-left md:py-3 py-2 font-playfair text-2xl tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 opacity-40" data-id="mision" id="mision-tab">Misión</button>
+            <button class="text-devarana-blue col-span-1 md:text-left md:py-3 py-2 font-playfair text-2xl tabs-button w-full border-0 border-b-2 transition-all ease-in-out duration-700 opacity-40" data-id="vision" id="vision-tab">Visión</button>
         </div>
-    
-        <div class="px-3 py-10 text-devarana-graph">
+
+        <div class="px-3 md:px-0 py-10 text-devarana-graph">
             <div class="tabs-div transition-all duration-1000 ease-in-out" id="origen-div">
-                <p class="font-mulish py-2">Somos una empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario, que nace con el deseo de construir desarrollos del más alto nivel.</p>
+                <p class="font-mulish py-2 text-devarana-graph text-base">Somos una empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario, que nace con el deseo de construir desarrollos del más alto nivel.</p>
             </div>
             <div class="tabs-div transition-all duration-1000 ease-in-out hidden" id="mision-div">
-                <p class="font-mulish py-2">Inspiramos al mundo creando espacios únicos con amor y pasión, cuidando nuestro entorno, la rentabilidad y el bienestar de nuestros clientes.</p>
+                <p class="font-mulish py-2 text-devarana-graph text-base">Inspiramos al mundo creando espacios únicos con amor y pasión, cuidando nuestro entorno, la rentabilidad y el bienestar de nuestros clientes.</p>
             </div>
             <div class="tabs-div transition-all duration-1000 ease-in-out hidden" id="vision-div">
-                <p class="font-mulish py-2">Seremos el referente en la creación de desarrollos inmobiliarios extraordinarios en las zonas estratégicas de México, destacando en diseño, calidad y servicio.</p>
+                <p class="font-mulish py-2 text-devarana-graph text-base">Seremos el referente en la creación de desarrollos inmobiliarios extraordinarios en las zonas estratégicas de México, destacando en diseño, calidad y servicio.</p>
             </div>
         </div>
     </div>
 </div>
 
 
-<div class="mb-10 hidden md:grid md:grid-cols-3 grid-cols-1 pb-10 transition-all ease-in-out duration-1000 bg-center bg-cover bg-no-repeat" id="bgGeneral" style="background-image: url('img/quienes-somos/OFICINAS-DEVARANA-1.jpg');background-color: #eadfd4"> 
+<div class="mb-10 hidden md:grid md:grid-cols-3 grid-cols-1 pb-10 transition-all ease-in-out duration-1000 bg-center bg-cover bg-no-repeat" id="bgGeneral" style="background-image: url('img/quienes-somos/OFICINAS-DEVARANA-1.jpg');background-color: #eadfd4">
     <div class="row-span-2 col-span-2 md:col-span-1 relative">
         <img src="{{ asset('img/quienes-somos/svg/NUESTROS_VALORES.svg') }}" alt="nuestros valores" class="w-[80%] md:w-full top-10 md:top-12 absolute px-4">
         <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl py-20">Valores</h2>
@@ -150,7 +150,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset("css/quienes-somos.css")}}" />
 @endsection
-    
+
 @section("scripts")
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="{{ asset('js/quienes-somos/index.js') }}"></script>

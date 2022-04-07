@@ -7,7 +7,7 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">    
+<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">
     <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
 </x-nav>
 
@@ -18,34 +18,34 @@
         <div class="swiper-slide">
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.webp')}}" type="image/webp"> --}}
-                <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" alt="HEADER-royal-view" class="w-full md:h-screen">
+                <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" type="image/jpg">
+                <img src="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" alt="HEADER-royal-view" class="w-full md:h-screen object-cover">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> Royal View </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> Royal View - Actual</p>
         </div>
         <div class="swiper-slide">
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.webp')}}" type="image/webp"> --}}
-                <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" alt="HEADER-HIGH-GARDENS" class="w-full md:h-screen">
+                <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" type="image/jpg">
+                <img src="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" alt="HEADER-HIGH-GARDENS" class="w-full md:h-screen object-cover">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> High Gardens </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> High Gardens 2012 - 2018</p>
         </div>
         <div class="swiper-slide">
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.webp')}}" type="image/webp"> --}}
-                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen">
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" type="image/jpg">
+                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen object-cover">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> Upper Condesa </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> Upper Condesa 2014 - 2016</p>
         </div>
         <div class="swiper-slide">
             <picture>
                 {{-- <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.webp')}}" type="image/webp"> --}}
-                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" type="image/jpg"> 
-                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen">
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" type="image/jpg">
+                <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen object-cover">
             </picture>
-            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden"> Grand Mayran </p>
+            <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> Grand Mayran 2012 - 2013</p>
         </div>
     </div>
         <div class="md:block hidden  md:visible invisible swiper-pagination bg-devarana-blue py-2 border-l-white border-l"></div>
@@ -92,54 +92,54 @@
                     <div class="swiper-slide py-10 bg-devarana-pearl">
                         <picture>
                             {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW1.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW1.jpg')}}" type="image/jpg"> 
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW1.jpg')}}" type="image/jpg">
                             <img src="{{ asset('img/trayectoria/ROYAL-VIEW1.jpg')}}" alt="ROYAL-VIEW1" class="w-full">
                         </picture>
                     </div>
                     <div class="swiper-slide py-10 bg-devarana-pearl">
                         <picture>
                             {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW2.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW2.jpg')}}" type="image/jpg"> 
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW2.jpg')}}" type="image/jpg">
                             <img src="{{ asset('img/trayectoria/ROYAL-VIEW2.jpg')}}" alt="ROYAL-VIEW2" class="w-full">
                         </picture>
                     </div>
                     <div class="swiper-slide py-10 bg-devarana-pearl">
                         <picture>
                             {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW3.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW3.jpg')}}" type="image/jpg"> 
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW3.jpg')}}" type="image/jpg">
                             <img src="{{ asset('img/trayectoria/ROYAL-VIEW3.jpg')}}" alt="ROYAL-VIEW3" class="w-full">
                         </picture>
                     </div>
                     <div class="swiper-slide py-10 bg-devarana-pearl">
                         <picture>
                             {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW4.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW4.jpg')}}" type="image/jpg"> 
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW4.jpg')}}" type="image/jpg">
                             <img src="{{ asset('img/trayectoria/ROYAL-VIEW4.jpg')}}" alt="ROYAL-VIEW4" class="w-full">
                         </picture>
                     </div>
                     <div class="swiper-slide py-10 bg-devarana-pearl">
                         <picture>
                             {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW5.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW5.jpg')}}" type="image/jpg"> 
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW5.jpg')}}" type="image/jpg">
                             <img src="{{ asset('img/trayectoria/ROYAL-VIEW5.jpg')}}" alt="ROYAL-VIEW5" class="w-full">
                         </picture>
                     </div>
                     <div class="swiper-slide py-10 bg-devarana-pearl">
                         <picture>
                             {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW6.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW6.jpg')}}" type="image/jpg"> 
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW6.jpg')}}" type="image/jpg">
                             <img src="{{ asset('img/trayectoria/ROYAL-VIEW6.jpg')}}" alt="ROYAL-VIEW6" class="w-full">
                         </picture>
                     </div>
                     <div class="swiper-slide py-10 bg-devarana-pearl">
                         <picture>
                             {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW7.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW7.jpg')}}" type="image/jpg"> 
+                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW7.jpg')}}" type="image/jpg">
                             <img src="{{ asset('img/trayectoria/ROYAL-VIEW7.jpg')}}" alt="ROYAL-VIEW7" class="w-full">
                         </picture>
                     </div>
                 </div>
-                <div class="swiper-scrollbar" style=""></div>  
+                <div class="swiper-scrollbar" style=""></div>
             </div>
         </div>
     </div>
@@ -154,7 +154,7 @@
             <div class="bg-devarana-blue w-full">
                 <picture class="w-full block group-hover:hidden">
                     {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
-                    <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full"> 
+                    <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full">
                     <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full transition-all ease-in-out duration-700 parall">
                 </picture>
             </div>
@@ -168,7 +168,7 @@
             <div class="bg-devarana-blue w-full">
                 <picture class="w-full block group-hover:hidden">
                     {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
-                    <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg" class="w-full"> 
+                    <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg" class="w-full">
                     <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA" class="w-full transition-all ease-in-out duration-700 parall">
                 </picture>
             </div>
@@ -182,7 +182,7 @@
             <div class="bg-devarana-blue w-full">
                 <picture class="w-full block group-hover:hidden">
                     {{-- <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.webp')}}" type="image/webp"> --}}
-                    <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" type="image/jpg" class="w-full"> 
+                    <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" type="image/jpg" class="w-full">
                     <img src="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" alt="GRANMAYRAN" class="w-full transition-all ease-in-out duration-700 parall">
                 </picture>
             </div>
@@ -202,7 +202,7 @@
                 <div class="bg-devarana-blue">
                     <picture class="w-full block group-hover:hidden translate-x-4 -translate-y-4">
                         {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
-                        <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full"> 
+                        <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full">
                         <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full transition-all ease-in-out duration-700 parall">
                     </picture>
                 </div>
@@ -214,7 +214,7 @@
                 <div class="bg-devarana-blue">
                     <picture class="w-full block group-hover:hidden scale-y-90 scale-x-105">
                         {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
-                        <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg" class="w-full"> 
+                        <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg" class="w-full">
                         <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA" class="w-full transition-all ease-in-out duration-700 parall">
                     </picture>
                 </div>
@@ -227,7 +227,7 @@
                     <div class="bg-devarana-blue">
                         <picture class="w-full block group-hover:hidden  -translate-x-4 translate-y-4">
                             {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full"> 
+                            <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full">
                             <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full transition-all ease-in-out duration-700 parall">
                         </picture>
                     </div>
@@ -237,20 +237,20 @@
                 <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
             </div>
         </div>
-        <div class="swiper-pagination responsive-swiper"></div>  
+        <div class="swiper-pagination responsive-swiper"></div>
     </div>
 </div>
 
 <style>
-    
+
 </style>
 
-<div class="bg-devarana-hazelnut md:py-20 py-10 relative overflow-hidden md:-z-20">
-    
+<div class="bg-devarana-hazelnut md:py-20 py-10 relative overflow-hidden md:-z-20 mb-10">
+
     <div class="hidden absolute w-full h-full md:flex justify-end right-0 bottom-0 -z-10">
         <img src="{{"img/trayectoria/svg/DEVARANA_iso.svg"}}" alt="" class="-mr-20 -mb-20 opacity-70 w-[35%]">
     </div>
-    
+
     <div class="px-10 md:px-20 z-50 block">
         <div class="relative">
             <h2 class="text-5xl text-devarana-blue ">Política de calidad</h2>
@@ -259,7 +259,7 @@
 
         <div class="py-6 text-devarana-graph">
             <p class="">En DEVARANA hemos asumido el compromiso de implementar un modelo de Gestión de la Calidad, basado en la norma ISO 9001-2015, que nos proporcione un marco de referencia integral para el establecimiento de objetivos específicos de calidad y con la finalidad de, a través de la mejora continua, conseguir la satisfacción total de nuestros colaboradores, clientes y socios de negocio, convirtiéndonos en un referente en el sector de desarrollo inmobiliario, por los estándares de calidad que empleamos en el servicio que ofrecemos y los productos que desarrollamos.</p>
-                      
+
             <p class="py-4">En un mercado en continua expansión, DEVARANA se mantiene como líder del sector
                 inmobiliario, al tener siempre presente que nuestro éxito es consecuencia de honrar los
                 siguientes principios de calidad:</p>
@@ -277,7 +277,7 @@
     </div>
 </div>
 
-<div class="md:py-20 py-10 px-10">
+<div class="md:py-20 py-10 px-10 hidden ">
     <div class="max-w-[800px] m-auto">
         <div class="relative flex py-4">
             <h2 class="text-5xl text-devarana-pink text-right ml-auto">Clientes</h2>
@@ -295,14 +295,14 @@
     </div>
 </div>
 
-   
+
 @endsection
 
 @section('styles')
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset("css/nuestra-trayectoria.css")}}" />
 @endsection
-    
+
     @section("scripts")
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="{{ asset('js/nuestra-trayectoria/index.js') }}"></script>

@@ -2,7 +2,7 @@
     {{-- Regular Menu --}}
     <nav {{ $attributes->merge(['class' => 'fixed w-full hidden md:block transition-all duration-500  z-40']) }}  id="navigation">
         <div class="relative">
-            <div class="md:w-8/12 m-auto py-3 flex">
+            <div class="md:w-10/12 m-auto py-3 flex">
                 <ul class="list-none grid grid-cols-6 grid-flow-col text-center font-playfair m-auto w-full relative">
                     <li class="hidden md:flex m-auto drop-shadow-lg  relative">
                         <a href="/" title="Home" {{ $attributes['hidden'] }}>
@@ -12,21 +12,21 @@
                         </a>
                         <a href="{{ route('quienes-somos') }}" class="hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('quienes-somos')? 'text-devarana-blue' : '' }}">Quiénes somos</a>
                     </li>
-                    
+
                     <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('nuestro-equipo')? 'text-devarana-blue' : '' }}"><a href="{{ route('nuestro-equipo') }}">Nuestro equipo</a></li>
-                    <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest col-span-2"> 
+                    <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest col-span-2">
                         <a href="{{ route('/') }}">
                             {{ $slot }}
                         </a>
                     </li>
                     <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('nuestra-trayectoria')? 'text-devarana-blue' : '' }}"><a href="{{ route('nuestra-trayectoria') }}">Nuestra trayectoria</a></li>
                     <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('contacto')? 'text-devarana-blue' : '' }}"><a href="{{ route('contacto') }}">Contacto</a></li>
-                   
+
                 </ul>
             </div>
         </div>
-    </nav>   
-    
+    </nav>
+
     {{-- Responsive Menu --}}
     <nav class="md:hidden hidden mobile-menu fixed w-full bg-devarana-midnight z-50 transition-all duration-300 ease-in-out opacity-0 shadow-lg h-screen overflow-hidden">
         <div class="flex py-2">

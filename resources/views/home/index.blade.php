@@ -7,7 +7,7 @@
 @extends('layouts.app')
 @section('content')
 
-    <x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png" hidden="hidden">    
+    <x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png" hidden="hidden">
         <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
         {{-- <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav> --}}
     </x-nav>
@@ -25,15 +25,15 @@
         </picture>
     </div>
 
-    <div id="quienes" class="lg:py-20 md:py-10 px-10 bg-devarana-pearl">
-        <div class="grid grid-cols-12">
+    <div id="quienes" class="lg:py-20 md:py-10 px-10 bg-devarana-pearl max-w-screen-2xl xl:m-auto">
+        <div class="grid grid-cols-12 lg:gap-x-16">
             <div class="relative md:col-span-5 flex col-span-12">
-                <h2 class="text-devarana-blue font-playfair text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-right md:px-10 flex items-center justify-center w-full lg:py-0 py-8 z-10">Quiénes somos</h2>
+                <h2 class="text-devarana-blue font-playfair text-5xl md:text-6xl lg:text-7xl xl:text-8xl md:px-10 flex text-left items-center justify-center  lg:py-0 py-8 z-10 md:ml-auto md:w-96">Quiénes somos</h2>
                 <p class="w-full inline-flex font-bold absolute text-devarana-pearl text-4xl md:text-5xl lg:text-7xl xl:text-8xl uppercase top-5 right-0 bottom-0 lg:-top-5 lg:left-0 lg:right-20 lg:bottom-0 z-0 text-left font-mulish"
                 style="text-shadow: 0px 0px 1px #787878;"> quiénes somos </p>
             </div>
             <div class="md:col-span-7 col-span-12 items-center md:px-5">
-                <h1 class="text-devarana-blue text-4xl py-3">DEVARANA empresa México - Holandesa</h1>
+                <h1 class="text-devarana-blue text-5xl py-3">DEVARANA empresa México - Holandesa</h1>
                 <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base py-2">Creamos proyectos inmobiliarios de primer nivel. Gracias a la dedicación, ética y visión a largo plazo. Logrando una calidad extraordinaria en diseño, construcción y acabados. </p>
                 <div class="flex md:w-5/6 py-2 md:py-4">
                     <x-link href="{{route('quienes-somos')}}" class="ml-auto"> Saber más </x-link>
@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div id="nuestro" class="px-10 py-5">
+    <div id="nuestro" class="px-10 py-5 max-w-screen-2xl xl:m-auto">
        <div class="flex justify-between relative">
         <picture>
             {{-- <source srcset="{{ asset('img/home/Devarana_Fachada.webp') }}" type="image/webp"> --}}
@@ -62,7 +62,7 @@
         {{-- <p class="absolute text-4xl md:text-7xl lg:text-9xl uppercase text-transparent z-10  font-mulish opacity-50 top-[70%] text-center left-[50%] -translate-x-[50%] -translate-y-[50%] drop-shadow-lg"
                 style=" -webkit-text-stroke-width: 1px;
                 -webkit-text-stroke-color: #fff;"> trayectoria  </p> --}}
-        
+
         <img src="{{asset("img/home/svg/TRAYECTORIA.svg")}}" alt="" class="font-mulish opacity-40 max-w-[80%] w-full absolute top-[70%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
        </div>
     </div>
@@ -84,7 +84,7 @@
                                 <source srcset="{{ asset('img/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg">
                                 <img src="{{ asset("img/home/SOMOS-DEVARANA.jpg") }}" alt="Devarana Oficinas" class="-ml-4 md:ml-6 lg:ml-12 w-full">
                             </picture>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -94,9 +94,9 @@
                     <div class="mt-auto relative">
                         <div class="grid grid-cols-12">
                             <div class="sm:col-span-10 col-span-6 xl:col-span-8">
-                                <img src="{{ asset("img/home/svg/SOMOS.svg") }}" alt="nuestro_equipo" class="w-full sm:translate-x-4 sm:translate-y-10 translate-y-4">
+                                <img src="{{ asset("img/home/svg/SOMOS.svg") }}" alt="nuestro_equipo" class="w-full sm:translate-x-4 sm:translate-y-10 translate-y-4 opacity-30">
                             </div>
-                            <h3 class="text-devarana-graph  pb-8 md:pb-20 text-xl md:text-2xl col-span-12 md:col-span-10 lg:col-span-8 text-center md:text-left  font-playfair">Creadores, arquitectos y diseñadores de lo extraordinario</h3>
+                            <h3 class="text-devarana-graph  pb-8 md:pb-20 text-xl md:text-2xl col-span-12 md:col-span-10 lg:col-span-8 text-center md:text-left  font-playfair">Creadores, arquitectos <br/> y diseñadores de lo extraordinario</h3>
                         </div>
                         <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 text-left bg-home-banner bg-cover bg-top md:bg-center bg-no-repeat lg:min-h-[100px]">
                             <div class="py-4 md:py-0 sliderShow bg-devarana-blue transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
@@ -118,8 +118,8 @@
     </div>
 
     <script>
-        
-        
+
+
     </script>
 
     <div id="equipo">
@@ -188,8 +188,8 @@
             </div>
         </div>
     </div>
-    
-   
+
+
 @endsection
 
 
@@ -197,7 +197,7 @@
 
 @section('styles')
 @endsection
-    
+
 @section("scripts")
     <script src="{{ asset('js/home/index.js') }}"></script>
 @endsection
