@@ -73,16 +73,16 @@
             <div class="md:max-w-[450px] my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base col-span-6">
                 <p class="font-mulish py-4">“DEVARANA es un lugar que nos recuerda la importancia de hacer las cosas por convicción, amor y pasión”</p>
                 <h3 class="">Itze Vega</p>
-                <p class="font-mulish group-hover:text-devarana-pink">Gerente de Atención a Clientes.</p>
+                <p class="font-mulish group-hover:text-devarana-pink">Directora Comercial.</p>
             </div>
         </div>
     </div>
     <div class="md:block hidden bg-devarana-pearl blur-sm hover:blur-none pt-10 transition-all duration-200 ease-in-out group">
         <div class="grid grid-cols-12">
             <div class="md:max-w-[450px] ml-auto mr-10 my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base text-right col-span-8">
-                <p class="font-mulish py-4">“DEVARANA es un lugar que nos recuerda la importancia de hacer las cosas por convicción, amor y pasión”</p>
-                <h3 class="">Itze Vega</p>
-                <p class="font-mulish group-hover:text-devarana-pink">Gerente de Atención a Clientes.</p>
+                <p class="font-mulish py-4">“Me siento muy orgulloso y agradecido por ser parte de DEVARANA.”</p>
+                <h3 class=""> Luis Rubio</p>
+                <p class="font-mulish group-hover:text-devarana-pink">Director de Operaciones.</p>
             </div>
             <div class="flex my-auto mr-auto col-span-4">
                 <picture class="w-full hidden group-hover:block">
@@ -113,16 +113,16 @@
                 </picture>
             </div>
             <div class="md:max-w-[450px] my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base col-span-6">
-                <p class="font-mulish py-4">“DEVARANA es un lugar que nos recuerda la importancia de hacer las cosas por convicción, amor y pasión”</p>
-                <h3 class="">Itze Vega</p>
-                <p class="font-mulish group-hover:text-devarana-pink">Gerente de Atención a Clientes.</p>
+                <p class="font-mulish py-4">“Ser parte de la familia DEVARANA es trabajar en lo que me apasiona y hacer las cosas con magnificencia”</p>
+                <h3 class="">Melisa Muñoz</p>
+                <p class="font-mulish group-hover:text-devarana-pink">Coordinadora de Construcción.</p>
             </div>
         </div>
     </div>
     <div class="bg-devarana-pearl md:blur-sm md:hover:blur-none pt-10 transition-all duration-200 ease-in-out group">
         <div class="grid grid-cols-12">
             <div class="md:max-w-[450px] ml-auto mr-10 my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base text-right col-span-8">
-                <p class="font-mulish py-4">“DEVARANA es un lugar que nos recuerda la importancia de hacer las cosas por convicción, amor y pasión”</p>
+                <p class="font-mulish py-4">“Para mí DEVARANA es una oportunidad de colaborar en lo que me apasiona y aprender constantemente”</p>
                 <h3 class="">Fátima Ortiz</p>
                 <p class="font-mulish text-devarana-pink md:text-devarana-blue md:group-hover:text-devarana-pink">Gerente de Calidad e Innovación.</p>
             </div>
@@ -155,9 +155,9 @@
                 </picture>
             </div>
             <div class="md:max-w-[450px] my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base col-span-6">
-                <p class="font-mulish py-4">“DEVARANA es un lugar que nos recuerda la importancia de hacer las cosas por convicción, amor y pasión”</p>
-                <h3 class="">Itze Vega</p>
-                <p class="font-mulish group-hover:text-devarana-pink">Gerente de Atención a Clientes.</p>
+                <p class="font-mulish py-4">“Pertenecer al equipo DEVARANA es algo que comparto con gran orgullo.”</p>
+                <h3 class="">Gustavo Adolfo</p>
+                <p class="font-mulish group-hover:text-devarana-pink">Asesor Comercial Sr.</p>
             </div>
         </div>
     </div>
