@@ -16,7 +16,6 @@ module.exports = {
 
           },
           colors: {
-              'devarana-gray' : '#494b65',
               'devarana-blue' : '#56739b',
               'devarana-babyblue' : '#a9c0e4',
               'devarana-pink' : '#d64767',
