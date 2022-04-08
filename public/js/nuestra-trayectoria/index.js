@@ -21,7 +21,7 @@ const Swipe2 = new Swiper('.mySwiper2', {
       },
     effect: "fade",
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
     },
     navigation: {
@@ -36,7 +36,7 @@ const Swipe3 = new Swiper('.mySwiper3', {
     },
     effect: "fade",
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
     },
 });

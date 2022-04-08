@@ -13,7 +13,7 @@
 
 
 
-<div id="header" class="mySwiper pb-10">
+<div id="header" class="mySwiper md:pb-10 pb-2">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <picture>
@@ -54,16 +54,16 @@
 </div>
 
 
-<div class="md:px-20 px-10 py-10">
+<div class="md:px-20 px-10 md:py-10 py-2">
     <div class="grid md:grid-cols-2">
         <div class="col-span-2 md:col-span-1 flex">
             <div class="relative m-auto md:px-16 py-8">
-                <p class="text-5xl text-devarana-blue text-center font-playfair">Trayectoria</p>
+                <p class="text-5xl md:text-6xl text-devarana-blue text-center font-playfair">Trayectoria</p>
                 <img src="{{ asset("img/trayectoria/svg/NUESTRA.svg") }}" alt="somos" class="m-auto max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1/3 -translate-x-1/4 opacity-40">
             </div>
         </div>
         <div class="col-span-2 md:col-span-1">
-            <h1 class="text-devarana-blue text-4xl md:px-5 py-2">Empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario.</h1>
+            <h1 class="text-devarana-blue text-2xl md:px-5 py-2">Empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario.</h1>
             <p class="text-devarana-graph text-justify md:px-5 py-2">
                 Contamos con los más altos estándares de calidad en obra y vanguardia en sistemas de construcción. Conformamos un equipo propio de arquitectura e ingeniería con gran experiencia.
             </p>
@@ -76,12 +76,12 @@
 
 <div class="px-10 md:px-20 py-10 md:py-20" id="royal-view">
     <div class="grid grid-cols-12 md:gap-16">
-        <div class="col-span-10 md:col-span-5 my-auto">
+        <div class="col-span-12 md:col-span-5 my-auto">
             <h2 class="text-devarana-blue text-2xl py-2">Royal View</h2>
             <p class="text-devarana-blue py-2 font-mulish font-extralight">2019 - Actualidad</p>
             <p class="text-devarana-graph py-4">Proyectos con personalidad y acabados exclusivos, que nos permiten ofrecer una inigualable calidad de vida y gran plusvalía.</p>
-            <div class="flex">
-                <button href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500">
+            <div class="flex py-4">
+                <button href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500 m-auto md:ml-0 justify-center">
                     <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="hidden group-hover:block w-8 mr-2">
                     <img src="{{asset("img/logos/Isotipo_blanco.png")}}" alt="Isotipo Devarana" class="block group-hover:hidden w-8 mr-2"> Preventa diponible </button>
             </div>
@@ -187,7 +187,7 @@
                 </picture>
             </div>
             <div class="px-4 py-6">
-                <h2 class="text-2xl text-devarana-blue bg-fixed">Gran Mayran</h2>
+                <h2 class="text-2xl text-devarana-blue bg-fixed">Grand Mayran</h2>
                 <p class="font-mulish font-extralight text-devarana-graph py-2">2012 - 2013 </p>
                 <p class="font-mulish font-extralight text-devarana-graph inline-flex items-center"> <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
             </div>
@@ -198,7 +198,7 @@
 <div class="p-10  md:hidden block">
     <div class="swiper mySwiper3">
         <div class="swiper-wrapper">
-            <div class="swiper-slide bg-devarana-pearl ">
+            <div class="swiper-slide bg-devarana-pearl min-h-[500px]">
                 <div class="bg-devarana-blue">
                     <picture class="w-full block group-hover:hidden translate-x-4 -translate-y-4">
                         {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
@@ -207,10 +207,9 @@
                     </picture>
                 </div>
                 <h3 class="py-6 text-devarana-graph">High Gardens</h3>
-                <p class="font-mulish font-extralight text-devarana-graph">2017 - 2018</p>
-                <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="font-mulish font-extralight text-devarana-graph inline-flex">2017 - 2018  |  Sold Out</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl">
+            <div class="swiper-slide bg-devarana-pearl min-h-[500px]">
                 <div class="bg-devarana-blue">
                     <picture class="w-full block group-hover:hidden scale-y-90 scale-x-105">
                         {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
@@ -219,10 +218,10 @@
                     </picture>
                 </div>
                 <h3 class="py-6 text-devarana-graph">Upper Condesa</h3>
-                <p class="font-mulish font-extralight text-devarana-graph">2014 - 2016</p>
-                <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="font-mulish font-extralight text-devarana-graph"></p>
+                <p class="font-mulish font-extralight text-devarana-graph inline-flex">2014 - 2016  |  Sold Out</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl">
+            <div class="swiper-slide bg-devarana-pearl min-h-[500px]">
                 <div class="bg-devarana-blue w-full">
                     <div class="bg-devarana-blue">
                         <picture class="w-full block group-hover:hidden  -translate-x-4 translate-y-4">
@@ -233,8 +232,7 @@
                     </div>
                 </div>
                 <h3 class="py-6 text-devarana-graph">Gran Mayran</h3>
-                <p class="font-mulish font-extralight text-devarana-graph">2012 - 2013</p>
-                <p class="text-devarana-graph py-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="font-mulish font-extralight text-devarana-graph inline-flex">2012 - 2013  |  Sold Out</p>
             </div>
         </div>
         <div class="swiper-pagination responsive-swiper"></div>
@@ -257,7 +255,7 @@
             <img src="{{ asset("img/trayectoria/svg/ISO90012015.svg") }}" alt="somos" class="md:mx-20 max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-2/4 md:-translate-x-1/4 -translate-x-5">
         </div>
 
-        <div class="py-6 text-devarana-graph">
+        <div class="py-6 text-devarana-graph text-justify md:text-left">
             <p class="">En DEVARANA hemos asumido el compromiso de implementar un modelo de Gestión de la Calidad, basado en la norma ISO 9001-2015, que nos proporcione un marco de referencia integral para el establecimiento de objetivos específicos de calidad y con la finalidad de, a través de la mejora continua, conseguir la satisfacción total de nuestros colaboradores, clientes y socios de negocio, convirtiéndonos en un referente en el sector de desarrollo inmobiliario, por los estándares de calidad que empleamos en el servicio que ofrecemos y los productos que desarrollamos.</p>
 
             <p class="py-4">En un mercado en continua expansión, DEVARANA se mantiene como líder del sector

@@ -5,6 +5,6 @@
         left:unset!important
     }
 }
-.swiper-scrollbar-drag{
+.swiper-scrollbar-drag, .swiper-pagination-bullet-active{
     background-color: #d64767;
 }

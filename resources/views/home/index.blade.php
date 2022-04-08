@@ -33,10 +33,10 @@
                 style="text-shadow: 0px 0px 1px #787878;"> quiénes somos </p>
             </div>
             <div class="md:col-span-7 col-span-12 items-center md:px-5">
-                <h1 class="text-devarana-blue text-5xl py-3">DEVARANA empresa México - Holandesa</h1>
+                <h1 class="text-devarana-blue text-xl md:text-5xl py-3">DEVARANA empresa México - Holandesa</h1>
                 <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base py-2">Creamos proyectos inmobiliarios de primer nivel. Gracias a la dedicación, ética y visión a largo plazo. Logrando una calidad extraordinaria en diseño, construcción y acabados. </p>
                 <div class="flex md:w-5/6 py-2 md:py-4">
-                    <x-link href="{{route('quienes-somos')}}" class="ml-auto"> Saber más </x-link>
+                    <x-link href="{{route('quienes-somos')}}" class=" m-auto md:ml-auto"> Saber más </x-link>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@
                                 <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md">Empresa Socialmente Responsable</p>
                             </div>
                             <div class="py-4 md:py-0 sliderShow transition-all duration-1000 ease-in-out md:text-white text-devarana-blue">
-                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md ">Servicio Legendario ISO 9001</p>
+                                <p class="px-2 lg:px-6 font-playfair py-4 drop-shadow-md ">Servicio Legendario <br> ISO-9001</p>
                             </div>
                             <div>
                             </div>

@@ -15,28 +15,28 @@
         <h1 class="text-devarana-pink text-3xl md:text-5xl">Contacto</h1>
     </div>
     <div class="col-span-10 col-start-2 md:col-span-7 md:col-start-5">
-        <form action="{{ route('contacto') }}" method="POST" class="-translate-y-1/4 md:-translate-y-3/4 w-full z-10 bg-devarana-hazelnut bg-opacity-30 content-end h-fit py-10 px-6 mb-0 justify-self-end grid grid-cols-4 gap-x-5">
+        <form action="{{ route('contacto') }}" method="POST" class="-translate-y-12 md:-translate-y-3/4 w-full z-10 bg-devarana-hazelnut bg-opacity-30 content-end h-fit py-10 px-6 mb-0 justify-self-end grid grid-cols-4 gap-x-5 shadow-xl">
             @csrf
-            <div class="col-span-4">
-                <input type="text" required name="nombre" value="{{old('nombre')}}" class="w-full my-2 py-5 rounded border-devarana-babyblue placeholder:text-right placeholder:font-mulish" placeholder="Nombre y apellido">
+            <div class="col-span-4 md:col-span-4">
+                <input type="text" required name="nombre" value="{{old('nombre')}}" class="w-full my-2 py-5 rounded border-none placeholder:font-mulish" placeholder="Nombre">
                 @error('nombre')
                     <span class="text-red-500 text-center"> {{ $message }} </span>
                 @enderror
             </div>
-            <div class="col-span-2">
-                <input type="email" required name="email" value="{{old('email')}}" class="w-full my-2 py-5 rounded border-devarana-babyblue placeholder:text-right placeholder:font-mulish " placeholder="Email">
+            <div class="col-span-4 md:col-span-2">
+                <input type="email" required name="email" value="{{old('email')}}" class="w-full my-2 py-5 rounded border-none placeholder:font-mulish " placeholder="Email">
                 @error('email')
                     <span class="text-red-500 text-center"> {{ $message }} </span>
                 @enderror
             </div>
-            <div class="col-span-2">
-                <input type="tel" required value="{{old('telefono')}}" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="telefono" class="w-full my-2 py-5 rounded border-devarana-babyblue placeholder:text-right placeholder:font-mulish" placeholder="Teléfono">
+            <div class="col-span-4 md:col-span-2">
+                <input type="tel" required value="{{old('telefono')}}" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" name="telefono" class="w-full my-2 py-5 rounded border-none placeholder:font-mulish" placeholder="Teléfono">
                 @error('telefono')
                     <span class="text-red-500 text-center"> {{ $message }} </span>
                 @enderror
             </div>
-            <div class="col-span-4">
-                <textarea name="mensaje" required class="w-full my-2 rounded border-devarana-babyblue placeholder:font-mulish" rows="5" placeholder="Mensaje">{{old('mensaje')}}</textarea>
+            <div class="col-span-4 md:col-span-4">
+                <textarea name="mensaje" required class="w-full my-2 rounded border-none placeholder:font-mulish" rows="5" placeholder="Mensaje">{{old('mensaje')}}</textarea>
                 @error('mensaje')
                     <span class="text-red-500 text-center"> {{ $message }} </span>
                 @enderror
@@ -50,7 +50,7 @@
 
 
 
-<div class="max-w-[800px] m-auto  py-10 px-10">
+<div class="max-w-[800px] m-auto md:py-10 py-1 px-10">
     <h1 class="text-center text-3xl text-devarana-pink">Estamos felices de atenderte</h1>
     <div class="grid grid-cols-3 md:gap-10 md:py-20 py-10 text-center text-devarana-graph">
         <div class="col-span-3 md:col-span-1">

@@ -12,7 +12,7 @@
 </x-nav>
 
 <div id="header" class="bg-devarana-hazelnut sm:min-h-[450px] md:min-h-[600px] xl:min-h-[800px] flex md:mb-36 mb-20 relative">
-    <img src="{{ asset("img/quienes-somos/svg/QUIENES_SOMOS.svg") }}" alt="quienes somos" class="absolute z-30 w-[50%] top-6 md:-top-32 bottom-0 left-0 right-0 md:my-auto px-10">
+    <img src="{{ asset("img/quienes-somos/svg/QUIENES_SOMOS.svg") }}" alt="quienes somos" class="absolute z-30 w-[50%] top-6 md:-top-32 bottom-0 left-0 right-0 md:my-auto px-10 hidden sm:block">
     <p class="font-playfair absolute z-30 top-16 bottom-0 left-0 right-0 my-auto px-10 text-5xl text-devarana-pearl md:hidden block">Quiénes <br> somos</p>
     <div class="md:max-w-[80%] md:ml-auto mt-auto -mb-[5%] flex z-20 max-w-full md:pt-10 pt-20">
        <div>
@@ -25,9 +25,9 @@
 </div>
 
 
-<div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto md:gap-10 md:py-24 py-10">
+<div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto md:gap-10 md:py-24 py-1">
     <div class="col-span-12 md:col-span-5 flex">
-        <h1 class="m-auto text-2xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, <br>arquitectos y <br> diseñadores de lo extraordinario.</h1>
+        <h1 class="m-auto text-xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, <br>arquitectos y <br> diseñadores  <br>de lo extraordinario.</h1>
     </div>
     <div class="col-span-12 md:col-span-7">
         <div class="grid grid-cols-3 pt-8 md:py-0">
@@ -99,7 +99,7 @@
 <div class="md:hidden block pb-20">
     <div class="row-span-2 col-span-2 md:col-span-1 relative">
         <img src="{{ asset('img/quienes-somos/svg/NUESTROS_VALORES.svg') }}" alt="nuestros valores" class="w-[80%] md:w-full top-10 md:top-12 absolute px-4 fill-black">
-        <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl py-10">Valores</h2>
+        <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl sm:py-10 py-1">Valores</h2>
     </div>
     <div class="mySwiper">
         <div class="swiper-wrapper text-devarana-graph">
