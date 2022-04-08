@@ -36,7 +36,7 @@
                 <h1 class="text-devarana-blue text-xl md:text-5xl py-3">DEVARANA empresa México - Holandesa</h1>
                 <p class="md:w-5/6 md:pr-10 text-devarana-graph text-base py-2">Creamos proyectos inmobiliarios de primer nivel. Gracias a la dedicación, ética y visión a largo plazo. Logrando una calidad extraordinaria en diseño, construcción y acabados. </p>
                 <div class="flex md:w-5/6 py-2 md:py-4">
-                    <x-link href="{{route('quienes-somos')}}" class=" m-auto md:ml-auto"> Saber más </x-link>
+                    <x-link href="{{route('quienes-somos')}}" class="sm:ml-auto sm:mx-0 mx-auto"> Saber más </x-link>
                 </div>
             </div>
         </div>
