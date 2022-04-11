@@ -10,13 +10,13 @@
                         <img src="{{ asset('img/logos/LogoDevarana.png')}}" alt="Inauguración Devarana" class="max-w-[250px]  w-full m-auto md:ml-0">
                     </picture>
                 </a>
-                <p class="text-center md:text-left font-extralight text-devarana-blue pt-5">Ventas: <a href="tel:4428244444" class="hover:underline hover:decoration-2 underline-offset-1 font-medium">  (442) 824 4444</a></p>
+                <p class="text-center md:text-left font-extralight text-devarana-blue pt-5">Ventas: <a href="tel:4428244444" class="hover:opacity-50 font-medium">  (442) 824 4444</a></p>
 
             </div>
             <div class="text-devarana-blue text-center md:col-span-1 col-span-3 md:pt-32 py-10">
                 <ul>
-                    <li> <span class="font-extralight hover:no-underline">Corporativo: </span> <a href="tel:4424021073" class="hover:underline hover:decoration-2 underline-offset-1 font-medium"> (442) 402 1073</a></li>
-                    <li> <span class="font-extralight hover:no-underline">Compras: </span> <a href="mailto:compras@devarana.mx" class="hover:underline hover:decoration-2 underline-offset-1 font-medium"> compras@devarana.mx</a></li>
+                    <li> <span class="font-extralight hover:no-underline">Corporativo: </span> <a href="tel:4424021073" class="hover:opacity-50  font-medium"> (442) 402 1073</a></li>
+                    <li> <span class="font-extralight hover:no-underline">Compras: </span> <a href="mailto:compras@devarana.mx" class="hover:opacity-50  font-medium"> compras@devarana.mx</a></li>
                 </ul>
             </div>
             <div class="relative md:col-span-1 col-span-3 py-2">
@@ -25,7 +25,7 @@
                     <a href="https://www.facebook.com/DevaranaResidences/" target="_blank" class="hover:opacity-40 col-span-1 py-2"> <img src="{{ asset('img/icons/facebook.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
                     <a href="https://www.instagram.com/devarana.mx/?hl=es" target="_blank" class="hover:opacity-40 col-span-1 py-2"> <img src="{{ asset('img/icons/instagram.svg') }}" alt="" class="w-[20px] fill-devarana-blue"></a>
                     <div class="col-span-12 text-center md:text-right">
-                        <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" class="text-center md:text-right hover:underline hover:decoration-2 underline-offset-1 align-bottom text-devarana-blue font-medium">Av. Valle de Acantha 88, Fracc. Zibatá, Sección Acantha, CP 76269, El Marqués, Querétaro.</a>
+                        <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" class="hover:opacity-50 text-center md:text-right align-bottom text-devarana-blue font-medium">Av. Valle de Acantha 88, Fracc. Zibatá, Sección Acantha, CP 76269, El Marqués, Querétaro.</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
     <div class="px-2 bg-devarana-blue text-devarana-pearl w-full text-center inline-flex justify-center py-2 font-mulish font-medium tracking-wide">
         <p>Derechos reservados DEVARANA 2022  </p>
         <p class="px-2"> | </p>
-        <a href="{{ route('aviso-de-privacidad') }}">  Aviso de Privacidad</a>
+        <a href="{{ route('aviso-de-privacidad') }}" class="hover:opacity-50">  Aviso de Privacidad</a>
     </div>
 
     <div class="relative">

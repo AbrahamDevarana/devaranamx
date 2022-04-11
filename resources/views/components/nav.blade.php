@@ -10,17 +10,17 @@
                                 <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                             </svg>
                         </a>
-                        <a href="{{ route('quienes-somos') }}" class="hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('quienes-somos')? 'text-devarana-blue' : '' }}">Quiénes somos</a>
+                        <a href="{{ route('quienes-somos') }}" class="relative growLine headLink {{  !$attributes['contacto']? "after:bg-devarana-pearl": "after:bg-devarana-blue" }}  tracking-widest {{ request()->is('quienes-somos')? 'text-devarana-blue' : '' }}">Quiénes somos</a>
                     </li>
 
-                    <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('nuestro-equipo')? 'text-devarana-blue' : '' }}"><a href="{{ route('nuestro-equipo') }}">Nuestro equipo</a></li>
-                    <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest col-span-2">
-                        <a href="{{ route('/') }}">
+                    <li class="hidden md:flex m-auto drop-shadow-lg growLine headLink {{  !$attributes['contacto']? "after:bg-devarana-pearl": "after:bg-devarana-blue" }} tracking-widest {{ request()->is('nuestro-equipo')? 'text-devarana-blue' : '' }}"><a href="{{ route('nuestro-equipo') }}">Nuestro equipo</a></li>
+                    <li class="hidden md:flex m-auto drop-shadow-lg hover:opacity-50 tracking-widest col-span-2">
+                        <a href="{{ route('/') }}" class="after:bg-devarana-blue">
                             {{ $slot }}
                         </a>
                     </li>
-                    <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('nuestra-trayectoria')? 'text-devarana-blue' : '' }}"><a href="{{ route('nuestra-trayectoria') }}">Nuestra trayectoria</a></li>
-                    <li class="hidden md:flex m-auto drop-shadow-lg hover:underline hover:decoration-2 underline-offset-1 tracking-widest {{ request()->is('contacto')? 'text-devarana-blue' : '' }}"><a href="{{ route('contacto') }}">Contacto</a></li>
+                    <li class="hidden md:flex m-auto drop-shadow-lg growLine headLink {{  !$attributes['contacto']? "after:bg-devarana-pearl": "after:bg-devarana-blue" }} relative tracking-widest {{ request()->is('nuestra-trayectoria')? 'text-devarana-blue' : '' }}"><a href="{{ route('nuestra-trayectoria') }}">Nuestra trayectoria</a></li>
+                    <li class="hidden md:flex m-auto drop-shadow-lg growLine headLink {{  !$attributes['contacto']? "after:bg-devarana-pearl": "after:bg-devarana-blue" }} relative tracking-widest {{ request()->is('contacto')? 'text-devarana-blue' : '' }}"><a href="{{ route('contacto') }}">Contacto</a></li>
 
                 </ul>
             </div>

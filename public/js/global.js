@@ -44,6 +44,8 @@ const menuColors = () => {
     const devaranaLogoBg = document.getElementById("devaranaLogoBg")
     const headerSize = document.getElementById("header")
 
+    const headLink = document.querySelectorAll(".headLink")
+
     let yPos = window.scrollY
 
     if(headerSize){
@@ -54,8 +56,13 @@ const menuColors = () => {
             navigation.classList.remove("text-devarana-pearl")
             homeIcon.classList.add("fill-devarana-graph")
             homeIcon.classList.remove("fill-devarana-pearl")
-    
+
             
+    
+            headLink.forEach(item => {
+                item.classList.remove("after:bg-devarana-pearl")
+                item.classList.add("after:bg-devarana-blue")
+            })
             
             devaranaLogoBg.style.width = "50px"
             devaranaLogoBg.style.height = "50px"
@@ -68,6 +75,11 @@ const menuColors = () => {
             navigation.classList.add("text-devarana-pearl")
             homeIcon.classList.remove("fill-devarana-graph")
             homeIcon.classList.add("fill-devarana-pearl")
+
+            headLink.forEach(item => {
+                item.classList.add("after:bg-devarana-pearl")
+                item.classList.remove("after:bg-devarana-blue")
+            })
     
             devaranaLogoBg.style.backgroundImage = "url(img/logos/DevaranaLogo.png)"
             devaranaLogoBg.style.width = "150px"

@@ -56,18 +56,18 @@
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Ventas</h2>
             <p>Invierte con éxito</p>
-            <a href="www.royalview.mx" target="_blank" class=" hover:text-devarana-pink">www.royalview.mx</a>
-            <a href="tel:4428244444" class="py-4 block hover:text-devarana-pink">442 824 4444</a>
+            <a href="www.royalview.mx" target="_blank" class="growLine hover:opacity-50 block py-2">www.royalview.mx</a>
+            <a href="tel:4428244444" class="growLine hover:opacity-50 block py-2">442 824 4444</a>
         </div>
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Compras</h2>
-            <a href="tel:8113799052" class=" hover:text-devarana-pink">(81) 1379 9052</a>
-            <a href="mailto:compras@devarana.mx" class="py-4 block hover:text-devarana-pink">compras@devarana.mx</a>
+            <a href="tel:8113799052" class="growLine hover:opacity-50 block py-2">(81) 1379 9052</a>
+            <a href="mailto:compras@devarana.mx" class="growLine hover:opacity-50 block py-2">compras@devarana.mx</a>
         </div>
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Corporativo</h2>
-            <a href="tel:4424021073" class="block hover:text-devarana-pink">442 402 1073 </a>
-            <a href="" class="block py-4 hover:text-devarana-pink">Ubicación</a>
+            <a href="tel:4424021073" class="growLine hover:opacity-50 block py-2">442 402 1073 </a>
+            <a href="" class="growLine hover:opacity-50 block py-2">Ubicación</a>
         </div>
     </div>
 </div>
