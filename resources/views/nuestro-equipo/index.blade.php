@@ -7,18 +7,17 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">
-    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
+<x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
+    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[65px]" > </x-logo-nav>
 </x-nav>
 
-<div id="header" class="bg-devarana-hazelnut grid grid-cols-12 mb-36 relative -z-30">
+<div id="header" class="bg-devarana-hazelnut grid grid-cols-12 mb-36 relative -z-30 sm:mt-[65px]">
 
     <div class="max-w-[80%] md:mt-auto md:-mb-[5%] -mb-[30%] flex md:col-span-8 md:-z-20 md:pt-40 col-span-12 mx-auto pt-28">
         <img src="{{ asset("img/nuestro-equipo/HEADER.jpg") }}" alt="" class="w-full md:pl-10">
     </div>
     <h1 class="md:block hidden text-devarana-blue text-3xl lg:text-4xl font-playfair mb-20 mt-auto col-span-4">¿Por qué <span class="text-4xl lg:text-5xl w-full  z-30 tracking-normal">DEVARANA?</span></h1>
     <h2 class="md:hidden block drop-shadow-lg -mt-36 pl-10 text-4xl  font-playfair col-span-12 span-4 text-devarana-pearl tracking-wider -translate-x-5 translate-y-2">Nuestro equipo</h2>
-    <img src="{{ asset("img/nuestro-equipo/svg/NUESTRO_EQUIPO.svg") }}" alt="nuestro equipo" class="absolute max-w-[50%] md:ml-auto top-0 bottom-0 left-0 right-0 my-auto px-10 -z-10 -translate-x-5 md:-translate-x-28">
 </div>
 
 <div class="pb-16 px-">
@@ -50,7 +49,6 @@
 <div class="relative">
     <div class="grid grid-cols-12">
         <div class="md:col-start-4 md:col-end-10 md:col-span-6 col-span-1 col-start-2">
-            <img src="{{ asset("img/nuestro-equipo/svg/TESTIMONIOS.svg") }}" alt="testimonios" class="w-full px-10 translate-y-4 md:translate-y-8 md:-translate-x-1/3 -translate-x-10 opacity-40">
             <h2 class="lg:text-8xl md:text-5xl text-4xl font-playfair text-center text-devarana-blue">Colaboradores</h2>
         </div>
     </div>
@@ -259,7 +257,6 @@
 <div class="md:px-20 px-10 md:py-10 py-1">
     <div class="grid grid-cols-12">
         <div class="md:col-start-4 md:col-end-9">
-            <img src="{{ asset("img/nuestro-equipo/svg/SOMOS.svg") }}" alt="testimonios" class="w-full pr-32 translate-y-4 md:translate-y-8 md:-translate-x-[45%] -translate-x-10 opacity-40">
             <h2 class="lg:text-8xl md:text-5xl text-4xl font-playfair text-center text-devarana-blue">Orgullosamente</h2>
         </div>
     </div>

@@ -7,18 +7,19 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">
-    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
+<x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
+    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[65px]" > </x-logo-nav>
 </x-nav>
 
-<div id="header" class="bg-devarana-hazelnut sm:min-h-[450px] md:min-h-[600px] xl:min-h-[800px] flex md:mb-36 mb-20 relative">
-    <img src="{{ asset("img/quienes-somos/svg/QUIENES_SOMOS.svg") }}" alt="quienes somos" class="absolute z-30 w-[50%] top-6 md:-top-32 bottom-0 left-0 right-0 md:my-auto px-10 hidden sm:block">
-    <p class="font-playfair absolute z-30 top-16 bottom-0 left-0 right-0 my-auto px-10 text-5xl text-devarana-pearl md:hidden block">Quiénes <br> somos</p>
+<div id="header" class="bg-devarana-hazelnut sm:min-h-[450px] md:min-h-[600px] xl:min-h-[800px] flex md:mb-36 mb-20 relative sm:mt-[65px]">
+    
+    {{-- <p class="font-playfair absolute z-30 top-16 bottom-0 left-0 right-0 my-auto px-10 text-5xl text-devarana-pearl ">Quiénes <br> somos</p> --}}
     <div class="md:max-w-[80%] md:ml-auto mt-auto -mb-[5%] flex z-20 max-w-full md:pt-10 pt-20">
-       <div>
-            <img src="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" alt="Devarana Arte" class="w-full pl-10 z-10">
+       <div class="relative">
+            <p class="text-devarana-pearl drop-shadow-lg font-playfair left-10 md:left-0 text-5xl md:text-8xl absolute md:-translate-x-2/4 md:-translate-y-1/3 -translate-y-1/3"> Quiénes <br> somos </p>
+            <img src="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" alt="Devarana Arte" class="w-full sm:pl-10 px-10 sm:px-0 z-10">
        </div>
-       <div>
+       <div class="sm:block hidden">
             <img src="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" alt="Devarana Statua" class="w-full pl-10 z-10 md:h-auto h-full ">
        </div>
     </div>
@@ -27,7 +28,7 @@
 
 <div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto md:gap-10 md:py-24 py-1">
     <div class="col-span-12 md:col-span-5 flex">
-        <h1 class="m-auto text-xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, <br>arquitectos y <br> diseñadores  <br>de lo extraordinario.</h1>
+        <h1 class="m-auto text-xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, <br>arquitectos y diseñadores  <br>de lo extraordinario.</h1>
     </div>
     <div class="col-span-12 md:col-span-7">
         <div class="grid grid-cols-3 pt-8 md:py-0">

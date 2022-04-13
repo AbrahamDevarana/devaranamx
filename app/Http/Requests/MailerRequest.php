@@ -25,11 +25,10 @@ class MailerRequest extends FormRequest
     public function rules()
     {
         return [
-            'nombre' => 'required',
+            'name' => 'required',
             'email' => 'required|email',
-            'telefono' => 'required',
-            'mensaje' => 'required',
-            'attachment' => 'file'
+            'phone' => 'required',
+            'message' => 'required'
         ];
     }
 }

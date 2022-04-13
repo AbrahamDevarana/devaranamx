@@ -7,13 +7,13 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">
-    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
+<x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
+    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[65px]" > </x-logo-nav>
 </x-nav>
 
 
 
-<div id="header" class="mySwiper md:pb-10 pb-2">
+<div id="header" class="mySwiper md:pb-10 pb-2 sm:mt-[65px]">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <picture>
@@ -59,7 +59,6 @@
         <div class="col-span-2 md:col-span-1 flex">
             <div class="relative m-auto md:px-16 py-8">
                 <p class="text-5xl md:text-6xl text-devarana-blue text-center font-playfair">Trayectoria</p>
-                <img src="{{ asset("img/trayectoria/svg/NUESTRA.svg") }}" alt="somos" class="m-auto max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-1/3 -translate-x-1/4 opacity-40">
             </div>
         </div>
         <div class="col-span-2 md:col-span-1">
@@ -252,7 +251,6 @@
     <div class="px-10 md:px-20 z-50 block">
         <div class="relative">
             <h2 class="text-5xl text-devarana-blue ">Política de calidad</h2>
-            <img src="{{ asset("img/trayectoria/svg/ISO90012015.svg") }}" alt="somos" class="md:mx-20 max-w-[400px] absolute left-0 top-0 right-0 bottom-0 -translate-y-2/4 md:-translate-x-1/4 -translate-x-5">
         </div>
 
         <div class="py-6 text-devarana-graph text-justify md:text-left">

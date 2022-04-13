@@ -1,6 +1,6 @@
 <a
 href={{ $attributes['href'] }}
-{{ $attributes->merge(['class' => 'btnEffect border px-8 py-2 text-base bg-devarana-pearl text-devarana-graph fill-devarana-pink hover:fill-devarana-pearl font-playfair hover:text-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500']) }}
+{{ $attributes->merge(['class' => 'btnEffect tracking-widest border px-8 py-2 text-base bg-devarana-pearl text-devarana-graph fill-devarana-pink hover:fill-devarana-pearl font-playfair hover:text-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500']) }}
 >
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

@@ -35,6 +35,7 @@ Route::get('/contacto', function () {
 Route::get('/aviso-de-privacidad', function () {
     return view('/aviso-de-privacidad');
 })->name('aviso-de-privacidad');
+
 Route::get('/gracias', function () {
     return view('/gracias');
 })->name('gracias');
@@ -44,7 +45,7 @@ Route::get('/gracias', function () {
 //     Route::resource('page', PageController::class);
 // });
 
-Route::post('contacto', [MailerController::class, 'contactoForm'])->name('contacto.send');
+Route::post('contacto', [MailerController::class, 'contactoForm'])->name('contacto.form');
 
 
 require __DIR__.'/auth.php';

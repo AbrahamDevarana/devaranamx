@@ -16,7 +16,7 @@ module.exports = {
 
           },
           colors: {
-              'devarana-blue' : '#56739b',
+              'devarana-blue' : '#56739B',
               'devarana-babyblue' : '#a9c0e4',
               'devarana-pink' : '#d64767',
               'devarana-midnight' : '#242a38',
@@ -56,5 +56,7 @@ module.exports = {
       },
   },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [
+        require('@tailwindcss/forms'),
+    ],
 };

@@ -33,7 +33,6 @@
         <meta content="{{ $http.$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"] }}" NAME='DC.Identifier'/>
         <meta content="{{ isset($metaKeywords) &&  $metaKeywords !== ""? $metaKeywords : 'Keywords' }}" NAME='DC.keywords'/>
 
-        
 
         @php
         if (isset($_SERVER['HTTPS'])) {
