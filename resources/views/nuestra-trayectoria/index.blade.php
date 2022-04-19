@@ -75,8 +75,8 @@
 
 
 
-    <div class="max-w-screen-2xl m-auto 2xl:px-0 sm:px-20 px-10 pt-20 pb-10" id="royal-view">
-        <h2 class="text-devarana-blue md:text-5xl text-3xl py-10"> Royal View <span class="md:text-2xl text-lg font-extralight font-mulish pl-10"> Actual Proyecto </span> </h2>
+    <div class="max-w-screen-2xl m-auto sm:px-20 px-10 pt-20 pb-10 overflow-hidden">
+        <h2 class="text-devarana-blue md:text-5xl text-3xl py-10"> Royal View <span class="md:text-2xl text-lg font-extralight font-mulish pl-10"> Proyecto Actual </span> </h2>
         <div>
             <section class="proSlides"> 
                 <section class="proSlides-nav">

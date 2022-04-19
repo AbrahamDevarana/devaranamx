@@ -590,6 +590,9 @@ select {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.pointer-events-none {
+  pointer-events: none;
+}
 .invisible {
   visibility: hidden;
 }
@@ -786,6 +789,18 @@ select {
   margin-top: 18%;
   margin-bottom: 18%;
 }
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.my-\[150px\] {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.my-\[180px\] {
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -890,6 +905,12 @@ select {
 }
 .-mb-\[24\%\] {
   margin-bottom: -24%;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.ml-\[45\%\] {
+  margin-left: 45%;
 }
 .block {
   display: block;
@@ -1045,6 +1066,9 @@ select {
 }
 .w-28 {
   width: 7rem;
+}
+.w-\[35px\] {
+  width: 35px;
 }
 .max-w-\[80\%\] {
   max-width: 80%;
@@ -1334,9 +1358,15 @@ select {
 .gap-20 {
   gap: 5rem;
 }
+.gap-2 {
+  gap: 0.5rem;
+}
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
+}
+.gap-y-4 {
+  row-gap: 1rem;
 }
 .justify-self-end {
   justify-self: end;
@@ -1508,6 +1538,12 @@ select {
 .p-10 {
   padding: 2.5rem;
 }
+.p-3 {
+  padding: 0.75rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1608,6 +1644,14 @@ select {
   padding-top: 30%;
   padding-bottom: 30%;
 }
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
 .pt-28 {
   padding-top: 7rem;
 }
@@ -1655,6 +1699,12 @@ select {
 }
 .pt-32 {
   padding-top: 8rem;
+}
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+.pt-4 {
+  padding-top: 1rem;
 }
 .text-left {
   text-align: left;
@@ -2526,6 +2576,10 @@ select {
          column-gap: 2.5rem;
   }
 
+  .md\:gap-y-0 {
+    row-gap: 0px;
+  }
+
   .md\:border-t-0 {
     border-top-width: 0px;
   }
@@ -2604,6 +2658,11 @@ select {
     padding-bottom: 7%;
   }
 
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
   .md\:pt-40 {
     padding-top: 10rem;
   }
@@ -2634,6 +2693,10 @@ select {
 
   .md\:pb-24 {
     padding-bottom: 6rem;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .md\:text-left {
@@ -2823,6 +2886,11 @@ select {
     fill: #56739B;
   }
 
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .xl\:text-8xl {
     font-size: 6rem;
     line-height: 1;
@@ -2923,14 +2991,14 @@ select {
 .proSlides-nav {
   z-index: 99;
   position: absolute;
-  right: -30%;
+  right: -125px;
   display: flex;
   align-items: center;
   height: 100%;
 }
 @media (min-width: 54em) {
   .proSlides-nav {
-    right: -9%;
+    right: -125px;
   }
 }
 .proSlides-nav__nav {

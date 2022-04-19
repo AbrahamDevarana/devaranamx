@@ -40,13 +40,13 @@ $mq-xlarge: 91em;
   position: absolute;
   // Grimey, not sure why
   // 0 isn't working
-  right: -30%;
+  right: -125px;
   display: flex;
   align-items: center;
   height: 100%;
   
   @media (min-width: $mq-med){
-    right: -9%;
+    right: -125px;
   }
 
   &__nav{

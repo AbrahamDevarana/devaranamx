@@ -24,20 +24,20 @@
     <div class="col-span-4 flex">
         <div class="my-auto items-center">
             <h1 class="text-devarana-pearl drop-shadow-lg md:text-8xl text-2xl -translate-y-1/3 md:-translate-x-9 -translate-x-24">Nuestro equipo</h1>
-            <p class="text-devarana-babyblue text-lg  md:text-3xl md:px-20 px-10 font-playfair">¿Por qué DEVARANA?</p>
+            <p class="text-devarana-babyblue md:text-3xl md:px-20 px-5 font-playfair ">¿Por qué DEVARANA?</p>
         </div>
     </div>
 </div>
 
-<div class="pb-16 overflow-hidden px-10">
+<div class="pb-16 overflow-hidden md:px-10 px-4">
 
         <p class="text-devarana-graph py-10 lg:px-32 md:px-24  my-auto max-w-screen-lg text-center m-auto">
             Dedicación, ética y visión a largo plazo, así como un gran equipo de colaboradores apasionados que construyen día a día un servicio legendario.
         </p>
-        <div class="grid grid-cols-4 mx-auto max-w-screen-xl gap-10">
+        <div class="grid grid-cols-4 mx-auto max-w-screen-xl md:gap-10 md:gap-y-0 gap-y-4">
             <div class="col-span-2 md:col-span-1">
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <div class="img flex">
                             <x-icon-desarrollos class="w-20 md:w-28 m-auto fill-devarana-blue"/>
                         </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="col-span-2 md:col-span-1">
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <div class="img flex">
                             <x-icon-colaboradores class="w-20 md:w-28  m-auto fill-devarana-blue"/>
                         </div>
@@ -61,7 +61,7 @@
             </div>
             <div class="col-span-2 md:col-span-1">
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <div class="img flex">
                             <x-icon-residentes class="w-16 md:w-20  m-auto fill-devarana-blue"/>
                         </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="col-span-2 md:col-span-1">
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
-                    <a href="">
+                    <a href="javascript:void(0)">
                         <div class="img flex">
                             <x-icon-hectareas class="w-20 md:w-28  m-auto fill-devarana-blue"/>
                         </div>
@@ -337,7 +337,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-12 gap-10 py-10">
+    <div class="grid grid-cols-12 md:gap-10 py-10">
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
                 {{-- <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp" class="w-full"> --}}

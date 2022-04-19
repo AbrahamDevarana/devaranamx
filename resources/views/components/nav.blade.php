@@ -1,4 +1,4 @@
-<header>
+<header class="md:pb-0 pb-10">
     {{-- Regular Menu --}}
     <nav {{ $attributes->merge(['class' => 'fixed top-0 w-full hidden md:block transition-all duration-500  z-40']) }}  id="navigation">
         <div class="relative">
@@ -51,11 +51,8 @@
     </nav>
 
     {{-- Responsive Menu --}}
-    <nav class="md:hidden hidden mobile-menu fixed w-full bg-devarana-blue z-50 transition-all duration-300 ease-in-out opacity-0 shadow-lg h-screen overflow-hidden">
-        <div class="flex py-5">
-            <a class="m-auto" href="/"><img src="{{ asset("img/logos/Isotipo_blanco.png") }}" alt="Devarana Logotipo" class="w-[50px]" id="devaranaLogoBlanco"></a>
-        </div>
-        <div class="flex h-full">
+    <nav class="md:hidden hidden mobile-menu fixed w-full bg-devarana-pink z-50 transition-all duration-300 ease-in-out opacity-0 shadow-lg h-screen overflow-hidden">
+        <div class="flex h-full py-10">
             <ul class="text-devarana-pearl px-3 w-full my-10 text-center font-playfair">
                 <a href="{{ route('/') }}" class="hover:underline"> <li class="m-auto py-4 text-3xl"> Home </li> </a>
                 <a href="{{ route('quienes-somos') }}" class="hover:underline"> <li class="m-auto py-4 text-3xl"> Quiénes somos </li> </a>
@@ -66,8 +63,9 @@
         </div>
     </nav>
     <div class="relative">
-        <div class="md:hidden flex fixed top-2 right-1 z-[10000] ">
-            <button class="outline-none mobile-menu-button ml-auto p-5 shadow-[0_0_5px_1px_rgba(0,0,0,0.2)]" id="btnResponsiveMenu">
+        <div class="md:hidden flex fixed z-[10000] w-full bg-devarana-pink mb-5 ">
+            <a class="ml-[45%]" href="/"><img src="{{ asset("img/logos/Isotipo_blanco.png") }}" alt="Devarana Logotipo" class="w-[35px] py-2" id="devaranaLogoBlanco"></a>
+            <button class="outline-none mobile-menu-button ml-auto p-2" id="btnResponsiveMenu">
                 <img id="imgOpen" src="{{ asset('img/icons/burger.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400">
                 <img id="imgClose" src="{{ asset('img/icons/cross.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400 hidden">
             </button>
