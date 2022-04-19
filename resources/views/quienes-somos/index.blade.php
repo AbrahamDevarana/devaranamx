@@ -94,7 +94,7 @@
             </div>
         </div>
     
-        <div class="valoresSlider col-span-6 relative flex my-auto overflow-hidden text-devarana-pearl cursor-grab active:cursor-grabbing">
+        <div class="valoresSlider col-span-6 relative flex my-[18%] overflow-hidden text-devarana-pearl cursor-grab active:cursor-grabbing">
             <div class="p-10 drop-shadow-lg">
                 <p class="text-6xl font-playfair"> 01. </p>
                 <h3 class="py-10 text-xl ">Somos apasionados</h3>

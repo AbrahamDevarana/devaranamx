@@ -39,7 +39,7 @@
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
                     <a href="">
                         <div class="img flex">
-                            <x-icon-desarrollos class="w-16 h-24 m-auto fill-devarana-blue"/>
+                            <x-icon-desarrollos class="w-20 md:w-28 m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
                             <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2 my-auto"> <span class="block font-bold w-full text-2xl">4</span> Desarrollos </p>
@@ -51,7 +51,7 @@
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
                     <a href="">
                         <div class="img flex">
-                            <x-icon-colaboradores class="w-16 h-24 m-auto fill-devarana-blue"/>
+                            <x-icon-colaboradores class="w-20 md:w-28  m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
                             <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2 my-auto"> <span class="block font-bold w-full text-2xl">40+</span> Colaboradores </p>
@@ -63,7 +63,7 @@
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
                     <a href="">
                         <div class="img flex">
-                            <x-icon-residentes class="py-4 w-14 h-24 m-auto fill-devarana-blue"/>
+                            <x-icon-residentes class="w-16 md:w-20  m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
                             <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2"> <span class="block font-bold w-full text-2xl">2.5k</span> Residentes satisfechos </p>
@@ -77,7 +77,7 @@
                 <div class="ih-item circle effect6 scale_up shadow-[0px_4px_24px_rgba(0,0,0,0.25)] mx-auto">
                     <a href="">
                         <div class="img flex">
-                            <x-icon-hectareas class="py-4 w-14 h-24 m-auto fill-devarana-blue"/>
+                            <x-icon-hectareas class="w-20 md:w-28  m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
                             <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2"> <span class="block font-bold w-full text-2xl">8+</span>  Hectáreas construidas </p>
@@ -178,26 +178,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-white blur-sm hover:blur-none md:pt-10 transition-all duration-200 ease-in-out group">
-        <div class="grid grid-cols-12">
-            <div class="flex m-auto col-span-6">
-                <picture class="w-full  hidden group-hover:block">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO2.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO2.png')}}" type="image/png" class="w-full">
-                    <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO2.png')}}" alt="Devarana Colaborador" class="w-full">
-                </picture>
-                <picture class="w-full block group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO2.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONIO2.png')}}" type="image/png" class="w-full">
-                    <img src="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONIO2.png')}}" alt="Devarana Colaborador" class="w-full">
-                </picture>
-            </div>
-            <div class="md:max-w-[450px] my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base col-span-6">
-                <p class="font-mulish py-4 text-devarana-graph">“Pertenecer al equipo DEVARANA es algo que comparto con gran orgullo.”</p>
-                <p class="font-playfair group-hover:text-devarana-pink">Asesor Comercial Sr.</p>
-            </div>
-        </div>
-    </div>
+   
 </div>
 
 <div class="sm:hidden block ">
@@ -260,21 +241,6 @@
                             <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" type="image/png" class="w-full">
                             <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" alt="Devarana Colaborador" class="w-full">
                         </picture>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-devarana-pearl my-4 transition-all duration-200 ease-in-out group swiper-slide min-h-[220px] px-3">
-                <div class="grid grid-cols-12">
-                    <div class="flex m-auto col-span-4">
-                        <picture class="w-full">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO2.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO2.png')}}" type="image/png" class="w-full">
-                            <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO2.png')}}" alt="Devarana Colaborador" class="w-full">
-                        </picture>
-                    </div>
-                    <div class="md:max-w-[450px] my-auto px-4 md:px-10 text-devarana-blue text-sm md:text-base col-span-8">
-                        <p class="font-mulish py-2 text-devarana-graph text-sm">“Pertenecer al equipo DEVARANA es algo que comparto con gran orgullo.”</p>
-                        <p class="font-playfair text-devarana-pink leading-none py-1">Asesor Comercial Sr.</p>
                     </div>
                 </div>
             </div>

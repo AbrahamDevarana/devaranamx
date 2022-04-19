@@ -167,13 +167,10 @@ const Swipe2 = new Swiper('.mySwiper2', {
         el: ".swiper-scrollbar",
       },
     effect: "fade",
+    loop: true,
     autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
     },
 });
 
@@ -185,7 +182,7 @@ const Swipe3 = new Swiper('.mySwiper3', {
     autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-    },
+    }
 });
 
 

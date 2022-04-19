@@ -50,7 +50,7 @@
 
 
 <div class="max-w-[800px] m-auto md:py-10 py-1 px-10">
-    <h1 class="text-center text-3xl text-devarana-pink">Estamos felices de atenderte</h1>
+    <h1 class="text-center text-3xl text-devarana-pink">¡Estamos felices de atenderte!</h1>
     <div class="grid grid-cols-3 md:gap-10 md:py-20 py-10 text-center text-devarana-graph">
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Ventas</h2>
@@ -66,7 +66,7 @@
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Corporativo</h2>
             <a href="tel:4424021073" class="growLine hover:opacity-50 block py-2">442 402 1073 </a>
-            <a href="" class="growLine hover:opacity-50 block py-2">Ubicación</a>
+            <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" class="underline growLine hover:opacity-50 block py-2">Ubicación</a>
         </div>
     </div>
 </div>

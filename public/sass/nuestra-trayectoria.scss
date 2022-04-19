@@ -2,7 +2,7 @@
 $font-header: Montserrat, helvetica;
 $font-nav : "Space Mono", monospace;
 // colors
-$color-dark: #111;
+$color-dark: #656a76;
 $color-border: #ccc;
 $color-trans-bg: #ededed;
 // easings
@@ -40,14 +40,13 @@ $mq-xlarge: 91em;
   position: absolute;
   // Grimey, not sure why
   // 0 isn't working
-  right: -5%;
+  right: -30%;
   display: flex;
   align-items: center;
   height: 100%;
-  color: #111;
   
   @media (min-width: $mq-med){
-    right: -7%;
+    right: -9%;
   }
 
   &__nav{
@@ -64,7 +63,6 @@ $mq-xlarge: 91em;
     display:inline-block;
     padding: 0.35em;
     margin: 0;
-    font-family: $font-nav;
     appearance: none;
     background:transparent;
     border: 0;

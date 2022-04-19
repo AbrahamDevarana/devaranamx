@@ -75,14 +75,14 @@
 
 
 
-    <div class="max-w-screen-2xl m-auto 2xl:px-0 sm:px-20 px-10 pt-20 pb-10">
+    <div class="max-w-screen-2xl m-auto 2xl:px-0 sm:px-20 px-10 pt-20 pb-10" id="royal-view">
         <h2 class="text-devarana-blue md:text-5xl text-3xl py-10"> Royal View <span class="md:text-2xl text-lg font-extralight font-mulish pl-10"> Actual Proyecto </span> </h2>
         <div>
             <section class="proSlides"> 
                 <section class="proSlides-nav">
                   <nav class="proSlides-nav__nav">
-                    <button class="proSlides-nav__prev js-prev">Prev</button>
-                    <button class="proSlides-nav__next js-next">Next</button>
+                    <button class="proSlides-nav__prev js-prev font-mulish text-devarana-graph">Atrás</button>
+                    <button class="proSlides-nav__next js-next font-mulish text-devarana-graph">Siguiente</button>
                   </nav>
                 </section>
               
@@ -152,12 +152,25 @@
     <div class="grid grid-cols-3 gap-20">
         <div class="md:col-span-1 col-span-3">
             <div class="bg-devarana-blue w-full">
-                <picture class="w-full block group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
-                    <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg" class="w-full">
-                    <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full transition-all ease-in-out duration-700 parall">
-                </picture>
-            </div>
+                    <div class="swiper mySwiper2 transition-all ease-in-out duration-700 parall ">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide cursor-grab active:cursor-grabbing">
+                                <picture class="w-full block group-hover:hidden">
+                                    {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
+                                    <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" type="image/jpg">
+                                    <img src="{{ asset('img/trayectoria/HIGH-GARDENS.jpg')}}" alt="HIGH-GARDENS" class="w-full">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide cursor-grab active:cursor-grabbing">
+                                <picture class="w-full block group-hover:hidden">
+                                    {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS-2.webp')}}" type="image/webp"> --}}
+                                    <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS-2.jpg')}}" type="image/jpg">
+                                    <img src="{{ asset('img/trayectoria/HIGH-GARDENS-2.jpg')}}" alt="HIGH-GARDENS" class="w-full">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <div class="px-4 py-6">
                 <h2 class="text-2xl text-devarana-blue bg-fixed">High Gardens</h2>
                 <p class="font-mulish font-extralight text-devarana-graph py-2">2017 - 2018 </p>
@@ -166,11 +179,24 @@
         </div>
         <div class="md:col-span-1 col-span-3 md:mt-20">
             <div class="bg-devarana-blue w-full">
-                <picture class="w-full block group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
-                    <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg" class="w-full">
-                    <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA" class="w-full transition-all ease-in-out duration-700 parall">
-                </picture>
+                <div class="swiper mySwiper2 transition-all ease-in-out duration-700 parall">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide cursor-grab active:cursor-grabbing">
+                            <picture class="w-full block group-hover:hidden">
+                                {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
+                                <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpg">
+                                <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA" class="w-full">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide cursor-grab active:cursor-grabbing">
+                            <picture class="w-full block group-hover:hidden">
+                                {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA-2.webp')}}" type="image/webp"> --}}
+                                <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA-2.jpg')}}" type="image/jpg">
+                                <img src="{{ asset('img/trayectoria/UPPER-CONDESA-2.jpg')}}" alt="UPPER-CONDESA" class="w-full">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="px-4 py-6">
                 <h2 class="text-2xl text-devarana-blue bg-fixed">Upper Condesa</h2>
@@ -180,11 +206,25 @@
         </div>
         <div class="md:col-span-1 col-span-3 md:mt-40">
             <div class="bg-devarana-blue w-full">
-                <picture class="w-full block group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.webp')}}" type="image/webp"> --}}
-                    <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" type="image/jpg" class="w-full">
-                    <img src="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" alt="GRANMAYRAN" class="w-full transition-all ease-in-out duration-700 parall">
-                </picture>
+                <div class="swiper mySwiper2 transition-all ease-in-out duration-700 parall">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide cursor-grab active:cursor-grabbing">
+                            <picture class="w-full block group-hover:hidden">
+                                {{-- <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.webp')}}" type="image/webp"> --}}
+                                <source srcset="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" type="image/jpg">
+                                <img src="{{ asset('img/trayectoria/GRANMAYRAN.jpg')}}" alt="GRANMAYRAN" class="w-full">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide cursor-grab active:cursor-grabbing">
+                            <picture class="w-full block group-hover:hidden">
+                                {{-- <source srcset="{{ asset('img/trayectoria/GRANMAYRAN-2.webp')}}" type="image/webp"> --}}
+                                <source srcset="{{ asset('img/trayectoria/GRANMAYRAN-2.jpg')}}" type="image/jpg">
+                                <img src="{{ asset('img/trayectoria/GRANMAYRAN-2.jpg')}}" alt="GRANMAYRAN" class="w-full">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             <div class="px-4 py-6">
                 <h2 class="text-2xl text-devarana-blue bg-fixed">Grand Mayran</h2>
@@ -195,10 +235,10 @@
     </div>
 </div>
 
-<div class="p-10  md:hidden block">
+<div class="p-10 md:hidden block">
     <div class="swiper mySwiper3">
         <div class="swiper-wrapper">
-            <div class="swiper-slide bg-devarana-pearl min-h-[500px]">
+            <div class="swiper-slide cursor-grab active:cursor-grabbing bg-devarana-pearl min-h-[500px]">
                 <div class="bg-devarana-blue">
                     <picture class="w-full block group-hover:hidden translate-x-4 -translate-y-4">
                         {{-- <source srcset="{{ asset('img/trayectoria/HIGH-GARDENS.webp')}}" type="image/webp"> --}}
@@ -209,7 +249,7 @@
                 <h3 class="py-6 text-devarana-graph">High Gardens</h3>
                 <p class="font-mulish font-extralight text-devarana-graph inline-flex">2017 - 2018  |  Sold Out</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl min-h-[500px]">
+            <div class="swiper-slide cursor-grab active:cursor-grabbing bg-devarana-pearl min-h-[500px]">
                 <div class="bg-devarana-blue">
                     <picture class="w-full block group-hover:hidden scale-y-90 scale-x-105">
                         {{-- <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp"> --}}
@@ -221,7 +261,7 @@
                 <p class="font-mulish font-extralight text-devarana-graph"></p>
                 <p class="font-mulish font-extralight text-devarana-graph inline-flex">2014 - 2016  |  Sold Out</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl min-h-[500px]">
+            <div class="swiper-slide cursor-grab active:cursor-grabbing bg-devarana-pearl min-h-[500px]">
                 <div class="bg-devarana-blue w-full">
                     <div class="bg-devarana-blue">
                         <picture class="w-full block group-hover:hidden  -translate-x-4 translate-y-4">
@@ -235,7 +275,6 @@
                 <p class="font-mulish font-extralight text-devarana-graph inline-flex">2012 - 2013  |  Sold Out</p>
             </div>
         </div>
-        <div class="swiper-pagination responsive-swiper"></div>
     </div>
 </div>
 
