@@ -37,3 +37,12 @@
     font-style: medium;
     font-display: swap;
 }
+
+
+@font-face {
+    font-family: 'Slick';
+    src: url('../fonts/Slick/slick.ttf') format('truetype');
+    font-weight: normal;
+    font-style: medium;
+    font-display: swap;
+}

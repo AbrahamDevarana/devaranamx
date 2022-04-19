@@ -3,6 +3,9 @@
 @import 'tailwindcss/utilities';
 @import 'tailwindcss/variants';
 
+@import 'public/sass/quienes-somos';
+@import 'public/sass/nuestra-trayectoria';
+
 
 body{
     background-color: #f9f9f7;
@@ -19,4 +22,9 @@ p, a, span, li{
 
 .growLine{
     @apply after:w-full after:h-0.5 after:rounded after:absolute after:left-0 after:bottom-0 after:scale-x-0 after:origin-left after:transition-transform after:ease-in-out hover:after:scale-x-100
+}
+
+
+.slick-center{
+    @apply drop-shadow-[0px_4px_27px_rgba(0,0,0,0.4)];
 }

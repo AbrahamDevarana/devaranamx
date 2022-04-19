@@ -8,25 +8,33 @@
 @section('content')
 
 <x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
-    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[65px]" > </x-logo-nav>
+    <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
-<div id="header" class="bg-devarana-hazelnut sm:min-h-[450px] md:min-h-[600px] xl:min-h-[800px] flex md:mb-36 mb-20 relative sm:mt-[65px]">
-    
+<div id="header" class="bg-devarana-hazelnut h-full flex md:mb-36 mb-20 relative md:mt-[65px]"> 
     {{-- <p class="font-playfair absolute z-30 top-16 bottom-0 left-0 right-0 my-auto px-10 text-5xl text-devarana-pearl ">Quiénes <br> somos</p> --}}
-    <div class="md:max-w-[80%] md:ml-auto mt-auto -mb-[5%] flex z-20 max-w-full md:pt-10 pt-20">
+    <div class="md:max-w-[80%] md:ml-auto mt-auto -mb-[5%] flex z-20 max-w-full lg:pt-40 md:pt-32 pt-20">
        <div class="relative">
-            <p class="text-devarana-pearl drop-shadow-lg font-playfair left-10 md:left-0 text-5xl md:text-8xl absolute md:-translate-x-2/4 md:-translate-y-1/3 -translate-y-1/3"> Quiénes <br> somos </p>
-            <img src="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" alt="Devarana Arte" class="w-full sm:pl-10 px-10 sm:px-0 z-10">
+            <p class="text-devarana-pearl drop-shadow-lg font-playfair left-10 md:left-0 text-5xl md:text-7xl lg:text-8xl absolute md:-translate-x-2/4 md:-translate-y-1/3 -translate-y-1/3"> Quiénes <br> somos </p>
+            <picture>
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" type="image/webp">
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" type="image/png">
+                <img class="w-full sm:pl-10 px-10 sm:px-0 z-10" src="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" alt="Devarana Arte">
+            </picture>
        </div>
        <div class="sm:block hidden">
-            <img src="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" alt="Devarana Statua" class="w-full pl-10 z-10 md:h-auto h-full ">
+            <picture>
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" type="image/webp">
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" type="image/png">
+                <img class="w-full pl-10 z-10 md:h-auto h-full " src="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" alt="Devarana Estatua">
+            </picture>
        </div>
     </div>
+    <img src="{{ asset("img/logos/IsotipoPink.svg") }}" alt="devarana pink" class="absolute left-14 bottom-14 hidden md:block">
 </div>
 
 
-<div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto md:gap-10 md:py-24 py-1">
+<div class="grid grid-cols-12 max-w-[95%] md:max-w-[90%] lg:max-w-[80%] mx-auto md:gap-10 md:pt-10 md:pb-24 pt-1 pb-1">
     <div class="col-span-12 md:col-span-5 flex">
         <h1 class="m-auto text-xl md:text-3xl lg:text-4xl text-devarana-blue md:text-left text-center">Somos creadores, <br>arquitectos y diseñadores  <br>de lo extraordinario.</h1>
     </div>
@@ -52,49 +60,79 @@
 </div>
 
 
-<div class="mb-10 hidden md:grid md:grid-cols-3 grid-cols-1 pb-10 transition-all ease-in-out duration-1000 bg-center bg-cover bg-no-repeat" id="bgGeneral" style="background-image: url('img/quienes-somos/OFICINAS-DEVARANA-1.jpg');background-color: #eadfd4">
-    <div class="row-span-2 col-span-2 md:col-span-1 relative">
-        <img src="{{ asset('img/quienes-somos/svg/NUESTROS_VALORES.svg') }}" alt="nuestros valores" class="w-[80%] md:w-full top-10 md:top-12 absolute px-4">
-        <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl py-20">Valores</h2>
+<div class="mb-10 hidden md:block pb-10 transition-all ease-in-out duration-1000 bg-center bg-cover bg-no-repeat">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+           width="0" height="0" viewBox="0 0 1366 768" xml:space="preserve">
+    <!-- Gaussian blur filter progression to animate -->
+    <defs>
+        <filter id="blur0">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="0 0" />
+        </filter>
+        <filter id="blur1">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="5 0" />
+        </filter>
+        <filter id="blur2">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="12 0" />
+        </filter>
+        <filter id="blur3">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="20 0" />
+        </filter>
+        <filter id="blur4">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="35 1" />
+        </filter>
+        <filter id="blur5">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="50 1" />
+        </filter>
+    </defs>
+    </svg>
+
+    <div class="grid grid-cols-12 bg-vista-devarana bg-center bg-cover min-h-[800px]">
+        <div class="col-span-6 flex flex-col my-auto">
+            <h2 class="text-devarana-pearl text-7xl px-10 py-10 inline-block mx-auto drop-shadow-lg"> Nuestros <span class="text-8xl block"> Valores</span> </h2>
+            <div class="col-span-3 pt-32 flex">
+                <x-link href="{{ route('nuestro-equipo') }}" class="m-auto block"> Conoce a nuestro equipo </x-link>
+            </div>
+        </div>
+    
+        <div class="valoresSlider col-span-6 relative flex my-auto overflow-hidden text-devarana-pearl cursor-grab active:cursor-grabbing">
+            <div class="p-10 drop-shadow-lg">
+                <p class="text-6xl font-playfair"> 01. </p>
+                <h3 class="py-10 text-xl ">Somos apasionados</h3>
+                <p class="font-mulish">Buscamos nuestra esencia para dedicarnos a lo que amamos y hacer nuestro trabajo siempre con pasión. ¡Nos levantamos cada día con entusiasmo para enfrentar los retos que encontramos en nuestro camino!</p>
+            </div>
+            <div class="p-10 drop-shadow-lg">
+                <p class="text-6xl font-playfair"> 02. </p>
+                <h3 class="py-10 text-xl ">Somos incluyentes</h3>
+                <p class="font-mulish">Vamos más allá de la tolerancia y hacemos siempre un esfuerzo por incluir a todos. El respeto a la diversidad nos hace una empresa incluyente.</p>
+            </div>
+            <div class="p-10 drop-shadow-lg">
+                <p class="text-6xl font-playfair"> 03. </p>
+                <h3 class="py-10 text-xl ">Espíritu triunfador</h3>
+                <p class="font-mulish">¡Somos optimistas, nos enfocamos en lo positivo y ante cualquier situación nos acompaña nuestro espíritu triunfador!</p>
+            </div>
+            <div class="p-10 drop-shadow-lg">
+                <p class="text-6xl font-playfair"> 04. </p>
+                <h3 class="py-10 text-xl ">La innovación nos distingue</h3>
+                <p class="font-mulish">¡Creemos firmemente en la constante innovación! Nos Ilusionan los retos y buscamos siempre estar a la vanguardia.</p>
+            </div>
+            <div class="p-10 drop-shadow-lg">
+                <p class="text-6xl font-playfair"> 05. </p>
+                <h3 class="py-10 text-xl ">La excelencia está en nuestro ADN</h3>
+                <p class="font-mulish">Buscamos la excelencia en todo lo que hacemos y damos todos los días lo mejor de nosotros mismos para vivir plenamente y sentirnos felices.</p>
+            </div>
+            <div class="p-10 drop-shadow-lg">
+                <p class="text-6xl font-playfair"> 06. </p>
+                <h3 class="py-10 text-xl ">Inspiramos con amor</h3>
+                <p class="font-mulish">El amor verdadero es preeminente en esta vida y nos motiva a hacer el bien en todo lo que emprendemos. Con nuestras acciones tratamos de hacer de este mundo un lugar mejor.</p>
+            </div>
+            <div class="p-10 drop-shadow-lg">
+                <p class="text-6xl font-playfair"> 07. </p>
+                <h3 class="py-10 text-xl ">Lo extraordinario es primero</h3>
+                <p class="font-mulish">La atención en los detalles, nuestro servicio legendario y esfuerzo por la satisfacción total, son parte de nuestra esencia.</p>
+            </div>
+        </div>
     </div>
-    <div class="valores bg-contain col-span-2 md:col-span-1 transition-all duration-500 ease-in-out text-devarana-graph hover:text-devarana-pearl bg-transparent hover:bg-devarana-pink border md:pl-10 md:pr-20 md:py-10 lg:py-16 p-10 hover:fill-devarana-pearl fill-devarana-graph">
-        <x-icon-apasionados class="w-10"/>
-        <h3 class="py-3 text-lg">Somos apasionados</h3>
-        <p class="font-mulish">Buscamos nuestra esencia para dedicarnos a lo que amamos y hacer nuestro trabajo siempre con pasión. ¡Nos levantamos cada día con entusiasmo para enfrentar los retos que encontramos en nuestro camino!</p>
-    </div>
-    <div class="valores bg-contain col-span-2 md:col-span-1 transition-all duration-500 ease-in-out text-devarana-graph hover:text-devarana-pearl bg-transparent hover:bg-devarana-pink border md:pl-10 md:pr-20 md:py-10 lg:py-16 p-10 hover:fill-devarana-pearl fill-devarana-graph">
-        <x-icon-incluyentes class="w-10"/>
-        <h3 class="py-3 text-lg">Somos incluyentes</h3>
-        <p class="font-mulish">Vamos más allá de la tolerancia y hacemos siempre un esfuerzo por incluir a todos. El respeto a la diversidad nos hace una empresa incluyente.</p>
-    </div>
-    <div class="valores bg-contain col-span-2 md:col-span-1 transition-all duration-500 ease-in-out text-devarana-graph hover:text-devarana-pearl bg-transparent hover:bg-devarana-pink border md:pl-10 md:pr-20 md:py-10 lg:py-16 p-10 hover:fill-devarana-pearl fill-devarana-graph">
-        <x-icon-triunfador class="w-10"/>
-        <h3 class="py-3 text-lg">Espíritu triunfador</h3>
-        <p class="font-mulish">¡Somos optimistas, nos enfocamos en lo positivo y ante cualquier situación nos acompaña nuestro espíritu triunfador!</p>
-    </div>
-    <div class="valores bg-contain col-span-2 md:col-span-1 transition-all duration-500 ease-in-out text-devarana-graph hover:text-devarana-pearl bg-transparent hover:bg-devarana-pink border md:pl-10 md:pr-20 md:py-10 lg:py-16 p-10 hover:fill-devarana-pearl fill-devarana-graph">
-        <x-icon-innovacion class="w-10"/>
-        <h3 class="py-3 text-lg">La innovación nos distingue</h3>
-        <p class="font-mulish">¡Creemos firmemente en la constante innovación! Nos Ilusionan los retos y buscamos siempre estar a la vanguardia.</p>
-    </div>
-    <div class="valores bg-contain col-span-2 md:col-span-1 transition-all duration-500 ease-in-out text-devarana-graph hover:text-devarana-pearl bg-transparent hover:bg-devarana-pink border md:pl-10 md:pr-20 md:py-10 lg:py-16 p-10 hover:fill-devarana-pearl fill-devarana-graph">
-        <x-icon-adn class="w-10"/>
-        <h3 class="py-3 text-lg">La excelencia está en nuestro ADN</h3>
-        <p class="font-mulish">Buscamos la excelencia en todo lo que hacemos y damos todos los días lo mejor de nosotros mismos para vivir plenamente y sentirnos felices.</p>
-    </div>
-    <div class="valores bg-contain col-span-2 md:col-span-1 transition-all duration-500 ease-in-out text-devarana-graph hover:text-devarana-pearl bg-transparent hover:bg-devarana-pink border md:pl-10 md:pr-20 md:py-10 lg:py-16 p-10 hover:fill-devarana-pearl fill-devarana-graph">
-        <x-icon-amor class="w-10"/>
-        <h3 class="py-3 text-lg">Inspiramos con amor</h3>
-        <p class="font-mulish">El amor verdadero es preeminente en esta vida y nos motiva a hacer el bien en todo lo que emprendemos. Con nuestras acciones tratamos de hacer de este mundo un lugar mejor.</p>
-    </div>
-    <div class="valores bg-contain col-span-2 md:col-span-1 transition-all duration-500 ease-in-out text-devarana-graph hover:text-devarana-pearl bg-transparent hover:bg-devarana-pink border md:pl-10 md:pr-20 md:py-10 lg:py-16 p-10 hover:fill-devarana-pearl fill-devarana-graph">
-        <x-icon-extraordinario class="w-10"/>
-        <h3 class="py-3 text-lg">Lo extraordinario es primero</h3>
-        <p class="font-mulish">La atención en los detalles, nuestro servicio legendario y esfuerzo por la satisfacción total, son parte de nuestra esencia.</p>
-    </div>
-    <div class="col-span-3 py-10 flex">
-        <x-link href="{{ route('nuestro-equipo') }}" class="m-auto block bg-transparent"> Conoce a nuestro equipo </x-link>
-    </div>
+    
 </div>
 
 <div class="md:hidden block pb-20">
@@ -102,57 +140,56 @@
         <img src="{{ asset('img/quienes-somos/svg/NUESTROS_VALORES.svg') }}" alt="nuestros valores" class="w-[80%] md:w-full top-10 md:top-12 absolute px-4 fill-black">
         <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl sm:py-10 py-1">Valores</h2>
     </div>
-    <div class="mySwiper">
-        <div class="swiper-wrapper text-devarana-graph">
-            <div class="swiper-slide bg-devarana-pearl px-10 py-6">
+
+        <div class="slickSlider text-devarana-graph cursor-grab active:cursor-grabbing">
+            <div class="bg-devarana-pearl px-10 py-6">
                 <x-icon-apasionados class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">Somos apasionados</h3>
                 <p class="text-center py-6 font-mulish">Buscamos nuestra esencia para dedicarnos a lo que amamos y hacer nuestro trabajo siempre con pasión. ¡Nos levantamos cada día con entusiasmo para enfrentar los retos que encontramos en nuestro camino!</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl px-10 py-6">
+            <div class="bg-devarana-pearl px-10 py-6">
                 <x-icon-incluyentes class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">Somos incluyentes</h3>
                 <p class="text-center py-6 font-mulish">Vamos más allá de la tolerancia y hacemos siempre un esfuerzo por incluir a todos. El respeto a la diversidad nos hace una empresa incluyente.</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl px-10 py-6">
+            <div class="bg-devarana-pearl px-10 py-6">
                 <x-icon-triunfador class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">Espíritu triunfador</h3>
                 <p class="text-center py-6 font-mulish">¡Somos optimistas, nos enfocamos en lo positivo y ante cualquier situación nos acompaña nuestro espíritu triunfador!</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl px-10 py-6">
+            <div class="bg-devarana-pearl px-10 py-6">
                 <x-icon-innovacion class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">La innovación nos distingue</h3>
                 <p class="text-center py-6 font-mulish">¡Creemos firmemente en la constante innovación! Nos Ilusionan los retos y buscamos siempre estar a la vanguardia.</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl px-10 py-6">
+            <div class="bg-devarana-pearl px-10 py-6">
                 <x-icon-adn class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">La excelencia está en nuestro ADN</h3>
                 <p class="text-center py-6 font-mulish">Buscamos la excelencia en todo lo que hacemos y damos todos los días lo mejor de nosotros mismos para vivir plenamente y sentirnos felices.</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl px-10 py-6">
+            <div class="bg-devarana-pearl px-10 py-6">
                 <x-icon-amor class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">Inspiramos con amor</h3>
                 <p class="text-center py-6 font-mulish">El amor verdadero es preeminente en esta vida y nos motiva a hacer el bien en todo lo que emprendemos. Con nuestras acciones tratamos de hacer de este mundo un lugar mejor.</p>
             </div>
-            <div class="swiper-slide bg-devarana-pearl px-10 py-6">
+            <div class="bg-devarana-pearl px-10 py-6">
                 <x-icon-extraordinario class="w-10 ml-auto"/>
                 <h3 class="py-3 text-lg text-center">Lo extraordinario es primero</h3>
                 <p class="text-center py-6 font-mulish">La atención en los detalles, nuestro servicio legendario y esfuerzo por la satisfacción total, son parte de nuestra esencia.</p>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
-    </div>
 </div>
 
 @endsection
 
 
 @section('styles')
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="{{ asset("css/quienes-somos.css")}}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }} "/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }} "/>
 @endsection
 
 @section("scripts")
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="{{ asset('js/quienes-somos/index.js') }}"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script src="{{ asset('js/quienes-somos.js') }}"></script>
 @endsection

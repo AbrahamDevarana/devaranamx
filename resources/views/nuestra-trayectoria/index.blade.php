@@ -8,7 +8,7 @@
 @section('content')
 
 <x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
-    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[65px]" > </x-logo-nav>
+    <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
 
@@ -54,100 +54,101 @@
 </div>
 
 
-<div class="md:px-20 px-10 md:py-10 py-2">
-    <div class="grid md:grid-cols-2">
-        <div class="col-span-2 md:col-span-1 flex">
+<div class="max-w-screen-2xl m-auto 2xl:px-0 sm:px-20 px-10 ">
+    <div class="grid grid-cols-12">
+        <div class="col-span-12 md:col-span-5 flex">
             <div class="relative m-auto md:px-16 py-8">
-                <p class="text-5xl md:text-6xl text-devarana-blue text-center font-playfair">Trayectoria</p>
+                <p class="text-5xl md:text-8xl text-devarana-blue text-center font-playfair">Trayectoria</p>
             </div>
         </div>
-        <div class="col-span-2 md:col-span-1">
+        <div class="col-span-12 md:col-span-7">
             <h1 class="text-devarana-blue text-2xl md:px-5 py-2">Empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario.</h1>
-            <p class="text-devarana-graph text-justify md:px-5 py-2">
+            <p class="text-devarana-graph text-justify md:px-5 py-2 text-base">
                 Contamos con los más altos estándares de calidad en obra y vanguardia en sistemas de construcción. Conformamos un equipo propio de arquitectura e ingeniería con gran experiencia.
             </p>
-            <p class="text-devarana-graph text-justify md:px-5">
+            <p class="text-devarana-graph text-justify md:px-5 text-base">
                 Implementamos procedimientos de aseguramiento de calidad en todas las etapas del diseño y la construcción. Con ello ofrecemos un producto de primer nivel con los mejores acabados y logramos siempre el máximo valor agregado para nuestros clientes.
             </p>
         </div>
     </div>
 </div>
 
-<div class="px-10 md:px-20 py-10 md:py-20" id="royal-view">
-    <div class="grid grid-cols-12 md:gap-16">
-        <div class="col-span-12 md:col-span-5 my-auto">
-            <h2 class="text-devarana-blue text-2xl py-2">Royal View</h2>
-            <p class="text-devarana-blue py-2 font-mulish font-extralight">2019 - Actualidad</p>
-            <p class="text-devarana-graph py-4">Proyectos con personalidad y acabados exclusivos, que nos permiten ofrecer una inigualable calidad de vida y gran plusvalía.</p>
-            <div class="flex py-4">
-                <button href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500 m-auto md:ml-0 justify-center">
-                    <img src="{{asset("img/logos/IsotipoPink.svg")}}" alt="Isotipo Devarana" class="hidden group-hover:block w-8 mr-2">
-                    <img src="{{asset("img/logos/Isotipo_blanco.png")}}" alt="Isotipo Devarana" class="block group-hover:hidden w-8 mr-2"> Preventa diponible </button>
-            </div>
+
+
+    <div class="max-w-screen-2xl m-auto 2xl:px-0 sm:px-20 px-10 pt-20 pb-10">
+        <h2 class="text-devarana-blue md:text-5xl text-3xl py-10"> Royal View <span class="md:text-2xl text-lg font-extralight font-mulish pl-10"> Actual Proyecto </span> </h2>
+        <div>
+            <section class="proSlides"> 
+                <section class="proSlides-nav">
+                  <nav class="proSlides-nav__nav">
+                    <button class="proSlides-nav__prev js-prev">Prev</button>
+                    <button class="proSlides-nav__next js-next">Next</button>
+                  </nav>
+                </section>
+              
+                <section class="proSlide is-active">
+                  <div class="proSlide__content">
+                    <figure class="proSlide__figure">
+                        {{-- <source srcset="{{ asset('img/trayectoria/Diseños-DEVARANA.webp')}}" type="image/webp"> --}}
+                        <source srcset="{{ asset('img/trayectoria/Diseños-DEVARANA.jpg')}}" type="image/jpg">
+                        <img src="{{ asset('img/trayectoria/Diseños-DEVARANA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="proSlide__img object-cover">
+                    </figure>
+                    <header class="proSlide__header">
+                      <h2 class="proSlide__title translate-y-10">
+                        <span class="title-line text-devarana-pearl"><span class="md:text-5xl text-3xl">Diseños para</span></span>
+                        <span class="title-line text-devarana-pearl"><span class="md:text-5xl text-3xl">cada estilo de vida</span></span>
+                      </h2>
+                    </header>
+                  </div>
+                </section>
+              
+                <section class="proSlide">
+                  <div class="proSlide__content">
+                    <figure class="proSlide__figure">
+                        {{-- <source srcset="{{ asset('img/trayectoria/espacios-DEVARANA.webp')}}" type="image/webp"> --}}
+                        <source srcset="{{ asset('img/trayectoria/espacios-DEVARANA.jpg')}}" type="image/jpg">
+                        <img src="{{ asset('img/trayectoria/espacios-DEVARANA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="proSlide__img object-cover">
+                    </figure>
+                    <header class="proSlide__header">
+                      <h2 class="proSlide__title translate-y-10">
+                        <span class="title-line text-devarana-pearl"><span class="md:text-5xl text-3xl">Espacios para</span></span>
+                        <span class="title-line text-devarana-pearl"><span class="md:text-5xl text-3xl">toda la familia</span></span>
+                      </h2>
+                    </header>
+                  </div>
+                </section>
+              
+                <section class="proSlide">
+                  <div class="proSlide__content">
+                    <figure class="proSlide__figure">
+                        
+                        {{-- <source srcset="{{ asset('img/trayectoria/CALIDAD-DEVARANA.webp')}}" type="image/webp"> --}}
+                        <source srcset="{{ asset('img/trayectoria/CALIDAD-DEVARANA.jpg')}}" type="image/jpg">
+                        <img src="{{ asset('img/trayectoria/CALIDAD-DEVARANA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="proSlide__img object-cover">
+                    </figure>
+                    <header class="proSlide__header">
+                      <h2 class="proSlide__title translate-y-10">
+                        <span class="title-line text-devarana-pearl"><span class="md:text-5xl text-3xl">Calidad de vida</span></span>
+                        <span class="title-line text-devarana-pearl"><span class="md:text-5xl text-3xl">de primer nivel</span></span>
+                      </h2>
+                    </header>
+                  </div>
+                </section>
         </div>
-        <div class="col-span-12 md:col-span-7">
-            <div class="swiper mySwiper2 w-full">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide py-10 bg-devarana-pearl">
-                        <picture>
-                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW1.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW1.jpg')}}" type="image/jpg">
-                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW1.jpg')}}" alt="ROYAL-VIEW1" class="w-full">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide py-10 bg-devarana-pearl">
-                        <picture>
-                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW2.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW2.jpg')}}" type="image/jpg">
-                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW2.jpg')}}" alt="ROYAL-VIEW2" class="w-full">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide py-10 bg-devarana-pearl">
-                        <picture>
-                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW3.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW3.jpg')}}" type="image/jpg">
-                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW3.jpg')}}" alt="ROYAL-VIEW3" class="w-full">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide py-10 bg-devarana-pearl">
-                        <picture>
-                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW4.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW4.jpg')}}" type="image/jpg">
-                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW4.jpg')}}" alt="ROYAL-VIEW4" class="w-full">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide py-10 bg-devarana-pearl">
-                        <picture>
-                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW5.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW5.jpg')}}" type="image/jpg">
-                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW5.jpg')}}" alt="ROYAL-VIEW5" class="w-full">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide py-10 bg-devarana-pearl">
-                        <picture>
-                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW6.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW6.jpg')}}" type="image/jpg">
-                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW6.jpg')}}" alt="ROYAL-VIEW6" class="w-full">
-                        </picture>
-                    </div>
-                    <div class="swiper-slide py-10 bg-devarana-pearl">
-                        <picture>
-                            {{-- <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW7.webp')}}" type="image/webp"> --}}
-                            <source srcset="{{ asset('img/trayectoria/ROYAL-VIEW7.jpg')}}" type="image/jpg">
-                            <img src="{{ asset('img/trayectoria/ROYAL-VIEW7.jpg')}}" alt="ROYAL-VIEW7" class="w-full">
-                        </picture>
-                    </div>
-                </div>
-                <div class="swiper-scrollbar" style=""></div>
-            </div>
+        <div class="flex pt-16">
+            <button href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500 md:ml-auto md:m-0 m-auto  justify-center">
+                <img src="https://test.devarana.mx/img/logos/IsotipoPink.svg" alt="Isotipo Devarana" class="hidden group-hover:block w-8 mr-2">
+                <img src="https://test.devarana.mx/img/logos/Isotipo_blanco.png" alt="Isotipo Devarana" class="block group-hover:hidden w-8 mr-2"> Preventa diponible </button>
         </div>
+            
     </div>
-</div>
+    
+
 
 <div class="translate-x-4 -translate-y-4 hidden scale-y-90 scale-x-105"></div>
 <div class="-translate-x-4 translate-y-4 hidden" ></div>
 
-<div class="md:px-20 py-10 md:py-20 px-10 md:block hidden" id="desarrollos">
+<div class="max-w-screen-2xl m-auto md:px-20 py-10 px-10 md:block hidden" id="desarrollos">
     <div class="grid grid-cols-3 gap-20">
         <div class="md:col-span-1 col-span-3">
             <div class="bg-devarana-blue w-full">
@@ -295,11 +296,12 @@
 @endsection
 
 @section('styles')
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset("css/nuestra-trayectoria.css")}}" />
 @endsection
 
     @section("scripts")
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="{{ asset('js/nuestra-trayectoria/index.js') }}"></script>
+    <script src="{{ asset('js/nuestra-trayectoria.js') }}"></script>
 @endsection

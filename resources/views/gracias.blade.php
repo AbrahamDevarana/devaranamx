@@ -8,7 +8,7 @@
 @section('content')
 
     <x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">    
-        <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[100px]" > </x-logo-nav>
+        <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
     </x-nav>
 
 {{-- <div id="header" class="h-[150px] bg-devarana-hazelnut"></div> --}}

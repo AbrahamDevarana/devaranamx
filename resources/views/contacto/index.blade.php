@@ -3,7 +3,7 @@
 @section('content')
 
 <x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
-    <x-logo-nav name="DevaranaLogo.png" class="w-[150px] h-[65px]" > </x-logo-nav>
+    <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
 <div class="grid grid-cols-12 md:gap-x-10 md:-mb-52 sm:mt-[65px]">

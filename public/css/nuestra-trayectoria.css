@@ -10,7 +10,7 @@ color: white;
     color: white; 
 }
 .swiper-pagination{
-    bottom: -40px;
+    bottom: -105px;
     left:60px;
     width: 60px!important;
     color:white
@@ -19,7 +19,7 @@ color: white;
     left: 30px!important;
     top: unset!important;
     width: 30px;
-    bottom: -40px;
+    bottom: -105px;
     height: 40px;
 }
 
@@ -27,7 +27,7 @@ color: white;
     left: 0px!important;
     top: unset!important;
     width: 30px;
-    bottom: -40px;
+    bottom: -105px;
     height: 40px;
 }
 
