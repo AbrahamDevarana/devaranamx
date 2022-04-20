@@ -11,7 +11,7 @@
         <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
     </x-nav>
 
-    <div class="relative md:h-[100vh] h-[400px] overflow-hidden" id="header">
+    <div class="relative lg:h-[100vh] md:h-[600px] h-[330px]  overflow-hidden" id="header">
         <picture>
             {{-- <source srcset="{{ asset('img/home/DEVARANAVistas-espectaculares.webp') }}" type="image/webp"> --}}
             <source srcset="{{ asset('/img/home/DEVARANAVistas-espectaculares.jpeg') }}" type="image/jpeg">

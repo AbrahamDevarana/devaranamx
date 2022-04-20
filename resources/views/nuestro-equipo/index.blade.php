@@ -17,8 +17,8 @@
     </div>
     <div class="col-span-4 flex">
         <div class="my-auto items-center">
-            <h1 class="text-devarana-pearl drop-shadow-lg md:text-8xl px-5 md:px-0 text-2xl md:-translate-y-1/3 md:-translate-x-9">Nuestro equipo</h1>
-            <p class="text-devarana-babyblue md:text-3xl md:px-20 px-5 font-playfair ">¿Por qué DEVARANA?</p>
+            <h1 class="text-devarana-pearl drop-shadow-lg lg:text-8xl md:text-4xl px-5 lg:px-0 text-2xl lg:-translate-y-1/3 lg:-translate-x-9">Nuestro equipo</h1>
+            <p class="text-devarana-babyblue drop-shadow-sm lg:text-3xl md:text-2xl lg:px-20 px-5 font-playfair lg:py-0 py-4">¿Por qué DEVARANA?</p>
         </div>
     </div>
 </div>

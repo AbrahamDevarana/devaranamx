@@ -56,12 +56,12 @@
 
 <div class="max-w-screen-2xl m-auto 2xl:px-0 sm:px-20 px-10 ">
     <div class="grid grid-cols-12">
-        <div class="col-span-12 md:col-span-5 flex">
-            <div class="relative m-auto md:px-16 py-8">
-                <p class="text-5xl md:text-8xl text-devarana-blue text-center font-playfair">Trayectoria</p>
+        <div class="col-span-12 lg:col-span-5 flex">
+            <div class="relative m-auto lg:px-16 py-8">
+                <p class="text-5xl lg:text-8xl text-devarana-blue text-center font-playfair">Trayectoria</p>
             </div>
         </div>
-        <div class="col-span-12 md:col-span-7 md:py-16 py-3">
+        <div class="col-span-12 lg:col-span-7 lg:py-16 py-3">
             <h1 class="text-devarana-blue text-2xl md:px-5 py-2">Empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario.</h1>
             <p class="text-devarana-graph text-justify md:px-5 py-6 text-base">
                 Contamos con los más altos estándares de calidad en obra y vanguardia en sistemas de construcción. Conformamos un equipo propio de arquitectura e ingeniería con gran experiencia.

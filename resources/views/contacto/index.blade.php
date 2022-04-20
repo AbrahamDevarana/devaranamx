@@ -6,7 +6,7 @@
     <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
-<div class="relative h-screen">
+<div class="relative max-h-screen h-fit">
     <picture>
         {{-- <source srcset="{{ asset('img/contacto/DevaranaFachada.webp')}}" type="image/webp"> --}}
         <source srcset="{{ asset('img/contacto/DevaranaFachada.png')}}" type="image/png">

@@ -22,11 +22,11 @@
                                 </g>
                             </g>
                         </svg>
-                </a>
-                    <li class="hidden md:flex m-auto drop-shadow-xl growLine headLink tracking-widest {{ request()->is('quienes-somos')? 'text-devarana-salmon after:bg-devarana-salmon' : 'after:bg-devarana-pearl' }}">
+                    </a>
+                    <li class="hidden md:flex m-auto drop-shadow-xl growLine headLink relative tracking-widest {{ request()->is('quienes-somos')? 'text-devarana-salmon after:bg-devarana-salmon' : 'after:bg-devarana-pearl' }}">
                         <a href="{{ route('quienes-somos') }}">Quiénes somos</a>
                     </li>
-                    <li class="hidden md:flex m-auto drop-shadow-xl growLine headLink tracking-widest {{ request()->is('nuestro-equipo')? 'text-devarana-salmon after:bg-devarana-salmon' : 'after:bg-devarana-pearl' }}">
+                    <li class="hidden md:flex m-auto drop-shadow-xl growLine headLink relative tracking-widest {{ request()->is('nuestro-equipo')? 'text-devarana-salmon after:bg-devarana-salmon' : 'after:bg-devarana-pearl' }}">
                         <a href="{{ route('nuestro-equipo') }}">Nuestro equipo</a>
                     </li>
 
