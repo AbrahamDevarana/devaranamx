@@ -12,18 +12,12 @@
 </x-nav>
 
 <div id="header" class="bg-devarana-hazelnut grid grid-cols-12 mb-10 md:mb-32 relative -z-30 sm:mt-[65px] md:px-20 px-10">
-
-    {{-- <div class="max-w-[80%] md:mt-auto md:-mb-[5%] -mb-[30%] flex md:col-span-8 md:-z-20 md:pt-40 col-span-12 mx-auto pt-28">
-        
-    </div>
-    <h1 class="md:block hidden text-devarana-blue text-3xl lg:text-4xl font-playfair mb-20 mt-auto col-span-4">Nuestro Equipo</h1>
-    <h1 class="md:block hidden text-devarana-blue text-3xl lg:text-4xl font-playfair mb-20 mt-auto col-span-4">¿Por qué <span class="text-4xl lg:text-5xl w-full  z-30 tracking-normal">DEVARANA?</span></h1> --}}
     <div class="col-span-8">
         <img src="{{ asset("img/nuestro-equipo/HEADER.jpg") }}" alt="" class="w-full md:-mb-[11%] md:py-[7%] -mb-[30%] py-[30%]">
     </div>
     <div class="col-span-4 flex">
         <div class="my-auto items-center">
-            <h1 class="text-devarana-pearl drop-shadow-lg md:text-8xl text-2xl -translate-y-1/3 md:-translate-x-9 -translate-x-24">Nuestro equipo</h1>
+            <h1 class="text-devarana-pearl drop-shadow-lg md:text-8xl px-5 md:px-0 text-2xl md:-translate-y-1/3 md:-translate-x-9">Nuestro equipo</h1>
             <p class="text-devarana-babyblue md:text-3xl md:px-20 px-5 font-playfair ">¿Por qué DEVARANA?</p>
         </div>
     </div>
@@ -42,7 +36,7 @@
                             <x-icon-desarrollos class="w-20 md:w-28 m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
-                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2 my-auto"> <span class="block font-bold w-full text-2xl">4</span> Desarrollos </p>
+                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2 my-auto"> <span class="block font-bold w-full text-2xl font-mulish">4</span> Desarrollos </p>
                         </div>
                     </a>
                 </div>
@@ -54,7 +48,7 @@
                             <x-icon-colaboradores class="w-20 md:w-28  m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
-                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2 my-auto"> <span class="block font-bold w-full text-2xl">40+</span> Colaboradores </p>
+                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2 my-auto"> <span class="block font-bold w-full text-2xl font-mulish">40+</span> Colaboradores </p>
                         </div>
                     </a>
                 </div>
@@ -66,7 +60,7 @@
                             <x-icon-residentes class="w-16 md:w-20  m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
-                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2"> <span class="block font-bold w-full text-2xl">2.5k</span> Residentes satisfechos </p>
+                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2"> <span class="block font-bold w-full text-2xl font-mulish">2.5k</span> Residentes satisfechos </p>
                         </div>
                     </a>
                 </div>
@@ -80,7 +74,7 @@
                             <x-icon-hectareas class="w-20 md:w-28  m-auto fill-devarana-blue"/>
                         </div>
                         <div class="info">
-                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2"> <span class="block font-bold w-full text-2xl">8+</span>  Hectáreas construidas </p>
+                            <p class="text-devarana-pearl text-center font-playfair md:px-0 px-2"> <span class="block font-bold w-full text-2xl font-mulish">8+</span>  Hectáreas construidas </p>
                         </div>
                     </a>
                 </div>
@@ -249,85 +243,6 @@
     </div>
 </div>
 
-<div class="md:px-20 px-10 md:py-10 py-1">
-
-    <div class="grid grid-cols-12">
-        <div class="col-span-12 md:col-start-4 md:col-end-9">
-            <p class="text-devarana-salmon text-4xl md:text-5xl md:-translate-x-16 font-playfair translate-y-2 ">Somos</p>
-            <h2 class="lg:text-8xl md:text-5xl text-4xl font-playfair text-center text-devarana-blue">Orgullosamente</h2>
-        </div>
-    </div>
-
-
-    <div class="md:py-20 py-2">
-        <div class="swiper mySwiper w-full">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide py-10 bg-devarana-pearl md:min-h-0 min-h-[920px]">
-                <div class="grid grid-cols-12 gap-16">
-                    <div class="col-span-12 md:col-span-5 my-auto">
-                        <h3 class="text-devarana-blue text-2xl py-2">ESR</h3>
-                        <p class="text-devarana-blue py-2">Empresa Socialmente Responsable</p>
-                        <p class="text-devarana-graph py-4">Demostramos nuestro compromiso de responsabilidad social con el reconocimiento anual otorgado por Cemefi y AliaRSE.</p>
-                        <img src="{{ asset("img/nuestro-equipo/svg/DEVARANA-ESR.svg") }}" alt="" class="w-[150px]">
-                    </div>
-                    <div class="col-span-12 md:col-span-7">
-                        <picture class="w-full block group-hover:hidden">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/ESR.jpg')}}" type="image/jpg" class="w-full">
-                            <img srcset="" sizes="" src="{{ asset('img/nuestro-equipo/ESR.jpg')}}" alt="ESR" class="w-full">
-                        </picture>
-                    </div>
-                </div>
-
-              </div>
-              <div class="swiper-slide py-10 bg-devarana-pearl md:min-h-0 min-h-[920px]">
-                <div class="grid grid-cols-12 gap-16">
-                    <div class="col-span-12 md:col-span-5 my-auto">
-                        <h3 class="text-devarana-blue text-2xl py-2">GPTW</h3>
-                        <p class="text-devarana-blue py-2">Great Place To Work</p>
-                        <p class="text-devarana-graph py-4">Impulsamos políticas y prácticas que mejoran la calidad de vida dentro de nuestra organización, certificándonos desde 2019.</p>
-                        <img srcset="" sizes="" src="{{ asset("img/nuestro-equipo/svg/DEVARANA-GPTW.svg") }}" alt="" class="w-[80px]">
-                    </div>
-                    <div class="col-span-12 md:col-span-7">
-                        <picture class="w-full block group-hover:hidden">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/GPTW.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" type="image/jpg" class="w-full">
-                            <img src="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" alt="GPTW" class="w-full">
-                        </picture>
-                    </div>
-                </div>
-
-              </div>
-              <div class="swiper-slide py-10 bg-devarana-pearl md:min-h-0 min-h-[920px]">
-                <div class="grid grid-cols-12 gap-16">
-                    <div class="col-span-12 md:col-span-5 my-auto">
-                        <h3 class="text-devarana-blue text-2xl py-2">Servicio Legendario</h3>
-                        <p class="text-devarana-blue py-2">ISO 9001:2015</p>
-                        <p class="text-devarana-graph py-4">Comercialización profesional de desarrollos inmobiliarios premium Certificado 10017372 QM 15</p>
-                        <img src="{{ asset("img/nuestro-equipo/svg/DEVARANA-ISO.svg") }}" alt="" class="w-[80px]">
-                    </div>
-                    <div class="col-span-12 md:col-span-7">
-                        <picture class="w-full block group-hover:hidden">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" type="image/jpg" class="w-full">
-                            <img src="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" alt="SERVICIO-LEGENDARIO" class="w-full">
-                        </picture>
-                    </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="swiper-scrollbar"></div>
-
-
-        </div>
-    </div>
-</div>
-<div class="flex pb-20">
- <x-link href="https://mx.linkedin.com/company/devarana" target="_blank" class="m-auto block"> Conoce nuestras vacantes </x-link>
-</div>
-
-
 
 <div class="max-w-screen-xl mx-auto">
     <div class="grid grid-cols-12">
@@ -337,7 +252,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-12 md:gap-10 py-10">
+    <div class="grid grid-cols-12  gap-y-10 md:gap-10 py-10">
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
                 {{-- <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp" class="w-full"> --}}

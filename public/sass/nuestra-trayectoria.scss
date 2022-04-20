@@ -36,24 +36,24 @@ $mq-xlarge: 91em;
 //  Slides Nav
 //-------------------------------
 .proSlides-nav{
-  z-index: 99;
+  z-index: 39;
   position: absolute;
   // Grimey, not sure why
   // 0 isn't working
-  right: -125px;
+  right: -100px;
   display: flex;
   align-items: center;
   height: 100%;
   
   @media (min-width: $mq-med){
-    right: -125px;
+    right: -100px;
   }
 
   &__nav{
     position: relative;
     right: 0;
     display: block;
-    font-size: 24px;
+    font-size: 18px;
     transform: rotate(90deg);
     transform-origin: center;
   }

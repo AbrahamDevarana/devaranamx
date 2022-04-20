@@ -128,6 +128,7 @@
     opacity: 0;
   }
 
+
 @media ( max-width: 1300px ) {
     .snip1401 figcaption {
         width: 50%;
@@ -160,5 +161,13 @@
      
       padding: 45px 0px;
       font-style: normal;
+  }
+}
+
+
+@media ( max-width: 598px ) {
+    .snip1401 figcaption {
+      width: 40%;
+      padding: 5px 0 5px 0px;
   }
 }

@@ -175,9 +175,6 @@ const Swipe2 = new Swiper('.mySwiper2', {
 });
 
 const Swipe3 = new Swiper('.mySwiper3', {
-    pagination: {
-        el: ".swiper-pagination"
-    },
     effect: "fade",
     autoplay: {
         delay: 3000,
@@ -217,4 +214,3 @@ window.addEventListener('scroll', function(e){
     }
 
 })
-

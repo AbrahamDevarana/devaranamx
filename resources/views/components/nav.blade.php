@@ -65,7 +65,7 @@
     <div class="relative">
         <div class="md:hidden flex fixed z-[10000] w-full bg-devarana-pink mb-5 ">
             <a class="ml-[45%]" href="/"><img src="{{ asset("img/logos/Isotipo_blanco.png") }}" alt="Devarana Logotipo" class="w-[35px] py-2" id="devaranaLogoBlanco"></a>
-            <button class="outline-none mobile-menu-button ml-auto p-2" id="btnResponsiveMenu">
+            <button class="outline-none mobile-menu-button ml-auto p-2 active:rotate-270 active:scale-50 focus:outline-0 transition-all ease-in-out duration-500" id="btnResponsiveMenu">
                 <img id="imgOpen" src="{{ asset('img/icons/burger.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400">
                 <img id="imgClose" src="{{ asset('img/icons/cross.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400 hidden">
             </button>
