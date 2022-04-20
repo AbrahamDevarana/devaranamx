@@ -51,7 +51,7 @@
     </nav>
 
     {{-- Responsive Menu --}}
-    <nav class="md:hidden hidden mobile-menu fixed w-full bg-devarana-pink z-50 transition-all duration-300 ease-in-out opacity-0 shadow-lg h-screen overflow-hidden">
+    <nav class="md:hidden hidden mobile-menu fixed w-full bg-devarana-blue z-50 transition-all duration-300 ease-in-out opacity-0 shadow-lg h-screen overflow-hidden">
         <div class="flex h-full py-10">
             <ul class="text-devarana-pearl px-3 w-full my-10 text-center font-playfair">
                 <a href="{{ route('/') }}" class="hover:underline"> <li class="m-auto py-4 text-3xl"> Home </li> </a>
@@ -63,12 +63,18 @@
         </div>
     </nav>
     <div class="relative">
-        <div class="md:hidden flex fixed z-[10000] w-full bg-devarana-pink mb-5 ">
-            <a class="ml-[45%]" href="/"><img src="{{ asset("img/logos/Isotipo_blanco.png") }}" alt="Devarana Logotipo" class="w-[35px] py-2" id="devaranaLogoBlanco"></a>
-            <button class="outline-none mobile-menu-button ml-auto p-2 active:rotate-270 active:scale-50 focus:outline-0 transition-all ease-in-out duration-500" id="btnResponsiveMenu">
-                <img id="imgOpen" src="{{ asset('img/icons/burger.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400">
-                <img id="imgClose" src="{{ asset('img/icons/cross.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400 hidden">
-            </button>
+        <div class="md:hidden fixed z-[10000] w-full bg-devarana-blue mb-5 ">
+            <div class="grid grid-cols-12">
+                <div class="col-span-10 flex col-start-2">
+                    <a class="text-center m-auto" href="/"><img src="{{ asset("img/logos/LogotipoDevarana_blanco.png") }}" alt="Devarana Logotipo" class="w-[150px] py-2" id="devaranaLogoBlanco"></a>
+                </div>
+                <div class="col-span-1 py-2">        
+                    <button class="outline-none mobile-menu-button ml-auto active:rotate-270 active:scale-50 focus:outline-0 transition-all ease-in-out duration-500" id="btnResponsiveMenu">
+                        <img id="imgOpen" src="{{ asset('img/icons/burger.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400">
+                        <img id="imgClose" src="{{ asset('img/icons/cross.svg') }}" alt="burger" height="30px" width="30px" class="text-gray-400 hidden">
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </header>

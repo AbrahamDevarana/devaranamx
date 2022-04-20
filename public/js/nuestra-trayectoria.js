@@ -200,22 +200,18 @@ window.addEventListener('scroll', function(e){
     if(yPos > royal_view.offsetTop && yPos < desarrollos.offsetTop ){
         pics[0].classList.add("translate-x-4")
         pics[0].classList.add("-translate-y-4")
-            
     }
 
-    pics[1].classList.remove("scale-y-90")
-    pics[1].classList.remove("scale-x-105")
+    pics[1].classList.remove("-translate-y-4")
     if(yPos > royal_view.offsetTop && yPos < desarrollos.offsetTop ){
-        pics[1].classList.add("scale-y-90")
-        pics[1].classList.add("scale-x-105")
-            
+        pics[1].classList.add("-translate-y-4")            
     }
+
     pics[2].classList.remove("-translate-x-4")
     pics[2].classList.remove("translate-y-4")
     if(yPos > royal_view.offsetTop && yPos < desarrollos.offsetTop ){
         pics[2].classList.add("-translate-x-4")
-        pics[2].classList.add("translate-y-4")
-            
+        pics[2].classList.add("translate-y-4")   
     }
 
 })

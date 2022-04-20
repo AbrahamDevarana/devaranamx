@@ -30,7 +30,7 @@
         </h1>
         <div class="grid grid-cols-12 py-10 gap-y-10">
             <div class="col-span-12 md:col-span-3 md:col-start-2">
-                <h2 class="text-devarana-pink text-2xl md:text-left text-center">
+                <h2 class="text-devarana-graph text-2xl md:text-left text-center">
                     Empresa México-Holandesa
                 </h2>
             </div>

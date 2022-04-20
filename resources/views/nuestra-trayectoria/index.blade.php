@@ -185,7 +185,7 @@
                                 <img src="{{ asset('img/trayectoria/UPPER-CONDESA-2.jpg')}}" alt="UPPER-CONDESA" class="w-full absolute z-10 top-0 left-0 right-0 bottom-0 opacity-0 group-hover:opacity-100 transition-all ease-linear duration-300">
                     </picture>
                     <div class="h-full w-full absolute z-10 top-0 left-0 right-0 bottom-0 opacity-0 group-hover:opacity-100 transition-all ease-linear duration-300 flex bg-black bg-opacity-50">
-                        <p class="font-mulish text-devarana-pearl inline-flex items-center m-auto"> <img src="{{asset("img/logos/Isotipo_blanco.png")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
+                        <p class="font-mulish text-devarana-pearl inline-flex items-center m-auto group-hover:scale-y-100"> <img src="{{asset("img/logos/Isotipo_blanco.png")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
                     </div>
                 </div>
             </div>
