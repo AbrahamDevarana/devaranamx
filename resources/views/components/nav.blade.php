@@ -4,7 +4,7 @@
         <div class="relative">
             <div class="md:w-10/12 m-auto py-3 flex">
                 <ul class="list-none grid grid-cols-6 grid-flow-col text-center font-playfair m-auto w-full relative">
-                    <a href="/" title="Home" {{ $attributes['hidden'] }} class="h-7 w-7 absolute -left-5 bottom-[22%]">
+                    <a href="/" title="Home" {{ $attributes['hidden'] }} class="h-7 w-7 absolute -left-9 bottom-[22%]">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 690.2 536.1" style="enable-background:new 0 0 690.2 536.1;" xml:space="preserve" id="homeIcon" class="fill-devarana-blue sm:fill-devarana-pearl hover:opacity-40">
                             <g id="sNsvAO_00000016066314239023043860000010785574361992754585_">
                                 <g>
