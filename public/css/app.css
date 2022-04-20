@@ -3025,6 +3025,11 @@ select {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 @media (min-width: 1280px) {
 

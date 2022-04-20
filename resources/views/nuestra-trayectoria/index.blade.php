@@ -58,7 +58,7 @@
     <div class="grid grid-cols-12">
         <div class="col-span-12 lg:col-span-5 flex">
             <div class="relative m-auto lg:px-16 py-8">
-                <p class="text-5xl lg:text-8xl text-devarana-blue text-center font-playfair">Trayectoria</p>
+                <p class="text-5xl lg:text-6xl xl:text-8xl text-devarana-blue text-center font-playfair">Trayectoria</p>
             </div>
         </div>
         <div class="col-span-12 lg:col-span-7 lg:py-16 py-3">
