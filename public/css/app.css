@@ -1597,6 +1597,10 @@ select {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1680,6 +1684,9 @@ select {
 }
 .text-justify {
   text-align: justify;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .align-bottom {
   vertical-align: bottom;
@@ -2608,6 +2615,10 @@ select {
     flex-direction: column;
   }
 
+  .md\:content-evenly {
+    align-content: space-evenly;
+  }
+
   .md\:gap-10 {
     gap: 2.5rem;
   }
@@ -2702,6 +2713,16 @@ select {
   .md\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .md\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .md\:py-44 {
+    padding-top: 11rem;
+    padding-bottom: 11rem;
   }
 
   .md\:pt-10 {

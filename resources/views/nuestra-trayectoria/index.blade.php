@@ -61,7 +61,7 @@
                 <p class="text-5xl md:text-8xl text-devarana-blue text-center font-playfair">Trayectoria</p>
             </div>
         </div>
-        <div class="col-span-12 md:col-span-7 py-16">
+        <div class="col-span-12 md:col-span-7 md:py-16 py-3">
             <h1 class="text-devarana-blue text-2xl md:px-5 py-2">Empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario.</h1>
             <p class="text-devarana-graph text-justify md:px-5 py-6 text-base">
                 Contamos con los más altos estándares de calidad en obra y vanguardia en sistemas de construcción. Conformamos un equipo propio de arquitectura e ingeniería con gran experiencia.
@@ -75,7 +75,7 @@
 
 
 
-    <div class="max-w-screen-2xl m-auto sm:px-20 px-10 py-10 overflow-hidden" id="royal-view">
+    <div class="max-w-screen-2xl m-auto sm:px-20 px-10 md:py-10 overflow-hidden" id="royal-view">
         <h2 class="text-devarana-pink md:text-5xl text-3xl py-10"> Royal View <span class="text-devarana-graph md:text-2xl text-lg font-extralight font-mulish pl-5"> Preventa disponible </span> </h2>
         <div>
             <section class="proSlides"> 
@@ -261,6 +261,9 @@
                 <p class="font-mulish font-extralight text-devarana-graph inline-flex">2012 - 2013  |  Sold Out</p>
             </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div>
 </div>
 

@@ -186,6 +186,7 @@
 @section('styles')
     <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }} "/>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }} "/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/quienes-somos.css') }} "/>
 @endsection
 
 @section("scripts")

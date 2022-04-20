@@ -252,7 +252,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-12  gap-y-10 md:gap-10 py-10">
+    <div class="grid grid-cols-12 gap-y-10 md:gap-10 py-10">
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
                 {{-- <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp" class="w-full"> --}}

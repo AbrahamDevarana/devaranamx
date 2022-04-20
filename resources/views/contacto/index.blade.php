@@ -7,7 +7,11 @@
 </x-nav>
 
 <div class="relative h-screen">
-    <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="" class="absolute w-[60%] sm:w-[60%] -left-16 -top-16 md:-top-44 -z-30">    
+    <picture>
+        {{-- <source srcset="{{ asset('img/contacto/DevaranaFachada.webp')}}" type="image/webp"> --}}
+        <source srcset="{{ asset('img/contacto/DevaranaFachada.png')}}" type="image/png">
+        <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="" class="absolute w-[60%] sm:w-[60%] -left-16 -top-16 md:-top-44 -z-30">   
+    </picture>
     <div class="max-w-screen-2xl mx-auto px-10">
         <div class="grid col-span-12 lg:pt-44 pt-24">
             <div class="lg:col-span-4 lg:col-start-7 col-span-6">
@@ -49,7 +53,7 @@
 
 
 
-<div class="max-w-[800px] m-auto md:py-28 py-1 px-10">
+<div class="max-w-[800px] m-auto md:py-44  py-1 px-10">
     <h1 class="text-center text-3xl text-devarana-pink">¡Estamos felices de atenderte!</h1>
     <div class="grid grid-cols-3 md:gap-10 md:py-20 py-10 text-center text-devarana-graph">
         <div class="col-span-3 md:col-span-1">

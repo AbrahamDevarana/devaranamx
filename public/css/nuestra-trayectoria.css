@@ -2,20 +2,20 @@
     --swiper-navigation-size: 20px;
 }
 
-.swiper-button-prev {
+.mySwiper .swiper-button-prev {
 color: white; 
 }
 
-.swiper-button-next {
+.mySwiper .swiper-button-next {
     color: white; 
 }
-.swiper-pagination{
+.mySwiper .swiper-pagination{
     bottom: -105px!important;
     left:60px!important;
     width: 60px!important;
     color:white
 }
-.swiper-button-next{
+.mySwiper .swiper-button-next{
     left: 30px!important;
     top: unset!important;
     width: 30px!important;
@@ -23,7 +23,7 @@ color: white;
     height: 40px!important;
 }
 
-.swiper-button-prev{
+.mySwiper .swiper-button-prev{
     left: 0px!important;
     top: unset!important;
     width: 30px!important;
@@ -39,4 +39,41 @@ color: white;
     right: 0!important;
     left: unset!important;
     top: 68%!important;
+}
+
+.mySwiper3 .swiper-button-next::before, .mySwiper3 .swiper-button-prev::before{
+    font-family: 'slick';
+    line-height: 1;
+    opacity: .75;
+    color: #d64767;
+    font-size: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mySwiper3 .swiper-button-next::before {
+    content: '→';
+}
+
+.mySwiper3 .swiper-button-prev::before{
+    content: '←';
+}
+
+.mySwiper3 .swiper-button-next, .mySwiper3 .swiper-button-prev{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 30%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
 }

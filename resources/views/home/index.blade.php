@@ -83,10 +83,10 @@
                 <div class="col-span-12 md:col-span-2 flex relative">
                     <div class="h-4/6 w-2 bg-devarana-salmon md:translate-y-2/4 absolute md:mx-0 mx-5 ">
                     </div>
-                    <div class="grid grid-cols-3 gap-y-10 content-evenly my-auto pl-5 md:mx-0 mx-auto">
-                        <div class="col-span-1 md:col-span-3 pt-5"> <x-icon-gptw class="w-16 fill-devarana-pearl md:mx-0 mx-auto"/> </div>
-                        <div class="col-span-1 md:col-span-3 md:pt-0 pt-5"> <x-icon-iso class="w-16 fill-devarana-pearl md:mx-0 mx-auto"/></div>
-                        <div class="col-span-1 md:col-span-3 md:pt-0 pt-5">  <x-icon-esr class="w-28 fill-devarana-pearl md:mx-0 mx-auto"/> </div>
+                    <div class="grid grid-cols-3 gap-y-10 md:content-evenly my-auto pl-5 md:mx-0 mx-auto px-1 items-center">
+                        <div class="col-span-1 md:col-span-3 pt-5"> <x-icon-gptw class="max-w-full w-16 fill-devarana-pearl md:mx-0 mx-auto"/> </div>
+                        <div class="col-span-1 md:col-span-3 md:pt-0 pt-5"> <x-icon-iso class="max-w-full w-16 fill-devarana-pearl md:mx-0 mx-auto"/></div>
+                        <div class="col-span-1 md:col-span-3 md:pt-0 pt-5">  <x-icon-esr class="max-w-full w-28 fill-devarana-pearl md:mx-0 mx-auto"/> </div>
                     </div>
                 </div>
             </div>
