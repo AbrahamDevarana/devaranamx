@@ -25,7 +25,7 @@
     </div>
 
     <div id="quienes" class="lg:py-20 md:py-10 px-10 bg-devarana-pearl max-w-screen-2xl xl:m-auto">
-        <h1 class="text-devarana-blue md:text-8xl text-4xl text-center pb-10">
+        <h1 class="text-devarana-blue md:text-8xl text-4xl text-center md:pb-10 md:pt-0 pt-10">
             Somos DEVARANA
         </h1>
         <div class="grid grid-cols-12 py-10 gap-y-10">
@@ -96,7 +96,7 @@
         </div>
         
     </div>
-    <div id="equipo" class="max-w-screen-2xl mx-auto">
+    <div id="equipo" class="max-w-screen-2xl mx-auto px-10">
         <div class="slickCenter">
             <picture>
                 <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" type="image/webp">

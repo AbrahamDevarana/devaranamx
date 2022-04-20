@@ -10,10 +10,10 @@
     <picture>
         {{-- <source srcset="{{ asset('img/contacto/DevaranaFachada.webp')}}" type="image/webp"> --}}
         <source srcset="{{ asset('img/contacto/DevaranaFachada.png')}}" type="image/png">
-        <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="" class="absolute w-[60%] sm:w-[60%] -left-16 -top-16 md:-top-44 -z-30">   
+        <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="" class="absolute w-[60%] sm:w-[60%] -left-4 md:-left-16 -top-8 md:-top-44 -z-30">   
     </picture>
     <div class="max-w-screen-2xl mx-auto px-10">
-        <div class="grid col-span-12 lg:pt-44 pt-24">
+        <div class="grid col-span-12 pt-44">
             <div class="lg:col-span-4 lg:col-start-7 col-span-6">
                 <h1 class="text-devarana-blue text-4xl lg:text-8xl pl-16 text-right pb-10">Contacto</h1>
                 <form id="formContacto" action="{{ route('contacto.form') }}" method="POST" class="w-full z-10 bg-devarana-hazelnut bg-opacity-30 content-end h-fit py-10 px-6 mb-0 justify-self-end grid grid-cols-4 gap-x-5 shadow-xl">
