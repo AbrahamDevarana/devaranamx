@@ -1,4 +1,4 @@
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 117.1 115.2"  xml:space="preserve" {{ $attributes->merge(['class' => '']) }}>
 <g>
 	<path d="M104.9,64.1c-3-2.9-7-4.7-11.4-5c0,0,0,0,0,0c3.5-3.5,5.6-8.5,5-14c-0.8-8.4-7.8-15-16.2-15.5c-10-0.6-18.3,7.4-18.3,17.2

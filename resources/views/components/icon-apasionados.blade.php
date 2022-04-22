@@ -1,4 +1,4 @@
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 117.1 115.2" xml:space="preserve" {{ $attributes->merge(['class' => '']) }}>
 <g id="WQTKYd_00000084510932678157071480000017143801820121564335_">
 	<g>

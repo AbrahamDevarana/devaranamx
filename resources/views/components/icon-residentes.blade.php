@@ -1,4 +1,4 @@
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 117.1 115.2" {{ $attributes->merge(['class' => '']) }} xml:space="preserve">
 <g id="XNtXl0_00000165952815867284102700000008875335345517075856_">
 	<g>
