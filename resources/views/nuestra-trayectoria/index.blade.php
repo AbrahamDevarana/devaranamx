@@ -78,15 +78,15 @@
     <div class="max-w-screen-2xl m-auto sm:px-20 px-10 md:py-10 overflow-hidden" id="royal-view">
         <h2 class="text-devarana-pink md:text-5xl text-3xl py-10"> Royal View <span class="text-devarana-graph md:text-2xl text-lg font-extralight font-mulish pl-5"> Preventa disponible </span> </h2>
         <div>
-            <section class="proSlides"> 
-                <section class="proSlides-nav">
+            <div class="proSlides"> 
+                <div class="proSlides-nav">
                   <nav class="proSlides-nav__nav">
                     <button class="proSlides-nav__prev js-prev font-mulish text-devarana-graph">Atrás</button>
                     <button class="proSlides-nav__next js-next font-mulish text-devarana-graph">Siguiente</button>
                   </nav>
-                </section>
+                </div>
               
-                <section class="proSlide is-active">
+                <div class="proSlide is-active">
                   <div class="proSlide__content">
                     <figure class="proSlide__figure">
                         <source srcset="{{ asset('img/trayectoria/Disenos-DEVARANA.webp')}}" type="image/webp">
@@ -100,9 +100,9 @@
                       </h2>
                     </header>
                   </div>
-                </section>
+                </div>
               
-                <section class="proSlide">
+                <div class="proSlide">
                   <div class="proSlide__content">
                     <figure class="proSlide__figure">
                         <source srcset="{{ asset('img/trayectoria/espacios-DEVARANA.webp')}}" type="image/webp">
@@ -116,9 +116,9 @@
                       </h2>
                     </header>
                   </div>
-                </section>
+                </div>
               
-                <section class="proSlide">
+                <div class="proSlide">
                   <div class="proSlide__content">
                     <figure class="proSlide__figure">
                         <source srcset="{{ asset('img/trayectoria/CALIDAD-DEVARANA.webp')}}" type="image/webp">
@@ -132,12 +132,12 @@
                       </h2>
                     </header>
                   </div>
-                </section>
+                </div>
         </div>
         <div class="flex pt-16">
-            <button href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500 md:ml-auto md:m-0 m-auto  justify-center">
+            <a href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500 md:ml-auto md:m-0 m-auto  justify-center">
                 <img src="https://test.devarana.mx/img/logos/IsotipoPink.svg" alt="Isotipo Devarana" class="hidden group-hover:block w-8 mr-2">
-                <img src="https://test.devarana.mx/img/logos/Isotipo_blanco.png" alt="Isotipo Devarana" class="block group-hover:hidden w-8 mr-2"> Preventa diponible </button>
+                <img src="https://test.devarana.mx/img/logos/Isotipo_blanco.png" alt="Isotipo Devarana" class="block group-hover:hidden w-8 mr-2"> Preventa diponible </a>
         </div>
     </div>
 

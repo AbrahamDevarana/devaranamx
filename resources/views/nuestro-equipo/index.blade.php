@@ -259,8 +259,8 @@
     <div class="grid grid-cols-12 gap-y-10 md:gap-10 py-10">
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
-                <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp" class="w-full">
-                <source srcset="{{ asset('img/nuestro-equipo/ESR.jpg')}}" type="image/jpeg" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp">
+                <source srcset="{{ asset('img/nuestro-equipo/ESR.jpg')}}" type="image/jpeg">
                 <img src="{{ asset('img/nuestro-equipo/ESR.jpg')}}" alt="ESR" class="w-full">
                 <figcaption>
                     <h3 class="text-devarana-blue text-2xl py-2 pr-30">ESR</h3>
@@ -271,8 +271,8 @@
         </div>
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
-                <source srcset="{{ asset('img/nuestro-equipo/GPTW.webp')}}" type="image/webp" class="w-full">
-                <source srcset="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" type="image/jpeg" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/GPTW.webp')}}" type="image/webp">
+                <source srcset="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" type="image/jpeg">
                 <img src="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" alt="GPTW" class="w-full">
                 <figcaption>
                     <h3 class="text-devarana-blue text-2xl py-2">GPTW</h3>
@@ -283,8 +283,8 @@
         </div>
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
-                <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.webp')}}" type="image/webp" class="w-full">
-                <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" type="image/jpeg" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.webp')}}" type="image/webp">
+                <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" type="image/jpeg">
                 <img src="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" alt="SERVICIO-LEGENDARIO" class="w-full">
                 <figcaption>
                     <h3 class="text-devarana-blue text-2xl py-2">Servicio Legendario</h3>
