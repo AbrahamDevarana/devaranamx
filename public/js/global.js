@@ -73,7 +73,7 @@ const menuColors = () => {
             
             devaranaLogoBg.style.width = "150px"
             devaranaLogoBg.style.height = "65px"
-            devaranaLogoBg.style.backgroundImage = "url(img/logos/DevaranaLogo.png)"
+            devaranaLogoBg.src = "img/logos/DevaranaLogo.png"
           
         }else{
             navigation.classList.remove("bg-devarana-pearl")
@@ -99,7 +99,7 @@ const menuColors = () => {
               
                 
             })    
-            devaranaLogoBg.style.backgroundImage = "url(img/logos/Isotipo_blanco.png)"
+            devaranaLogoBg.src = "img/logos/Isotipo_blanco.png"
             devaranaLogoBg.style.width = "50px"
             devaranaLogoBg.style.height = "50px"
             

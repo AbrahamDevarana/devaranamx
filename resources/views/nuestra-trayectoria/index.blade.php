@@ -8,7 +8,7 @@
 @section('content')
 
 <x-nav class="bg-devarana-blue text-devarana-pearl">
-    <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
+    <x-logo-nav  class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
 

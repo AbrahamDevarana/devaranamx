@@ -8,7 +8,7 @@
 @section('content')
 
     <x-nav class="bg-transparent text-devarana-pearl" hidden="hidden">
-        <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
+        <x-logo-nav class="w-[50px] h-[50px]"/>
     </x-nav>
 
     <div class="relative lg:h-[100vh] md:h-[600px] h-[330px] overflow-hidden" id="header">
