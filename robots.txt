@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+
+Sitemap: https://devarana.mx/sitemap.xml

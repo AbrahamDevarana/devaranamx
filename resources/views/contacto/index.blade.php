@@ -2,13 +2,13 @@
 
 @section('content')
 
-<x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
+<x-nav class="bg-devarana-blue text-devarana-pearl">
     <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
 <div class="relative max-h-screen h-fit">
     <picture>
-        {{-- <source srcset="{{ asset('img/contacto/DevaranaFachada.webp')}}" type="image/webp"> --}}
+        <source srcset="{{ asset('img/contacto/DevaranaFachada.webp')}}" type="image/webp">
         <source srcset="{{ asset('img/contacto/DevaranaFachada.png')}}" type="image/png">
         <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="" class="absolute w-[60%] sm:w-[60%] -left-4 md:-left-16 -top-8 md:-top-44 -z-30">   
     </picture>
@@ -53,7 +53,7 @@
 
 
 
-<div class="max-w-[800px] m-auto md:py-44  py-1 px-10">
+<div class="max-w-[800px] m-auto md:py-36 2xl:pt-64 py-10">
     <h1 class="text-center text-3xl text-devarana-pink">¡Estamos felices de atenderte!</h1>
     <div class="grid grid-cols-3 md:gap-10 md:py-20 py-10 text-center text-devarana-graph">
         <div class="col-span-3 md:col-span-1">

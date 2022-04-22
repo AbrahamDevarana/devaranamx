@@ -7,13 +7,17 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
+<x-nav class="bg-devarana-blue text-devarana-pearl">
     <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
 <div id="header" class="bg-devarana-hazelnut grid grid-cols-12 mb-10 md:mb-32 relative -z-30 sm:mt-[65px] md:px-20 px-10">
     <div class="col-span-8">
-        <img src="{{ asset("img/nuestro-equipo/HEADER.jpg") }}" alt="" class="w-full md:-mb-[11%] md:py-[7%] -mb-[30%] py-[30%]">
+        <picture>
+            <source srcset="{{ asset('img/nuestro-equipo/HEADER.webp')}}" type="image/webp">
+            <source srcset="{{ asset('img/nuestro-equipo/HEADER.jpg')}}" type="image/jpeg">
+            <img src="{{ asset("img/nuestro-equipo/HEADER.jpg") }}" alt="Devarana Team" class="w-full md:-mb-[11%] md:py-[7%] -mb-[30%] py-[30%]">
+        </picture>
     </div>
     <div class="col-span-4 flex">
         <div class="my-auto items-center">
@@ -96,13 +100,13 @@
         <div class="grid grid-cols-12">
             <div class="flex m-auto col-span-6">
                 <picture class="w-full hidden group-hover:block">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
                 <picture class="w-full block group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO3.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO3.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO3.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO3.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO3.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
             </div>
@@ -120,13 +124,13 @@
             </div>
             <div class="flex my-auto mr-auto col-span-4">
                 <picture class="w-full hidden group-hover:block">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
                 <picture class="w-full block group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO4.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO4.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO4.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO4.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO4.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
             </div>
@@ -136,13 +140,13 @@
         <div class="grid grid-cols-12">
             <div class="flex m-auto col-span-6">
                 <picture class="w-full  hidden group-hover:block">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
                 <picture class="w-full block group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONIO1.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONIO1.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONIO1.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONIO1.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONIO1.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
             </div>
@@ -160,13 +164,13 @@
             </div>
             <div class="flex my-auto mr-auto col-span-4">
                 <picture class="w-full block md:hidden md:group-hover:block">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
                 <picture class="w-full hidden md:block md:group-hover:hidden">
-                    {{-- <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.webp')}}" type="image/webp" class="w-full"> --}}
-                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.png')}}" type="image/png" class="w-full">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.webp')}}" type="image/webp">
+                    <source srcset="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.png')}}" type="image/png">
                     <img src="{{ asset('img/nuestro-equipo/A-DEVARANA-TESTIMONO5.png')}}" alt="Devarana Colaborador" class="w-full">
                 </picture>
             </div>
@@ -181,9 +185,9 @@
             <div class="bg-devarana-pearl my-4 transition-all duration-200 ease-in-out group swiper-slide min-h-[220px] px-3">
                 <div class="grid grid-cols-12">
                     <div class="flex m-auto col-span-4">
-                        <picture class="w-full">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.png')}}" type="image/png" class="w-full">
+                        <picture>
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.webp')}}" type="image/webp">
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.png')}}" type="image/png">
                             <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO3.png')}}" alt="Devarana Colaborador" class="w-full">
                         </picture>
                     </div>
@@ -200,9 +204,9 @@
                         <p class="font-playfair text-devarana-pink leading-none py-1">Director de Operaciones.</p>
                     </div>
                     <div class="flex my-auto mr-auto col-span-4">
-                        <picture class="w-full">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.png')}}" type="image/png" class="w-full">
+                        <picture>
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.webp')}}" type="image/webp">
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.png')}}" type="image/png">
                             <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO4.png')}}" alt="Devarana Colaborador" class="w-full">
                         </picture>
                     </div>
@@ -211,9 +215,9 @@
             <div class="bg-devarana-pearl my-4 transition-all duration-200 ease-in-out group swiper-slide min-h-[220px] px-3">
                 <div class="grid grid-cols-12">
                     <div class="flex m-auto col-span-4">
-                        <picture class="w-full ">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.png')}}" type="image/png" class="w-full">
+                        <picture>
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.webp')}}" type="image/webp">
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.png')}}" type="image/png">
                             <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONIO1.png')}}" alt="Devarana Colaborador" class="w-full">
                         </picture>
                     </div>
@@ -230,9 +234,9 @@
                         <p class="font-playfair text-devarana-pink leading-none py-1">Gerente de Calidad e Innovación.</p>
                     </div>
                     <div class="flex my-auto mr-auto col-span-4">
-                        <picture class="w-full">
-                            {{-- <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.webp')}}" type="image/webp" class="w-full"> --}}
-                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" type="image/png" class="w-full">
+                        <picture>
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.webp')}}" type="image/webp">
+                            <source srcset="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" type="image/png">
                             <img src="{{ asset('img/nuestro-equipo/DEVARANA-TESTIMONO5.png')}}" alt="Devarana Colaborador" class="w-full">
                         </picture>
                     </div>
@@ -255,8 +259,8 @@
     <div class="grid grid-cols-12 gap-y-10 md:gap-10 py-10">
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
-                {{-- <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp" class="w-full"> --}}
-                <source srcset="{{ asset('img/nuestro-equipo/ESR.jpg')}}" type="image/jpg" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/ESR.webp')}}" type="image/webp" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/ESR.jpg')}}" type="image/jpeg" class="w-full">
                 <img src="{{ asset('img/nuestro-equipo/ESR.jpg')}}" alt="ESR" class="w-full">
                 <figcaption>
                     <h3 class="text-devarana-blue text-2xl py-2 pr-30">ESR</h3>
@@ -267,8 +271,8 @@
         </div>
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
-                {{-- <source srcset="{{ asset('img/nuestro-equipo/GPTW.webp')}}" type="image/webp" class="w-full"> --}}
-                <source srcset="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" type="image/jpg" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/GPTW.webp')}}" type="image/webp" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" type="image/jpeg" class="w-full">
                 <img src="{{ asset('img/nuestro-equipo/GPTW.jpg')}}" alt="GPTW" class="w-full">
                 <figcaption>
                     <h3 class="text-devarana-blue text-2xl py-2">GPTW</h3>
@@ -279,8 +283,8 @@
         </div>
         <div class="col-span-12 lg:col-span-4">
             <figure class="snip1401">
-                {{-- <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.webp')}}" type="image/webp" class="w-full"> --}}
-                <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" type="image/jpg" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.webp')}}" type="image/webp" class="w-full">
+                <source srcset="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" type="image/jpeg" class="w-full">
                 <img src="{{ asset('img/nuestro-equipo/SERVICIO-LEGENDARIO.jpg')}}" alt="SERVICIO-LEGENDARIO" class="w-full">
                 <figcaption>
                     <h3 class="text-devarana-blue text-2xl py-2">Servicio Legendario</h3>

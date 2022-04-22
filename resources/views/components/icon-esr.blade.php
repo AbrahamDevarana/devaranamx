@@ -1,4 +1,4 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1080 477.3" style="enable-background:new 0 0 1080 477.3;" xml:space="preserve" {{ $attributes->merge(['class' => '']) }}>
 <g>
 	<path class="st0" d="M543,171.3c-0.4-4.4-0.7-8.9-1.2-13.3c-2.6-21.9-9.1-42.2-23.6-59.4c-11.5-13.5-26-22.4-42.5-28.4

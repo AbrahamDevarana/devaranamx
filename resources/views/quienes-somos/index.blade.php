@@ -7,24 +7,23 @@
 @extends('layouts.app')
 @section('content')
 
-<x-nav class="bg-devarana-blue text-devarana-pearl" name="DevaranaLogo.png">
+<x-nav class="bg-devarana-blue text-devarana-pearl">
     <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
 </x-nav>
 
 <div id="header" class="bg-devarana-hazelnut h-full flex md:mb-36 mb-20 relative md:mt-[65px]"> 
-    {{-- <p class="font-playfair absolute z-30 top-16 bottom-0 left-0 right-0 my-auto px-10 text-5xl text-devarana-pearl ">Quiénes <br> somos</p> --}}
     <div class="md:max-w-[80%] md:ml-auto mt-auto -mb-[5%] flex z-20 max-w-full lg:pt-40 md:pt-32 pt-20">
        <div class="relative">
             <p class="text-devarana-pearl drop-shadow-lg font-playfair left-10 md:left-0 text-5xl md:text-7xl lg:text-8xl absolute md:-translate-x-2/4 md:-translate-y-1/3 -translate-y-1/3"> Quiénes <br> somos </p>
             <picture>
-                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" type="image/webp">
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.webp") }}" type="image/webp">
                 <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" type="image/png">
                 <img class="w-full sm:pl-10 px-10 sm:px-0 z-10" src="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" alt="Devarana Arte">
             </picture>
        </div>
        <div class="sm:block hidden">
             <picture>
-                <source srcset="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" type="image/webp">
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.webp") }}" type="image/webp">
                 <source srcset="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" type="image/png">
                 <img class="w-full pl-10 z-10 md:h-auto h-full " src="{{ asset("img/quienes-somos/DEVARANA-QuienesSomos.jpg") }}" alt="Devarana Estatua">
             </picture>
@@ -63,7 +62,6 @@
 <div class="mb-10 hidden md:block pb-10 transition-all ease-in-out duration-1000 bg-center bg-cover bg-no-repeat">
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
            width="0" height="0" viewBox="0 0 1366 768" xml:space="preserve">
-    <!-- Gaussian blur filter progression to animate -->
     <defs>
         <filter id="blur0">
         <feGaussianBlur in="SourceGraphic" stdDeviation="0 0" />
@@ -137,7 +135,6 @@
 
 <div class="md:hidden block pb-20 overflow-hidden">
     <div class="row-span-2 col-span-2 md:col-span-1 relative">
-        <img src="{{ asset('img/quienes-somos/svg/NUESTROS_VALORES.svg') }}" alt="nuestros valores" class="w-[80%] md:w-full top-10 md:top-12 absolute px-4 fill-black">
         <h2 class="text-devarana-blue px-10 text-5xl xl:text-8xl sm:py-10 py-1 text-center">Valores</h2>
     </div>
 

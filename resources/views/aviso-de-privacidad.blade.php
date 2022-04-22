@@ -6,9 +6,9 @@
 
 @extends('layouts.app')
 @section('content')
-    <x-nav class="bg-transparent text-devarana-pearl" name="DevaranaLogo.png">    
-        <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
-    </x-nav>
+<x-nav class="bg-devarana-blue text-devarana-pearl">
+    <x-logo-nav name="Isotipo_blanco.png" class="w-[50px] h-[50px]" > </x-logo-nav>
+</x-nav>
 
 <div id="header" class="h-[200px] bg-devarana-hazelnut"></div>
 

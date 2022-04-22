@@ -35,11 +35,6 @@ module.exports = {
               base: ['16px', '24px'],
           },
           backgroundImage:{
-              'quienes-somos' : "url('/img/quienes-somos/Quienesomos.png')",
-              'contacto' : "url('/img/contacto/DEV-Textura-opacidad.png')",
-              'nuestro-equipo' : "url('/img/nuestro-equipo/Nuestro_equipo.png')",
-              'trayectoria' : "url('/img/trayectoria/royalview.png')",
-              'home-banner' : "url('/img/home/Somos-orgullosamente.jpg')",
               'vista-devarana' : "url('/img/quienes-somos/VISTAS-DEVARANA.jpg')",
               
 

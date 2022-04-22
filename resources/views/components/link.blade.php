@@ -1,5 +1,4 @@
 <a
-href={{ $attributes['href'] }}
 {{ $attributes->merge(['class' => 'btnEffect tracking-widest border px-8 py-2 text-base bg-devarana-pearl text-devarana-graph fill-devarana-pink hover:fill-devarana-pearl font-playfair hover:text-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500']) }}
 >
 
@@ -30,32 +29,3 @@ href={{ $attributes['href'] }}
 {{ $slot }}
 </a>
 
-
-<style>
-.btnEffect {
-  z-index: 1;
-}
-
-.btnEffect::after {
-  content: "";
-  background: #d64767; /* color de fondo hover */
-  position: absolute;
-  z-index: -1;
-  padding: 16px 20px;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: -100%;
-  right: 100%;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.btnEffect:hover::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-}
-</style>
