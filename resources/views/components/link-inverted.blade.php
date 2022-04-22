@@ -3,7 +3,7 @@ href={{ $attributes['href'] }}
 {{ $attributes->merge(['class' => 'btnEffect tracking-widest border px-8 py-2 text-base bg-devarana-pearl text-devarana-graph fill-devarana-pink hover:fill-devarana-pearl font-playfair hover:text-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500']) }}
 >
 
-<svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 924.3 1037.4" style="enable-background:new 0 0 924.3 1037.4;" xml:space="preserve" width="30px" class="mr-2">
 <g>
 	<g>
