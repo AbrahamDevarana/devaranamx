@@ -7,8 +7,16 @@
         @include('layouts.metaquotes')
 
         {{-- Style --}}
-        <link href="{{ asset('css/fonts.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        @if (preg_match('/Trident/', $_SERVER['HTTP_USER_AGENT']) || preg_match('/MSIE/', $_SERVER['HTTP_USER_AGENT']))
+            <script>
+                alert('Porfavor use Chrome o Firefox para ver este sitio correctamente.');
+            </script>
+        @else
+        <link rel="preload" href="{{ asset('css/fonts.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="{{ asset('css/fonts.css') }}"></noscript>
+        @endif
+
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
         {{-- Fonts --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -13,13 +13,19 @@
 
     <div class="relative lg:h-[100vh] md:h-[600px] h-[330px] overflow-hidden" id="header">
         <picture>
-            <source srcset="{{ asset('img/home/DEVARANAVistas-espectaculares.webp') }}" type="image/webp">
-            <source srcset="{{ asset('/img/home/DEVARANAVistas-espectaculares.jpeg') }}" type="image/jpeg">
+            <source srcset="{{ asset('img/home/DEVARANAVistas-espectaculares.webp') }}" type="image/webp" media="(min-width: 600px)">
+            <source srcset="{{ asset('/img/home/DEVARANAVistas-espectaculares.jpeg') }}" type="image/jpeg" media="(min-width: 600px)">
+
+            <source srcset="{{ asset('img/mobile/home/DEVARANAVistas-espectaculares.webp') }}" type="image/webp">
+            <source srcset="{{ asset('/img/mobile/home/DEVARANAVistas-espectaculares.jpeg') }}" type="image/jpeg">
             <img src="{{ asset("/img/home/DEVARANAVistas-espectaculares.jpeg") }}" alt="Atardecer Devarana" class="w-full transition duration-1000 absolute scale-110" id="bgHead">
         </picture>
         <picture>
-            <source srcset="{{ asset('img/home/SomosDevarana.webp') }}" type="image/webp">
-            <source srcset="{{ asset('img/home/SomosDevarana.png') }}" type="image/png">
+            <source srcset="{{ asset('img/home/SomosDevarana.webp') }}" type="image/webp" media="(min-width: 600px)">
+            <source srcset="{{ asset('img/home/SomosDevarana.png') }}" type="image/png" media="(min-width: 600px)">
+
+            <source srcset="{{ asset('img/mobile/home/SomosDevarana.webp') }}" type="image/webp">
+            <source srcset="{{ asset('img/mobile/home/SomosDevarana.png') }}" type="image/png">
                 <img src="{{ asset("img/home/SomosDevarana.png") }}" alt="Devarana Oficinas" class="absolute transition duration-1000 top-[80px] w-full" id="bgBuilding">
         </picture>
     </div>
@@ -74,8 +80,11 @@
             <div class="my-auto py-5 z-10 grid grid-cols-12">
                 <div class="col-span-12 md:col-span-10 relative">
                     <picture>
-                        <source srcset="{{ asset('img/home/SOMOS-DEVARANA.webp') }}" type="image/webp">
-                        <source srcset="{{ asset('img/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg">
+                        <source srcset="{{ asset('img/home/SOMOS-DEVARANA.webp') }}" type="image/webp" media="(min-width: 600px)">
+                        <source srcset="{{ asset('img/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg" media="(min-width: 600px)">
+
+                        <source srcset="{{ asset('img/mobile/home/SOMOS-DEVARANA.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/mobile/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg">
                         <img src="{{ asset("img/home/SOMOS-DEVARANA.jpg") }}" alt="Devarana Oficinas" class="md:px-10 drop-shadow-md object-cover">
                     </picture>
                     <p class="absolute top-12 md:top-24 left-2/4 right-2/4 bottom-0 -translate-x-2/4 max-w-[750px] text-center w-full text-devarana-pearl text-base md:text-5xl font-playfair drop-shadow-[0px_4px_8px_rgba(0,0,0,0.8)]">Creadores, arquitectos y <br> diseñadores de lo extraordinario</p>
@@ -96,64 +105,87 @@
         </div>
         
     </div>
-    <div id="equipo" class="max-w-screen-2xl mx-auto px-10">
-        <div class="slickCenter">
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" alt="Diana-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" alt="Abraham-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" alt="Mariana-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" alt="Gregorio-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" alt="Diego-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" alt="Gus-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" alt="Miguel-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" alt="Pam-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" alt="Melissa-Devarana">
-            </picture>
-            <picture>
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.webp') }}" type="image/webp">
-                <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" type="image/jpeg">
-                <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" alt="Luis-Devarana">
-            </picture>
-        </div>
 
-            <div class=" py-10 flex">
-                <x-link href="{{ route('nuestro-equipo') }}" class="m-auto block"> Nuestro equipo </x-link>
+    <div class="max-w-screen-2xl mx-auto px-10">
+        <div class="swiper mySwiper hover:cursor-grab active:cursor-grabbing">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador1.jpg') }}" alt="Diana-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador2.jpg') }}" alt="Abraham-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador3.jpg') }}" alt="Mariana-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador4.jpg') }}" alt="Gregorio-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador5.jpg') }}" alt="Diego-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador6.jpg') }}" alt="Gus-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador7.jpg') }}" alt="Miguel-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador8.jpg') }}" alt="Pam-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador9.jpg') }}" alt="Melissa-Devarana">
+                    </picture>  
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" type="image/jpeg">
+                        <img class="w-full" src="{{ asset('img/home/colaboradores/DEVARANA-Colaborador10.jpg') }}" alt="Luis-Devarana">
+                    </picture>  
+                </div>
             </div>
-
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class=" py-10 flex">
+            <x-link href="{{ route('nuestro-equipo') }}" class="m-auto block"> Nuestro equipo </x-link>
+        </div>
     </div>
 
 
@@ -165,13 +197,14 @@
 
 
 @section('styles')
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }} "/>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }} "/>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }} "/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="preload" href="{{ asset('css/home.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/home.css') }}"></noscript>
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }} "/> --}}
 @endsection
 
 @section("scripts")
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="{{ asset('js/home.js') }}"></script>
 @endsection

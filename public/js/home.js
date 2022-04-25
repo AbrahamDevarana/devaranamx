@@ -18,33 +18,25 @@ window.addEventListener('scroll', function(e){
     }else{
         picsSomos.forEach( item => item.classList.remove('translate-y-6'))
     }
-
 })
 
 
-$('.slickCenter').slick({
-    centerMode: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    centerPadding: '0px',
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          centerMode: true,
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          centerMode: true,
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
+const swiperColaboradores = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  initialSlide: 1,
+  centeredSlides: true,
+  // autoplay: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
 
+    1024: {
+      slidesPerView: 5,
+      initialSlide: 3,
+    }
     
+  }
+});

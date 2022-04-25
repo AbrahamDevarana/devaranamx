@@ -17,32 +17,40 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <picture>
-                <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" type="image/jpeg">
+                <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.webp')}}" type="image/webp" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" type="image/jpeg" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-royal-view.webp')}}" type="image/webp">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-royal-view.jpg')}}" type="image/jpeg">
                 <img src="{{ asset('img/trayectoria/HEADER-royal-view.jpg')}}" alt="HEADER-royal-view" class="w-full md:h-screen object-cover">
             </picture>
             <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> Royal View - Actual</p>
         </div>
         <div class="swiper-slide">
             <picture>
-                <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" type="image/jpeg">
+                <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.webp')}}" type="image/webp" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" type="image/jpeg" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-HIGH-GARDENS.webp')}}" type="image/webp">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" type="image/jpeg">
                 <img src="{{ asset('img/trayectoria/HEADER-HIGH-GARDENS.jpg')}}" alt="HEADER-HIGH-GARDENS" class="w-full md:h-screen object-cover">
             </picture>
             <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> High Gardens 2012 - 2018</p>
         </div>
         <div class="swiper-slide">
             <picture>
-                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" type="image/jpeg">
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.webp')}}" type="image/webp" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" type="image/jpeg" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-UPPER-CONDESA.webp')}}" type="image/webp">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" type="image/jpeg">
                 <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen object-cover">
             </picture>
             <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> Upper Condesa 2014 - 2016</p>
         </div>
         <div class="swiper-slide">
             <picture>
-                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.webp')}}" type="image/webp">
-                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" type="image/jpeg">
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.webp')}}" type="image/webp" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" type="image/jpeg" media="(min-width: 600px)">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-UPPER-CONDESA-.webp')}}" type="image/webp">
+                <source srcset="{{ asset('img/mobile/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" type="image/jpeg">
                 <img src="{{ asset('img/trayectoria/HEADER-UPPER-CONDESA-.jpg')}}" alt="HEADER-UPPER-CONDESA" class="w-full md:h-screen object-cover">
             </picture>
             <p class="bg-devarana-pearl absolute left-32 -bottom-8 text-devarana-graph font-mulish md:block hidden w-[250px]"> Grand Mayran 2012 - 2013</p>
@@ -89,8 +97,10 @@
                 <div class="proSlide is-active">
                   <div class="proSlide__content">
                     <figure class="proSlide__figure">
-                        <source srcset="{{ asset('img/trayectoria/Disenos-DEVARANA.webp')}}" type="image/webp">
-                        <source srcset="{{ asset('img/trayectoria/Disenos-DEVARANA.jpg')}}" type="image/jpeg">
+                        <source srcset="{{ asset('img/trayectoria/Disenos-DEVARANA.webp')}}" type="image/webp" media="(min-width: 600px)">
+                        <source srcset="{{ asset('img/trayectoria/Disenos-DEVARANA.jpg')}}" type="image/jpeg" media="(min-width: 600px)">
+                        <source srcset="{{ asset('img/mobile/trayectoria/Disenos-DEVARANA.webp')}}" type="image/webp">
+                        <source srcset="{{ asset('img/mobile/trayectoria/Disenos-DEVARANA.jpg')}}" type="image/jpeg">
                         <img src="{{ asset('img/trayectoria/Disenos-DEVARANA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="proSlide__img object-cover">
                     </figure>
                     <header class="proSlide__header">
@@ -105,8 +115,10 @@
                 <div class="proSlide">
                   <div class="proSlide__content">
                     <figure class="proSlide__figure">
-                        <source srcset="{{ asset('img/trayectoria/espacios-DEVARANA.webp')}}" type="image/webp">
-                        <source srcset="{{ asset('img/trayectoria/espacios-DEVARANA.jpg')}}" type="image/jpeg">
+                        <source srcset="{{ asset('img/trayectoria/espacios-DEVARANA.webp')}}" type="image/webp" media="(min-width: 600px)">
+                        <source srcset="{{ asset('img/trayectoria/espacios-DEVARANA.jpg')}}" type="image/jpeg" media="(min-width: 600px)">
+                        <source srcset="{{ asset('img/mobile/trayectoria/espacios-DEVARANA.webp')}}" type="image/webp">
+                        <source srcset="{{ asset('img/mobile/trayectoria/espacios-DEVARANA.jpg')}}" type="image/jpeg">
                         <img src="{{ asset('img/trayectoria/espacios-DEVARANA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="proSlide__img object-cover">
                     </figure>
                     <header class="proSlide__header">
@@ -121,8 +133,10 @@
                 <div class="proSlide">
                   <div class="proSlide__content">
                     <figure class="proSlide__figure">
-                        <source srcset="{{ asset('img/trayectoria/CALIDAD-DEVARANA.webp')}}" type="image/webp">
-                        <source srcset="{{ asset('img/trayectoria/CALIDAD-DEVARANA.jpg')}}" type="image/jpeg">
+                        <source srcset="{{ asset('img/trayectoria/CALIDAD-DEVARANA.webp')}}" type="image/webp" media="(min-width: 600px)">
+                        <source srcset="{{ asset('img/trayectoria/CALIDAD-DEVARANA.jpg')}}" type="image/jpeg" media="(min-width: 600px)">
+                        <source srcset="{{ asset('img/mobile/trayectoria/CALIDAD-DEVARANA.webp')}}" type="image/webp">
+                        <source srcset="{{ asset('img/mobile/trayectoria/CALIDAD-DEVARANA.jpg')}}" type="image/jpeg">
                         <img src="{{ asset('img/trayectoria/CALIDAD-DEVARANA.jpg')}}" alt="HEADER-UPPER-CONDESA" class="proSlide__img object-cover">
                     </figure>
                     <header class="proSlide__header">
@@ -133,9 +147,10 @@
                     </header>
                   </div>
                 </div>
+            </div>  
         </div>
         <div class="flex pt-16">
-            <a href="royalview.mx" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500 md:ml-auto md:m-0 m-auto  justify-center">
+            <a href="https://royalview.mx/" class="group px-8 py-1 text-base bg-devarana-pink text-devarana-pearl font-playfair hover:text-devarana-graph hover:bg-devarana-pearl items-center overflow-hidden flex relative transition-all duration-500 md:ml-auto md:m-0 m-auto  justify-center">
                 <img src="https://test.devarana.mx/img/logos/IsotipoPink.svg" alt="Isotipo Devarana" class="hidden group-hover:block w-8 mr-2">
                 <img src="https://test.devarana.mx/img/logos/Isotipo_blanco.png" alt="Isotipo Devarana" class="block group-hover:hidden w-8 mr-2"> Preventa diponible </a>
         </div>
@@ -175,13 +190,13 @@
                 <div class="parall transition-all ease-linear duration-300">
                     <picture>
                         <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.webp')}}" type="image/webp">
-                            <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpeg">
-                                <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA"  class="w-full opacity-100 group-hover:opacity-0 transition-all ease-linear duration-300">
+                        <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" type="image/jpeg">
+                        <img src="{{ asset('img/trayectoria/UPPER-CONDESA.jpg')}}" alt="UPPER-CONDESA"  class="w-full opacity-100 group-hover:opacity-0 transition-all ease-linear duration-300">
                     </picture>
                     <picture>
                         <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA-2.webp')}}" type="image/webp">
-                            <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA-2.jpg')}}" type="image/jpeg">
-                                <img src="{{ asset('img/trayectoria/UPPER-CONDESA-2.jpg')}}" alt="UPPER-CONDESA" class="w-full absolute z-10 top-0 left-0 right-0 bottom-0 opacity-0 group-hover:opacity-100 transition-all ease-linear duration-300">
+                        <source srcset="{{ asset('img/trayectoria/UPPER-CONDESA-2.jpg')}}" type="image/jpeg">
+                        <img src="{{ asset('img/trayectoria/UPPER-CONDESA-2.jpg')}}" alt="UPPER-CONDESA" class="w-full absolute z-10 top-0 left-0 right-0 bottom-0 opacity-0 group-hover:opacity-100 transition-all ease-linear duration-300">
                     </picture>
                     <div class="h-full w-full absolute z-10 top-0 left-0 right-0 bottom-0 opacity-0 group-hover:opacity-100 transition-all ease-linear duration-300 flex bg-black bg-opacity-50">
                         <p class="font-mulish text-devarana-pearl inline-flex items-center m-auto group-hover:scale-y-100"> <img src="{{asset("img/logos/Isotipo_blanco.png")}}" alt="Isotipo Devarana" class="w-8 mr-2"> Sold Out </p>
@@ -296,7 +311,6 @@
         </div>
     </div>
 </div>
-
 <div class="md:py-20 py-10 px-10 hidden ">
     <div class="max-w-[800px] m-auto">
         <div class="relative flex py-4">
@@ -313,6 +327,7 @@
         </div>
     </div>
 </div>
+
 
 
 @endsection

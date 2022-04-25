@@ -1277,9 +1277,6 @@ select {
 .bg-cover {
   background-size: cover;
 }
-.bg-contain {
-  background-size: contain;
-}
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -1756,6 +1753,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(86 115 155 / var(--tw-bg-opacity));
 }
+.hover\:cursor-grab:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
 .hover\:bg-devarana-pearl:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 249 247 / var(--tw-bg-opacity));
@@ -1806,6 +1807,14 @@ select {
 .hover\:blur-none:hover {
   --tw-blur: blur(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.hover\:before\:opacity-100:hover::before {
+  content: var(--tw-content);
+  opacity: 1;
+}
+.before\:hover\:opacity-100:hover::before {
+  content: var(--tw-content);
+  opacity: 1;
 }
 .focus\:z-10:focus {
   z-index: 10;

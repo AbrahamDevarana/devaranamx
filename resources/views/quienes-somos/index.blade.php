@@ -16,8 +16,10 @@
        <div class="relative">
             <p class="text-devarana-pearl drop-shadow-lg font-playfair left-10 md:left-0 text-5xl md:text-7xl lg:text-8xl absolute md:-translate-x-2/4 md:-translate-y-1/3 -translate-y-1/3"> Quiénes <br> somos </p>
             <picture>
-                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.webp") }}" type="image/webp">
-                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" type="image/png">
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.webp") }}" type="image/webp" media="(min-width: 600px)">
+                <source srcset="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" type="image/png" media="(min-width: 600px)">
+                <source srcset="{{ asset("img/mobile/quienes-somos/DEVARANA-Arte.webp") }}" type="image/webp">
+                <source srcset="{{ asset("img/mobile/quienes-somos/DEVARANA-Arte.jpeg") }}" type="image/png">
                 <img class="w-full sm:pl-10 px-10 sm:px-0 z-10" src="{{ asset("img/quienes-somos/DEVARANA-Arte.jpeg") }}" alt="Devarana Arte">
             </picture>
        </div>
@@ -181,9 +183,19 @@
 
 
 @section('styles')
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }} "/>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }} "/>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/quienes-somos.css') }} "/>
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }} "/> --}}
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }} "/> --}}
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/quienes-somos.css') }} "/> --}}
+
+    <link rel="preload" href="{{ asset('css/slick.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/slick.css') }}"></noscript>
+    <link rel="preload" href="{{ asset('css/slick-theme.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/slick-theme.css') }}"></noscript>
+
+    <link rel="preload" href="{{ asset('css/quienes-somos.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/quienes-somos.css') }}"></noscript>
+
+
 @endsection
 
 @section("scripts")

@@ -8,9 +8,12 @@
 
 <div class="relative max-h-screen h-fit">
     <picture>
-        <source srcset="{{ asset('img/contacto/DevaranaFachada.webp')}}" type="image/webp">
-        <source srcset="{{ asset('img/contacto/DevaranaFachada.png')}}" type="image/png">
-        <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="" class="absolute w-[60%] sm:w-[60%] -left-4 md:-left-16 -top-8 md:-top-44 -z-30">   
+        <source srcset="{{ asset('img/contacto/DevaranaFachada.webp')}}" type="image/webp" media="(min-width: 600px)">
+        <source srcset="{{ asset('img/contacto/DevaranaFachada.png')}}" type="image/png" media="(min-width: 600px)">
+            
+        <source srcset="{{ asset('img/mobile/contacto/DevaranaFachada.webp')}}" type="image/webp">
+        <source srcset="{{ asset('img/mobile/contacto/DevaranaFachada.png')}}" type="image/png">
+        <img src="{{ asset('img/contacto/DevaranaFachada.png')}}" alt="Fachada" class="absolute w-[60%] sm:w-[60%] -left-4 md:-left-16 -top-8 md:-top-44 -z-30">   
     </picture>
     <div class="max-w-screen-2xl mx-auto px-10">
         <div class="grid col-span-12 pt-44">
@@ -59,7 +62,7 @@
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Ventas</h2>
             <p>Invierte con éxito</p>
-            <a href="www.royalview.mx" target="_blank" class="growLine hover:opacity-50 block py-2">www.royalview.mx</a>
+            <a href="https://royalview.mx/" target="_blank" rel="noopener noreferrer" class="growLine hover:opacity-50 block py-2">www.royalview.mx</a>
             <a href="tel:4428244444" class="growLine hover:opacity-50 block py-2">442 824 4444</a>
         </div>
         <div class="col-span-3 md:col-span-1">
@@ -70,7 +73,7 @@
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Corporativo</h2>
             <a href="tel:4424021073" class="growLine hover:opacity-50 block py-2">442 402 1073 </a>
-            <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" class="underline growLine hover:opacity-50 block py-2">Ubicación</a>
+            <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" rel="noopener noreferrer" class="underline growLine hover:opacity-50 block py-2">Ubicación</a>
         </div>
     </div>
 </div>
