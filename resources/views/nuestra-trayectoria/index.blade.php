@@ -334,7 +334,9 @@
 
 @section('styles')
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="{{ asset("css/nuestra-trayectoria.css")}}" />
+    <link rel="preload" href="{{ asset('css/nuestra-trayectoria.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ asset('css/nuestra-trayectoria.css') }}"></noscript>
+    {{-- <link rel="stylesheet" href="{{ asset("css/nuestra-trayectoria.css")}}" /> --}}
 @endsection
 
     @section("scripts")

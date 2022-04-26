@@ -56,21 +56,21 @@
             <source srcset="{{ asset('img/home/HIGH-GARDENS-DEVARANA.jpg') }}" type="image/jpeg" media="(min-width: 600px)">
             <source srcset="{{ asset('img/mobile/home/HIGH-GARDENS-DEVARANA.webp') }}" type="image/webp">
             <source srcset="{{ asset('img/mobile/home/HIGH-GARDENS-DEVARANA.jpg') }}" type="image/jpeg">
-                <img src="{{ asset("img/home/HIGH-GARDENS-DEVARANA.jpg") }}" alt="High Gardens" class="mt-4 px-2 md:px-4 md:mt-16 w-full">
+            <img src="{{ asset("img/home/HIGH-GARDENS-DEVARANA.jpg") }}" alt="High Gardens" class="mt-4 px-2 md:px-4 md:mt-16 w-full">
         </picture>
         <picture>
             <source srcset="{{ asset('img/home/GRAND-MAYRAN-DEVARANA.webp') }}" type="image/webp" media="(min-width: 600px)">
             <source srcset="{{ asset('img/home/GRAND-MAYRAN-DEVARANA.jpg') }}" type="image/jpeg" media="(min-width: 600px)">
             <source srcset="{{ asset('img/mobile/home/GRAND-MAYRAN-DEVARANA.webp') }}" type="image/webp">
             <source srcset="{{ asset('img/mobile/home/GRAND-MAYRAN-DEVARANA.jpg') }}" type="image/jpeg">
-                <img src="{{ asset("img/home/GRAND-MAYRAN-DEVARANA.jpg") }}" alt="Grand Mayran" class="px-2 md:px-4 w-full">
+            <img src="{{ asset("img/home/GRAND-MAYRAN-DEVARANA.jpg") }}" alt="Grand Mayran" class="px-2 md:px-4 w-full">
         </picture>
         <picture>
             <source srcset="{{ asset('img/home/devarana-royalview.webp') }}" type="image/webp" media="(min-width: 600px)">
             <source srcset="{{ asset('img/home/devarana-royalview.jpg') }}" type="image/jpeg" media="(min-width: 600px)">
             <source srcset="{{ asset('img/mobile/home/devarana-royalview.webp') }}" type="image/webp">
             <source srcset="{{ asset('img/mobile/home/devarana-royalview.jpg') }}" type="image/jpeg">
-                <img src="{{ asset("img/home/devarana-royalview.jpg") }}" alt="Royal View" class="mt-6 px-2 md:px-4 md:mt-28 w-full">
+            <img src="{{ asset("img/home/devarana-royalview.jpg") }}" alt="Royal View" class="mt-6 px-2 md:px-4 md:mt-28 w-full">
         </picture>        
        </div>
     </div>
@@ -88,7 +88,6 @@
                     <picture>
                         <source srcset="{{ asset('img/home/SOMOS-DEVARANA.webp') }}" type="image/webp" media="(min-width: 600px)">
                         <source srcset="{{ asset('img/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg" media="(min-width: 600px)">
-
                         <source srcset="{{ asset('img/mobile/home/SOMOS-DEVARANA.webp') }}" type="image/webp">
                         <source srcset="{{ asset('img/mobile/home/SOMOS-DEVARANA.jpg') }}" type="image/jpeg">
                         <img src="{{ asset("img/home/SOMOS-DEVARANA.jpg") }}" alt="Devarana Oficinas" class="md:px-10 drop-shadow-md object-cover">

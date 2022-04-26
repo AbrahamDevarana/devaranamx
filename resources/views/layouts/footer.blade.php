@@ -38,26 +38,23 @@
     </div>
 
     <div class="relative">
-        {{-- <div class="fixed right-4 bottom-4 z-30"> --}}
             <div class="z-30 fixed bottom-[11rem] md:bottom-[6rem] -right-96 w-16 h-16 bg-devarana-pink rounded-full my-2 content-center transition-all duration-200 socialGroup">
                 <a href="https://goo.gl/maps/Bh3TQZ6yuxSqBuSU9" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ asset("img/icons/map-b.svg") }}" alt="" class="w-full p-5">
+                    <img src="{{ asset("img/icons/map-b.svg") }}" alt="Google Maps Devarana" class="w-full p-5">
                 </a>
             </div>
             <div class="z-30 fixed bottom-[16rem] md:bottom-[11rem] -right-96 w-16 h-16 bg-devarana-pink rounded-full my-2 content-center transition-all duration-300 socialGroup">
                 <a href="https://www.facebook.com/DevaranaResidences/" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ asset("img/icons/facebook-b.svg") }}" alt="" class="w-full p-5">
+                    <img src="{{ asset("img/icons/facebook-b.svg") }}" alt="Facebook Devarana" class="w-full p-5">
                 </a>
             </div>
             <div class="z-30 fixed bottom-[21rem] md:bottom-[16rem] -right-96 w-16 h-16 bg-devarana-pink rounded-full my-2 content-center transition-all duration-500 socialGroup">
                 <a href="https://www.instagram.com/devarana.mx/?hl=es" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ asset("img/icons/instagram-b.svg") }}" alt="" class="w-full p-5">
+                    <img src="{{ asset("img/icons/instagram-b.svg") }}" alt="Instagram Devarana" class="w-full p-5">
                 </a>
             </div>
             <button class="fixed right-4 bottom-[6rem] md:bottom-[1rem] z-30 w-16 h-16 bg-devarana-pink rounded-full my-2 flex content-center m-auto" id="social">
-                <img src="{{ asset("img/icons/siguenos-b.svg") }}" alt="" class="w-full p-1">
-                {{-- <p class="m-auto text-devarana-pearl text-sm">Síguenos</p> --}}
+                <img src="{{ asset("img/icons/siguenos-b.svg") }}" alt="Siguenos" class="w-full p-1">
             </button>
-        {{-- </div> --}}
     </div>
 </footer>

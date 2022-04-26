@@ -7,19 +7,18 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class DevaranaMail extends Mailable
+class ClientMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($data)
+    public function __construct()
     {
-        $this->data = $data;
+        //
     }
 
     /**
@@ -29,6 +28,6 @@ class DevaranaMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('LEAD Devarana.mx')->replyTo($this->data['email'])->view('emails.contacto');
+        return $this->subject('Estamos felices de atenderte - Devarana')->view('emails.contacto_cliente');
     }
 }
