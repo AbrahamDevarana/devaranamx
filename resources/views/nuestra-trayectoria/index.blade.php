@@ -1,7 +1,7 @@
 @php
-    $metaTitle = "Nuestra Trayectoria";
-    $metaDescripcion = "";
-    $metaKeywords = "";
+    $metaTitle = "DEVARANA - Inmobiliaria con más de 10 años de experiencia";
+    $metaDescripcion = "Empresa México-Holandesa con más de 10 años de experiencia en el sector inmobiliario, nace con el deseo de construir desarrollos del más alto nivel.";
+    $metaKeywords = "mejor inmobiliaria de queretaro, desarrollos inmobiliarios en zibata queretaro, zonas de mayor plusvalia en queretaro, DEVARANA, Royal View, Departamentos en venta queretaro";
 @endphp
 
 @extends('layouts.app')

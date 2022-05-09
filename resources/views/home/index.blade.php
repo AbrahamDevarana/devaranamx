@@ -1,7 +1,7 @@
 @php
-    $metaTitle = "Home";
-    $metaDescripcion = "";
-    $metaKeywords = "";
+    $metaTitle = "DEVARANA - Empresa México-Holandesa";
+    $metaDescripcion = "DEVARANA es un referente en el mercado, con más de 10 años de experiencia en el sector de inversión inmobiliaria y construcción en la ciudad Querétaro.";
+    $metaKeywords = "Inmobiliaria queretaro, bienes inmuebles, empresa de bienes inmuebles, departementos en venta, preventa departamentos, DEVARANA, Royal View, Inmobiliaria querétaro, constructora, Departamentos en venta queretaro, mejores lugares para vivir en queretaro";
 @endphp
 
 @extends('layouts.app')

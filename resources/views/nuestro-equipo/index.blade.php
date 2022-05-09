@@ -1,7 +1,7 @@
 @php
-    $metaTitle = "Nuestro Equipo";
-    $metaDescripcion = "";
-    $metaKeywords = "";
+    $metaTitle = "DEVARANA - Great Place to Work (GPTW) en Querétaro";
+    $metaDescripcion = "Con nuestro apasionado equipo de colaboradores, creamos proyectos de primer nivel. Uno de los mejores lugares para trabajar en Querétaro, certificados en GPTW.";
+    $metaKeywords = "vacantes asesor inmobiliario queretaro, inmobiliarias en queretaro vacantes, DEVARANA, Royal View, empresas certificadas en queretaro gptw, great place to work mexico, Departamentos en venta queretato, Inmobiliaria queretaro";
 @endphp
 
 @extends('layouts.app')
@@ -305,7 +305,7 @@
         </div>
     </div>
     <div class="flex pb-20">
-        <x-link href="https://mx.linkedin.com/company/devarana" target="_blank" class="m-auto block"> Conoce nuestras vacantes </x-link>
+        <x-link href="https://mx.linkedin.com/company/devarana" target="_blank" class="m-auto block" rel="noopener noreferrer"> Conoce nuestras vacantes </x-link>
     </div>
 
 </div>

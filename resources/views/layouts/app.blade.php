@@ -32,6 +32,29 @@
         <meta name="theme-color" content="#f9f9f7">
 
 
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Sobre nosotros",
+                "item": "https://devarana.mx/quienes-somos"
+              },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "¡Únete a nuestro gran equipo!",
+                "item": "https://devarana.mx/nuestro-equipo"
+              },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Conoce Royal View by DEVARANA",
+                "item": "https://royalview.mx/"
+              }]
+            }
+        </script>
+
         @yield('styles')
     </head>
     <body class="antialiased">

@@ -1,3 +1,10 @@
+@php
+    $metaTitle = "DEVARANA - Somos una empresa de vanguardia";
+    $metaDescripcion = "Contacta al equipo de ventas, compras o capital humano. Será un placer atenderte.";
+    $metaKeywords = "mejor inmobiliaria de queretaro, desarrollos inmobiliarios en zibata queretaro, zonas de mayor plusvalia en queretaro, DEVARANA, Royal View, Departamentos en venta queretaro, Inmobiliaria querétaro, constructora";
+@endphp
+
+
 @extends('layouts.app')
 
 @section('content')
@@ -57,7 +64,7 @@
 
 
 <div class="max-w-[800px] m-auto md:py-36 2xl:pt-64 py-10">
-    <h1 class="text-center text-3xl text-devarana-pink">¡Estamos felices de atenderte!</h1>
+    <h2 class="text-center text-3xl text-devarana-pink">¡Estamos felices de atenderte!</h2>
     <div class="grid grid-cols-3 md:gap-10 md:py-20 py-10 text-center text-devarana-graph">
         <div class="col-span-3 md:col-span-1">
             <h2 class="font-mulish font-bold py-3">Ventas</h2>
